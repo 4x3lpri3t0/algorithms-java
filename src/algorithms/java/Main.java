@@ -1,9 +1,6 @@
 package algorithms.java;
 
-import algorithms.java.hr.implementation.AppleAndOrange;
-import algorithms.java.hr.implementation.FlatlandSpaceStations;
-import algorithms.java.hr.implementation.GradingStudents;
-import algorithms.java.hr.implementation.Kangaroo;
+import algorithms.java.hr.implementation.*;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,6 +8,6 @@ public class Main {
 //        GradingStudents.main(args);
 //        AppleAndOrange.main(args);
 //        Kangaroo.main(args);
-
+        BonAppetit.main(args);
     }
 }
