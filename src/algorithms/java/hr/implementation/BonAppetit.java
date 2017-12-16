@@ -1,6 +1,6 @@
-package algorithms.java.hr.implementation; // Delete in HR
+package hr.implementation; // Delete in HR
 
-import java.util.*;
+import java.util.Scanner;
 
 public class BonAppetit {
     static int bonAppetit(int n, int k, int b, int[] ar) {
@@ -15,7 +15,7 @@ public class BonAppetit {
         return b - expected;
     }
 
-    public static void main(String[] args) {
+    public static void main() {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int k = in.nextInt();

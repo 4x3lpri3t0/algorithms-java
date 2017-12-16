@@ -1,9 +1,9 @@
-package algorithms.java.hr.implementation;
+package hr.implementation;
 
-import java.util.*;
+import java.util.Scanner;
 
 public class Kangaroo {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner in = new Scanner(System.in);
         int x1 = in.nextInt();
         int v1 = in.nextInt();

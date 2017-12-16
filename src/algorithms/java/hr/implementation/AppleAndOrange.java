@@ -1,9 +1,9 @@
-package algorithms.java.hr.implementation;
+package hr.implementation;
 
 import java.util.Scanner;
 
 public class AppleAndOrange {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner in = new Scanner(System.in);
         int s = in.nextInt();
         int t = in.nextInt();

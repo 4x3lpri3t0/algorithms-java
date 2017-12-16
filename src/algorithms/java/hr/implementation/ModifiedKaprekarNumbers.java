@@ -1,12 +1,12 @@
-package algorithms.java.hr.implementation; // Delete in HR
+package hr.implementation; // Delete in HR
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.*;
+import java.util.ArrayList;
 
 public class ModifiedKaprekarNumbers {
-    public static void main(String[] args) throws IOException {
+    public static void main() throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         // Get inputs

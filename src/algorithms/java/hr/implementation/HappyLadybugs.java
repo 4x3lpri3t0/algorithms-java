@@ -1,9 +1,10 @@
-package algorithms.java.hr.implementation; // Delete in HR
+package hr.implementation; // Delete in HR
 
-import java.util.*;
+import java.util.HashMap;
+import java.util.Scanner;
 
 public class HappyLadybugs {
-    public static void main(String[] args) {
+    public static void main() {
         Scanner in = new Scanner(System.in);
         int Q = in.nextInt();
 
