@@ -11,13 +11,11 @@ public class Kangaroo {
         int v2 = in.nextInt();
         String result = "NO";
 
-        if(v1 >= v2) {
-            if(x1 < x2 && v1 > v2) {
-                int xDiff = Math.abs(x1 - x2);
-                int vDiff = Math.abs(v1 - v2);
-                if (xDiff % vDiff == 0) {
-                    result = "YES";
-                }
+        if(v1 > v2) {
+            int xDiff = Math.abs(x1 - x2);
+            int vDiff = Math.abs(v1 - v2);
+            if (xDiff % vDiff == 0) {
+                result = "YES";
             }
         }
 
