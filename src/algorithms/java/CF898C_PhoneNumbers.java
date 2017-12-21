@@ -44,9 +44,6 @@ public class CF898C_PhoneNumbers {
 
             System.out.println(name + " " + values.size() + values.toString());
         }
-
-        // TODO: Close... but not enough. I need to get more familiar with
-        // Java API... TODO: Go see other solutions
     }
 
     public static void main(String[] args) throws Exception {
