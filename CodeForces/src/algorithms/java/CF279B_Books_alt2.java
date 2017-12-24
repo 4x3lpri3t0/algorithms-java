@@ -1,31 +1,26 @@
 import java.io.*;
-import java.util.*;
+import java.util.StringTokenizer;
 
-public class CF166E_Tetrahedron_alt2 {
+public class CF279B_Books_alt2 {
     private void solve() {
-        int n = readInt();
-        long total = n % 2 == 0 ? 3 : 6;
-        long factor = n % 2 == 0 ? 2 : 6;
-        if(n == 0 || n == 1)
-            out.print(0);
-        else
-        {
-            n /= 2;
-            n--;
-            for (int i = 0; i != n; i++)
-            {
-                factor *= 9;
-                factor %= 1000000007;
-                total += factor;
-                total %= 1000000007;
-            }
+        int n = readInt(), t = readInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++)
+            a[i] = readInt();
 
-            out.print(total);
+        int sum = 0, max = 0;
+        for (int i = 0, j = 0; i < n; i++) {
+            sum += a[i];
+            while (j < n && sum > t)
+                sum -= a[j++];
+            max = Math.max(max, i - j + 1);
         }
+
+        out.println(max);
     }
 
     public static void main(String[] args) {
-        new CF166E_Tetrahedron_alt2().run();
+        new CF279B_Books_alt2().run();
     }
 
     private void run() {

@@ -1,31 +1,26 @@
 import java.io.*;
 import java.util.*;
 
-public class CF166E_Tetrahedron_alt2 {
+public class CF276A_LunchRush {
     private void solve() {
         int n = readInt();
-        long total = n % 2 == 0 ? 3 : 6;
-        long factor = n % 2 == 0 ? 2 : 6;
-        if(n == 0 || n == 1)
-            out.print(0);
-        else
-        {
-            n /= 2;
-            n--;
-            for (int i = 0; i != n; i++)
-            {
-                factor *= 9;
-                factor %= 1000000007;
-                total += factor;
-                total %= 1000000007;
-            }
+        int k = readInt();
 
-            out.print(total);
+        int maxJoy = Integer.MIN_VALUE;
+        for (int i = 0; i < n; i++) {
+            int f = readInt();
+            int t = readInt();
+
+            if (t > k)
+                f -= (t - k);
+            maxJoy = Math.max(maxJoy, f);
         }
+
+        out.println(maxJoy);
     }
 
     public static void main(String[] args) {
-        new CF166E_Tetrahedron_alt2().run();
+        new CF276A_LunchRush().run();
     }
 
     private void run() {

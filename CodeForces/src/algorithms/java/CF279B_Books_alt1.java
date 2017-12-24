@@ -1,31 +1,38 @@
 import java.io.*;
-import java.util.*;
+import java.util.StringTokenizer;
 
-public class CF166E_Tetrahedron_alt2 {
+// Two pointers
+
+public class CF279B_Books_alt1 {
     private void solve() {
         int n = readInt();
-        long total = n % 2 == 0 ? 3 : 6;
-        long factor = n % 2 == 0 ? 2 : 6;
-        if(n == 0 || n == 1)
-            out.print(0);
-        else
-        {
-            n /= 2;
-            n--;
-            for (int i = 0; i != n; i++)
-            {
-                factor *= 9;
-                factor %= 1000000007;
-                total += factor;
-                total %= 1000000007;
-            }
+        int t = readInt();
+        int[] a = new int[n];
+        for (int i = 0; i < n; i++)
+            a[i] = readInt();
 
-            out.print(total);
+        int next = 0, count = 0;
+        for (int i = 0; i < n; i++) {
+            // Substract next number from t
+            t -= a[i];
+
+            if (t >= 0) {
+                int period = i - next + 1;
+
+                // Max period of possible reads ??
+                count = Math.max(count, period);
+            } else {
+                // Add next book ??
+                t += a[next];
+                next++;
+            }
         }
+
+        out.println(count);
     }
 
     public static void main(String[] args) {
-        new CF166E_Tetrahedron_alt2().run();
+        new CF279B_Books_alt1().run();
     }
 
     private void run() {
@@ -72,9 +79,5 @@ public class CF166E_Tetrahedron_alt2 {
 
     private long readLong() {
         return Long.parseLong(readString());
-    }
-
-    private double readDouble() {
-        return Double.parseDouble(readString());
     }
 }

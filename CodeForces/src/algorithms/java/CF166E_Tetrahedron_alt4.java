@@ -1,31 +1,26 @@
 import java.io.*;
 import java.util.*;
 
-public class CF166E_Tetrahedron_alt2 {
+public class CF166E_Tetrahedron_alt4 {
+    static long mod = 1000000007;
+    static long ans[] = new long[10000001];
+
     private void solve() {
         int n = readInt();
-        long total = n % 2 == 0 ? 3 : 6;
-        long factor = n % 2 == 0 ? 2 : 6;
-        if(n == 0 || n == 1)
-            out.print(0);
-        else
-        {
-            n /= 2;
-            n--;
-            for (int i = 0; i != n; i++)
-            {
-                factor *= 9;
-                factor %= 1000000007;
-                total += factor;
-                total %= 1000000007;
-            }
 
-            out.print(total);
+        ans[1] = 0;
+        for (int i = 2; i < n + 1; i++) {
+            if (i % 2 == 0)
+                ans[i] = (3 * ans[i - 1] + 3) % mod;
+            else
+                ans[i] = (3 * ans[i - 1] - 3) % mod;
         }
+
+        out.println(ans[n]);
     }
 
     public static void main(String[] args) {
-        new CF166E_Tetrahedron_alt2().run();
+        new CF166E_Tetrahedron_alt4().run();
     }
 
     private void run() {

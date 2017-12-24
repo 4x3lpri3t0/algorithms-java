@@ -1,31 +1,24 @@
 import java.io.*;
 import java.util.*;
 
-public class CF166E_Tetrahedron_alt2 {
+public class CF907A_MashaAndBears {
     private void solve() {
-        int n = readInt();
-        long total = n % 2 == 0 ? 3 : 6;
-        long factor = n % 2 == 0 ? 2 : 6;
-        if(n == 0 || n == 1)
-            out.print(0);
-        else
-        {
-            n /= 2;
-            n--;
-            for (int i = 0; i != n; i++)
-            {
-                factor *= 9;
-                factor %= 1000000007;
-                total += factor;
-                total %= 1000000007;
-            }
+        int a1 = readInt();
+        int a2 = readInt();
+        int a3 = readInt();
+        int m = readInt();
 
-            out.print(total);
+        if (2 * a3 >= m) {
+            out.println(2 * a1);
+            out.println(2 * a2);
+            out.println(2 * a3);
+        } else { // a3 < m && 2
+            out.println(-1);
         }
     }
 
     public static void main(String[] args) {
-        new CF166E_Tetrahedron_alt2().run();
+        new CF907A_MashaAndBears().run();
     }
 
     private void run() {

@@ -1,31 +1,42 @@
 import java.io.*;
 import java.util.*;
 
-public class CF166E_Tetrahedron_alt2 {
+public class CF330A_Cakeminator {
     private void solve() {
-        int n = readInt();
-        long total = n % 2 == 0 ? 3 : 6;
-        long factor = n % 2 == 0 ? 2 : 6;
-        if(n == 0 || n == 1)
-            out.print(0);
-        else
-        {
-            n /= 2;
-            n--;
-            for (int i = 0; i != n; i++)
-            {
-                factor *= 9;
-                factor %= 1000000007;
-                total += factor;
-                total %= 1000000007;
-            }
+        int r = readInt();
+        int c = readInt();
+        boolean[] rows = new boolean[r];
+        boolean[] cols = new boolean[c];
+        Arrays.fill(rows, true);
+        Arrays.fill(cols, true);
 
-            out.print(total);
+        for (int i = 0; i < r; i++) {
+            char[] curStr = readString().toCharArray();;
+
+            for (int j = 0; j < c; j++) {
+                char cur = curStr[j];
+                if (cur == 'S') {
+                    rows[i] = false;
+                    cols[j] = false;
+                }
+            }
         }
+
+        int edibleRows = 0;
+        for (int i = 0; i < r; i++) {
+            if(rows[i])
+                edibleRows++;
+        }
+        int edibleCols = 0;
+        for (int j = 0; j < c; j++) {
+            if(cols[j])
+                edibleCols++;
+        }
+        out.println(edibleCols * r + edibleRows * c - edibleCols * edibleRows);
     }
 
     public static void main(String[] args) {
-        new CF166E_Tetrahedron_alt2().run();
+        new CF330A_Cakeminator().run();
     }
 
     private void run() {

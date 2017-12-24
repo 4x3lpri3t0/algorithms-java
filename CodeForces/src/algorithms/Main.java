@@ -16,6 +16,17 @@ public class Main {
 //        CF200B_Drinks.main(args);
 //        CF92A_Chips.main(args);
 //        CF282C_XORandOR.main(args); // TODO: Review (with notes taken)
-        CF166E_Tetrahedron_alt2.main(args); // TODO: Grok (Someday...)
+//        CF166E_Tetrahedron_alt1.main(args); // TODO: Grok (Someday...)
+//        CF166E_Tetrahedron_alt2.main(args); // TODO: Same...
+//        CF166E_Tetrahedron_alt3.main(args); // TODO: Same... (Probably easier approach)
+//        CF166E_Tetrahedron_alt4.main(args); // TODO: Same... (Probably easier approach)
+//        CF336A_VasilyTheBearAndTriangle.main(args); // TODO: Grok
+//        CF279B_Books_alt1.main(args); // TODO: Review (Two Pointers?)
+//        CF279B_Books_alt2.main(args); // TODO: Review (Two Pointers?)
+//        CF276A_LunchRush.main(args);
+//        CF330A_Cakeminator.main(args);
+//        CF907A_MashaAndBears.main(args); // TODO
+//        CF907B_TicTacToe.main(args); // TODO
+        CF160_Twins.main(args); // TODO: Greedy? (https://github.com/jackiehluo/practice/blob/master/codeforces/100s/160a-twins.cpp)
     }
 }

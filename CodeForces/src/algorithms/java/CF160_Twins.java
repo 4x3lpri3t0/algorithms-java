@@ -1,31 +1,35 @@
 import java.io.*;
 import java.util.*;
 
-public class CF166E_Tetrahedron_alt2 {
+public class CF160_Twins {
     private void solve() {
         int n = readInt();
-        long total = n % 2 == 0 ? 3 : 6;
-        long factor = n % 2 == 0 ? 2 : 6;
-        if(n == 0 || n == 1)
-            out.print(0);
-        else
-        {
-            n /= 2;
-            n--;
-            for (int i = 0; i != n; i++)
-            {
-                factor *= 9;
-                factor %= 1000000007;
-                total += factor;
-                total %= 1000000007;
-            }
-
-            out.print(total);
+        int sum = 0;
+        int[] A = new int[n];
+        for (int i = 0; i < n; i++) {
+            int cur = readInt();
+            A[i] = cur;
+            sum += cur;
         }
+
+        Arrays.sort(A);
+
+        int half = sum / 2;
+        int coinsTaken = 0;
+        int mySum = 0;
+        for (int i = 0; i < n; i++) {
+            coinsTaken++;
+            mySum += A[i];
+
+            if (mySum > half)
+                break;
+        }
+
+        out.println(coinsTaken);
     }
 
     public static void main(String[] args) {
-        new CF166E_Tetrahedron_alt2().run();
+        new CF160_Twins().run();
     }
 
     private void run() {

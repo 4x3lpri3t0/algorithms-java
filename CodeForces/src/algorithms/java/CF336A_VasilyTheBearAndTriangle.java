@@ -1,31 +1,44 @@
 import java.io.*;
 import java.util.*;
 
-public class CF166E_Tetrahedron_alt2 {
-    private void solve() {
-        int n = readInt();
-        long total = n % 2 == 0 ? 3 : 6;
-        long factor = n % 2 == 0 ? 2 : 6;
-        if(n == 0 || n == 1)
-            out.print(0);
-        else
-        {
-            n /= 2;
-            n--;
-            for (int i = 0; i != n; i++)
-            {
-                factor *= 9;
-                factor %= 1000000007;
-                total += factor;
-                total %= 1000000007;
-            }
+/*
+val = |x| + |y|
+Then first point is (val * sign(x), 0)
+second — (0, val * sign(y))
 
-            out.print(total);
-        }
+Swap points if needed according to statement.
+
+Let's see why this is the answer.
+Conditions x ≠ 0 and y ≠ 0 give us that one point is on X-axis,
+and the other on Y-axis.
+
+Let's see how it works for x > 0 and y > 0.
+Other cases can be proved in similar way.
+We need to show, that (x, y) belongs to our triangle (including it's borders).
+In fact (x, y) belongs to segment, connecting (x + y, 0) with (0, x + y).
+Line through (x + y, 0) and (0, x + y) is Y =  - X + x + y.
+Using coordinates (x, y) in this equation proves the statement.
+*/
+
+public class CF336A_VasilyTheBearAndTriangle {
+    private void solve() {
+        long x = readLong();
+        long y = readLong();
+
+        long a = Math.abs(x) + Math.abs(y);
+        a *= Long.signum(x);
+
+        long b = Math.abs(x) + Math.abs(y);
+        b *= Long.signum(y);
+
+        if (a > 0)
+            out.println(0 + " " + b + " " + a + " " + 0);
+        else
+            out.println(a + " " + 0 + " 0 " + b);
     }
 
     public static void main(String[] args) {
-        new CF166E_Tetrahedron_alt2().run();
+        new CF336A_VasilyTheBearAndTriangle().run();
     }
 
     private void run() {
