@@ -27,6 +27,7 @@ public class Main {
 //        CF330A_Cakeminator.main(args);
 //        CF907A_MashaAndBears.main(args); // TODO
 //        CF907B_TicTacToe.main(args); // TODO
-        CF160_Twins.main(args); // TODO: Greedy? (https://github.com/jackiehluo/practice/blob/master/codeforces/100s/160a-twins.cpp)
+//        CF160_Twins.main(args); // TODO: Greedy? (https://github.com/jackiehluo/practice/blob/master/codeforces/100s/160a-twins.cpp)
+//        CF268A_Games.main(args);
     }
 }

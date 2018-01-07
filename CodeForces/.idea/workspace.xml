@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF160_Twins.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt3.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt4.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF276A_LunchRush.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF279B_Books_alt1.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF279B_Books_alt2.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF330A_Cakeminator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF336A_VasilyTheBearAndTriangle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF907A_MashaAndBears.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF907B_TicTacToe.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF268A_Games.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/Main.java" afterPath="$PROJECT_DIR$/src/algorithms/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt1.java" afterPath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt1.java" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt2.java" afterPath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt2.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,8 +22,8 @@
       <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1000">
-              <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="1007">
+              <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -70,7 +59,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/java/hr/implementation/Kangaroo.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/hr/implementation/ModifiedKaprekarNumbers.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/hr/implementation/OrganizingContainersOfBalls.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/Test.java" />
@@ -120,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/java/CF907B_TicTacToe.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF907A_MashaAndBears.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF160_Twins.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF268A_Games.java" />
         <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
       </list>
     </option>
@@ -164,8 +153,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -195,7 +182,9 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -297,6 +286,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1875" sideWeight="0.4975186" order="0" side_tool="false" content_ui="combo" />
@@ -409,13 +399,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/util/HashSet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3137">
-          <caret line="88" column="13" lean-forward="false" selection-start-line="88" selection-start-column="13" selection-end-line="88" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
@@ -692,16 +675,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="928">
           <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
-          <folding>
-            <element signature="e#461#462#0" expanded="true" />
-            <element signature="e#509#510#0" expanded="true" />
-            <element signature="e#1530#1531#0" expanded="true" />
-            <element signature="e#1583#1584#0" expanded="true" />
-            <element signature="e#1614#1615#0" expanded="true" />
-            <element signature="e#1665#1666#0" expanded="true" />
-            <element signature="e#1700#1701#0" expanded="true" />
-            <element signature="e#1755#1756#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -722,10 +695,20 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF268A_Games.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="20" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
+          <folding>
+            <element signature="method#run#0;class#CF268A_Games#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1000">
-          <caret line="29" column="8" lean-forward="false" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        <state relative-caret-position="1007">
+          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding />
         </state>
       </provider>
