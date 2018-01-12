@@ -5,15 +5,13 @@ public class CF266B_QueueAtTheSchool {
     private void solve() {
         int n = readInt();
         int t = readInt();
-        StringBuffer q = new StringBuffer(readString());
+        char[] q = readString().toCharArray();
 
         for (int i = 0; i < t; i++) {
             for (int p = 0; p < n - 1; p++) {
-                if (q.charAt(p) == 'B' && q.charAt(p + 1) == 'G') {
-                    char temp = q.charAt(p);
-                    q.setCharAt(p, q.charAt(p + 1));
-                    q.setCharAt(p + 1, temp);
-
+                if (q[p] == 'B' && q[p + 1] == 'G') {
+                    q[p] = 'G';
+                    q[p + 1] = 'B';
                     p++;
                 }
             }

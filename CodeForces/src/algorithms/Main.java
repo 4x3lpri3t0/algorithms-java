@@ -31,6 +31,6 @@ public class Main {
 //        CF268A_Games.main(args);
 //        CF361A_LevkoAndTable.main(args);
 //        CF69A_YoungPhysicist.main(args);
-        CF266B_QueueAtTheSchool.main(args);
+//        CF266B_QueueAtTheSchool.main(args);
     }
 }
