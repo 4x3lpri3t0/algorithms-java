@@ -30,6 +30,7 @@ public class Main {
 //        CF160_Twins.main(args); // TODO: Greedy? (https://github.com/jackiehluo/practice/blob/master/codeforces/100s/160a-twins.cpp)
 //        CF268A_Games.main(args);
 //        CF361A_LevkoAndTable.main(args);
-        CF69A_YoungPhysicist.main(args);
+//        CF69A_YoungPhysicist.main(args);
+        CF266B_QueueAtTheSchool.main(args);
     }
 }
