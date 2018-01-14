@@ -32,5 +32,7 @@ public class Main {
 //        CF361A_LevkoAndTable.main(args);
 //        CF69A_YoungPhysicist.main(args);
 //        CF266B_QueueAtTheSchool.main(args);
+//        CF118B_PresentFromLena.main(args);s
+//        CF352A_JeffAndDigits.main(args);
     }
 }
