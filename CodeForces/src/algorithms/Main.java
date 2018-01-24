@@ -34,5 +34,8 @@ public class Main {
 //        CF266B_QueueAtTheSchool.main(args);
 //        CF118B_PresentFromLena.main(args);s
 //        CF352A_JeffAndDigits.main(args);
+//        CF285A_SlightlyDecreasingPermutations.main(args); // TODO: Review
+//        CF34B_Sale.main(args);
+//        CF270A_FancyFence.main(args);
     }
 }
