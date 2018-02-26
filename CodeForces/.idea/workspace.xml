@@ -2,10 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF270A_FancyFence.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF285A_SlightlyDecreasingPermutations.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF34B_Sale.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF230A_Dragons.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/1.in" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/1.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/2.in" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/2.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/3.in" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/3.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/4.in" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/4.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/5.in" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/5.out" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/6.in" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/6.out" afterPath="" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/Main.java" afterPath="$PROJECT_DIR$/src/algorithms/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -21,22 +31,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+            <state relative-caret-position="1202">
+              <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CF270A_FancyFence.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF270A_FancyFence.java">
+      <file leaf-file-name="CF230A_Dragons.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF230A_Dragons.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="474">
-              <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="-365">
+              <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#283#284#0" expanded="true" />
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#813#814#0" expanded="true" />
+                <element signature="e#855#856#0" expanded="true" />
+                <element signature="method#run#0;class#CF230A_Dragons#0" expanded="false" />
+                <element signature="method#init#0;class#CF230A_Dragons#0" expanded="false" />
+                <element signature="method#readString#0;class#CF230A_Dragons#0" expanded="false" />
+                <element signature="e#1876#1877#0" expanded="true" />
+                <element signature="e#1929#1930#0" expanded="true" />
+                <element signature="e#1960#1961#0" expanded="true" />
+                <element signature="e#2011#2012#0" expanded="true" />
+                <element signature="e#2046#2047#0" expanded="true" />
+                <element signature="e#2101#2102#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -71,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/java/testt.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/test.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF899C_DividingTheNumbers.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF4A.java" />
@@ -121,6 +145,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/java/CF285A_SlightlyDecreasingPermutations.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF34B_Sale.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF270A_FancyFence.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF230A_Dragons.java" />
         <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
       </list>
     </option>
@@ -151,7 +176,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -164,43 +189,10 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.last.edited" value="Project" />
@@ -303,15 +295,15 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1875" sideWeight="0.4975186" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299401" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.38383234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="2139" y="1059" width="1053" height="641" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.38383234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="2140" y="910" width="1053" height="640" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18765904" sideWeight="0.5024814" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -423,7 +415,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/asd.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF898A_Rounding.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
@@ -716,10 +707,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="134" column="63" lean-forward="true" selection-start-line="134" selection-start-column="63" selection-end-line="134" selection-end-column="63" />
-          <folding>
-            <element signature="e#5027#5028#0" expanded="true" />
-            <element signature="e#5098#5099#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -736,17 +723,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF270A_FancyFence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="10" column="22" lean-forward="true" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="237">
+          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="38" column="39" lean-forward="true" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="1202">
+          <caret line="40" column="5" lean-forward="true" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF230A_Dragons.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-365">
+          <caret line="31" column="6" lean-forward="true" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#813#814#0" expanded="true" />
+            <element signature="e#855#856#0" expanded="true" />
+            <element signature="method#run#0;class#CF230A_Dragons#0" expanded="false" />
+            <element signature="method#init#0;class#CF230A_Dragons#0" expanded="false" />
+            <element signature="method#readString#0;class#CF230A_Dragons#0" expanded="false" />
+            <element signature="e#1876#1877#0" expanded="true" />
+            <element signature="e#1929#1930#0" expanded="true" />
+            <element signature="e#1960#1961#0" expanded="true" />
+            <element signature="e#2011#2012#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
+            <element signature="e#2101#2102#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
