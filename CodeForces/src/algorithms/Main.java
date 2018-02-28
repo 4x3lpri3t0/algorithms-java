@@ -38,5 +38,8 @@ public class Main {
 //        CF34B_Sale.main(args);
 //        CF270A_FancyFence.main(args);
 //        CF230A_Dragons.main(args);
+//        CF124A_Number_Of_Positions.main(args); // TODO: Why does this work? WHYYY??
+//        CF168A_Wizards_And_Demonstration.main(args);
+        CF339_Xenia_And_Ringroad.main(args);
     }
 }
