@@ -1,3 +1,5 @@
+package impl;
+
 import java.util.HashMap;
 import java.util.Scanner;
 

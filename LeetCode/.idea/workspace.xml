@@ -2,8 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java" />
-      <change beforePath="$PROJECT_DIR$/../CodeForces/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../CodeForces/.idea/workspace.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HackerRank/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/Main.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/Main.java" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/Impl_AppleAndOrange.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_AppleAndOrange.java" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/Impl_BonAppetit.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_BonAppetit.java" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/Impl_FlatlandSpaceStations.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_FlatlandSpaceStations.java" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/Impl_GradingStudents.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_GradingStudents.java" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/Impl_HappyLadybugs.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_HappyLadybugs.java" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/Impl_Kangaroo.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_Kangaroo.java" />
+      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/Impl_ModifiedKaprekarNumbers.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_ModifiedKaprekarNumbers.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/Main.java" afterPath="$PROJECT_DIR$/src/algorithms/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,21 +28,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Main.java" pinned="true" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="219">
-              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+            <state relative-caret-position="365">
+              <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_771_Jewels_and_Stones.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="_461_Hamming_Distance.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+              <folding>
+                <element signature="e#121#122#0" expanded="true" />
+                <element signature="e#145#146#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_771_Jewels_and_Stones.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="511">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -70,7 +93,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF898B_ProperNutrition.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF898A_Rounding.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF158B_Taxi.java" />
@@ -119,8 +141,9 @@
         <option value="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt1.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/temp.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_AppleAndOrange.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java" />
       </list>
     </option>
   </component>
@@ -164,6 +187,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -194,14 +219,12 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../HackerRank" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -301,15 +324,15 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.4975186" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329904" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30658436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30658436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18765904" sideWeight="0.5024814" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -348,7 +371,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="44" />
+      <option name="time" value="45" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -377,49 +400,10 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_Kangaroo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_GradingStudents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="477">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_FlatlandSpaceStations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_AppleAndOrange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="583">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_Kangaroo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_GradingStudents.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_FlatlandSpaceStations.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_AppleAndOrange.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_Kangaroo.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
@@ -428,13 +412,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_FlatlandSpaceStations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="689">
-          <caret line="13" column="9" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_FlatlandSpaceStations.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -443,13 +421,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_FlatlandSpaceStations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_FlatlandSpaceStations.java" />
     <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/util/HashSet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3137">
@@ -517,82 +489,45 @@
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF282C_XORandOR.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt2.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt1.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_BonAppetit.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_BonAppetit.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_FlatlandSpaceStations.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_AppleAndOrange.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_BonAppetit.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_ModifiedKaprekarNumbers.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_Kangaroo.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_HappyLadybugs.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_GradingStudents.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="25" column="21" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="27" selection-end-column="1" />
+        <state relative-caret-position="365">
+          <caret line="6" column="5" lean-forward="false" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+          <folding>
+            <element signature="e#121#122#0" expanded="true" />
+            <element signature="e#145#146#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="1" column="19" lean-forward="false" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_FlatlandSpaceStations.java">
+    <entry file="file://$PROJECT_DIR$/../HackerRank/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="3" column="17" lean-forward="false" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_AppleAndOrange.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_BonAppetit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_ModifiedKaprekarNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="7" column="21" lean-forward="false" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_Kangaroo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_HappyLadybugs.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_GradingStudents.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="219">
+          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state relative-caret-position="365">
+          <caret line="5" column="5" lean-forward="false" selection-start-line="5" selection-start-column="5" selection-end-line="5" selection-end-column="5" />
           <folding />
         </state>
       </provider>

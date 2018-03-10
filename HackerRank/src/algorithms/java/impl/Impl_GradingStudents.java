@@ -1,3 +1,5 @@
+package impl;
+
 import java.util.Scanner;
 
 public class Impl_GradingStudents {

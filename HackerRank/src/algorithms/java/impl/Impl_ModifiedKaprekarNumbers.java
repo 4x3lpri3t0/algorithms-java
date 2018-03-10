@@ -1,4 +1,4 @@
-package hr.implementation; // Delete in HR
+package impl; // Delete in HR
 
 import java.io.BufferedReader;
 import java.io.IOException;
