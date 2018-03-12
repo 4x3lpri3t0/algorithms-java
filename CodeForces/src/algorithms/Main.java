@@ -40,6 +40,9 @@ public class Main {
 //        CF230A_Dragons.main(args);
 //        CF124A_Number_Of_Positions.main(args); // TODO: Why does this work? WHYYY??
 //        CF168A_Wizards_And_Demonstration.main(args);
-        CF339_Xenia_And_Ringroad.main(args);
+//        CF339_Xenia_And_Ringroad.main(args);
+//        CF948A_Protect_Sheep.main(args);
+//        CF948B_Primal_Sport.main(args); // TODO
+
     }
 }

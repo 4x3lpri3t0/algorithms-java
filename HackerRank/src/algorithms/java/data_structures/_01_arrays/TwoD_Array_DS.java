@@ -1,68 +1,36 @@
 package data_structures._01_arrays; // Delete in HR, CF
 
-import java.io.*;
-import java.util.*;
+import java.util.Scanner;
 
 public class TwoD_Array_DS {
-    private void solve() {
-        int n = readInt();
-
-        // TODO
-
-        out.println();
-    }
-
     public static void main(String[] args) {
-        new TwoD_Array_DS().run();
-    }
+        int[][] arr = getInput();
 
-    private void run() {
-        try {
-            init();
-            solve();
-            out.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.exit(-1);
-        }
-    }
+        int maxHourglass = Integer.MIN_VALUE;
 
-    BufferedReader in;
-    PrintWriter out;
-    StringTokenizer tok = new StringTokenizer("");
-
-    private void init() throws IOException {
-        String filename = "";
-        if (filename.isEmpty()) {
-            in = new BufferedReader(new InputStreamReader(System.in));
-            out = new PrintWriter(System.out);
-        } else {
-            in = new BufferedReader(new FileReader(filename + ".in"));
-            out = new PrintWriter(new FileWriter(filename + ".out"));
-        }
-    }
-
-    private String readString() {
-        while (!tok.hasMoreTokens()) {
-            try {
-                tok = new StringTokenizer(in.readLine());
-            } catch (Exception e) {
-                return null;
+        for (int i = 0; i < 4; i++) {
+            for (int j = 0; j < 4; j++) {
+                int row1 = arr[i][j] + arr[i][j + 1] + arr[i][j + 2];
+                int row2 = arr[i + 1][j + 1];
+                int row3 = arr[i + 2][j] + arr[i + 2][j + 1] + arr[i + 2][j + 2];
+                int total = row1 + row2 + row3;
+                if (total > maxHourglass)
+                    maxHourglass = total;
             }
         }
 
-        return tok.nextToken();
+        System.out.println(maxHourglass);
     }
 
-    private int readInt() {
-        return Integer.parseInt(readString());
-    }
+    private static int[][] getInput() {
+        int[][] arr = new int[6][6];
+        Scanner scan = new Scanner(System.in);
+        for (int i = 0; i < 6; i++) {
+            for (int j = 0; j < 6; j++) {
+                arr[i][j] = scan.nextInt();
+            }
+        }
 
-    private long readLong() {
-        return Long.parseLong(readString());
-    }
-
-    private double readDouble() {
-        return Double.parseDouble(readString());
+        return arr;
     }
 }

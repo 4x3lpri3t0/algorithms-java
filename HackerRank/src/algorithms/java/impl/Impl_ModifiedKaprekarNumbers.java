@@ -18,15 +18,15 @@ public class Impl_ModifiedKaprekarNumbers {
 
         // Find Kaprekar numbers between P and Q (inclusive)
         for (int i = P; i <= Q; ++i) {
-            long squared = (long)i * i;
+            long squared = (long) i * i;
 
             // Number of digits in a number: https://stackoverflow.com/questions/39357584
             double digitCount = Math.floor(Math.log10(i)) + 1;
 
-            int divisor = (int)Math.pow(10, digitCount);
+            int divisor = (int) Math.pow(10, digitCount);
 
-            int left = (int)Math.floor(squared / divisor);
-            int right = (int)(squared % divisor);
+            int left = (int) Math.floor(squared / divisor);
+            int right = (int) (squared % divisor);
             if (left + right == i) {
                 kaprekars.add(i);
             }

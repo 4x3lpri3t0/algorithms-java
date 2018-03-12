@@ -15,12 +15,11 @@ public class Impl_HappyLadybugs {
             HashMap<Character, Integer> set = new HashMap<>();
 
             // Store frequencies in the hashmap
-            for(int i = 0; i < n; i++){
+            for (int i = 0; i < n; i++) {
                 char c = b.charAt(i);
                 if (set.containsKey(c)) {
                     set.put(c, set.get(c) + 1);
-                }
-                else {
+                } else {
                     set.put(c, 1);
                 }
             }
@@ -41,7 +40,7 @@ public class Impl_HappyLadybugs {
                     char c = b.charAt(i);
                     char prev = i > 0 ? b.charAt(i - 1) : 'a';
                     char next = (i + 1) < b.length() ? b.charAt(i + 1) : 'a';
-                    if(c != prev && c != next) {
+                    if (c != prev && c != next) {
                         ok = false;
                     }
                 }
