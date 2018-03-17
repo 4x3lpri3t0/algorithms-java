@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
 
+// https://leetcode.com/problems/hamming-distance
+
 class _461_Hamming_Distance {
     public int hammingDistance(int a, int b) {
         int val = a ^ b;

@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
 
+// https://leetcode.com/problems/jewels-and-stones
+
 public class _771_Jewels_and_Stones {
     public static int numJewelsInStones(String J, String S) {
         int total = 0;
