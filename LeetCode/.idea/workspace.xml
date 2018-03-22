@@ -2,29 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_11_Container_With_Most_Water.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_136_Single_Number.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_13_Roman_to_Integer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_14_Longest_Common_Prefix.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_292_Nim_Game.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_2_Add_Two_Numbers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_3_Longest_Substring_Without_Repeating_Characters.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_476_Number_Complement.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_4_Median_of_Two_Sorted_Arrays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_557_Reverse_Words_in_a_String_III.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_561_Array_Partition_I.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_657_Judge_Route_Circle.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_6_ZigZag_Conversion.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_728_Self_Dividing_Numbers.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_9_Palindrome_Number.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/LRUCache.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_104_Maximum_Depth_of_Binary_Tree.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_122_Best_Time_to_Buy_and_Sell_Stock_II.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_12_Integer_to_Roman.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_141_Linked_List_Cycle.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_155_Min_Stack.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_169_Majority_Element.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_191_Number_of_1_Bits.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_206_Reverse_Linked_List.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_20_Valid_Parentheses.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_23_Merge_k_Sorted_Lists.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_283_Move_Zeroes.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_371_Sum_of_Two_Integers.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_535_Encode_and_Decode_TinyURL.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_53_Maximum_Subarray.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_5_Longest_Palindromic_Substring.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_66_Plus_One.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/_7_Reverse_Integer.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/Main.java" afterPath="$PROJECT_DIR$/src/algorithms/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_796_Rotate_String.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_796_Rotate_String.java" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_11_Container_With_Most_Water.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_11_Container_With_Most_Water.java" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_136_Single_Number.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_136_Single_Number.java" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_13_Roman_to_Integer.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_13_Roman_to_Integer.java" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_2_Add_Two_Numbers.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_2_Add_Two_Numbers.java" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java" />
+      <change beforePath="$PROJECT_DIR$/src/algorithms/java/_9_Palindrome_Number.java" afterPath="$PROJECT_DIR$/src/algorithms/java/_9_Palindrome_Number.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,11 +46,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="876">
-              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="438">
+              <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_21_Merge_Two_Sorted_Lists.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="219">
+              <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -70,6 +87,12 @@
       <find>TODO</find>
       <find>OrganizingContainersOfBalls</find>
       <find>HR_Impl</find>
+      <find>reverse</find>
+      <find>hash</find>
+      <find>quick</find>
+      <find>Pointers</find>
+      <find>reverseWords</find>
+      <find>partitionLabels</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -82,65 +105,65 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF899C_DividingTheNumbers.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF4A.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF61A_UltraFastMathematician.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF155A_I_love_username.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF129A_Cookies.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/CF334A_CandyBags.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF334A_CandyBags.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF144A_ArrivalOfTheGeneral.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF898C_PhoneNumbers.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF104A_Blackjack.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF200B_Drinks.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF92A_Chips.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/hr/implementation/CF282C_XORandOR.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_FlatlandSpaceStations.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_GradingStudents.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/Kangaroo.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_Kangaroo.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/ModifiedKaprekarNumbers.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_ModifiedKaprekarNumbers.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF282C_XORandOR.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_BonAppetit.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/HappyLadybugs.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_HappyLadybugs.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt2.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt1.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/temp.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_AppleAndOrange.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_561_Array_Partition_I.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_728_Self_Dividing_Numbers.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_796_Rotate_String.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/_657_Judge_Route_Circle.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_476_Number_Complement.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_557_Reverse_Words_in_a_String_III.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/_2_Add_Two_Numbers.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/_13_Roman_to_Integer.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_292_Nim_Game.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_136_Single_Number_Math.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/_136_Single_Number.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_4_Median_of_Two_Sorted_Arrays.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_14_Longest_Common_Prefix.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_6_ZigZag_Conversion.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_3_Longest_Substring_Without_Repeating_Characters.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_12_Integer_to_Roman.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_20_Valid_Parentheses.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_371_Sum_of_Two_Integers.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_7_Reverse_Integer.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_535_Encode_and_Decode_TinyURL.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_104_Maximum_Depth_of_Binary_Tree.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_66_Plus_One.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_5_Longest_Palindromic_Substring.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_146_LRU_Cache.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/LRU_Cache.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_206_Reverse_Linked_List.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_122_Best_Time_to_Buy_and_Sell_Stock_II.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_53_Maximum_Subarray.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_169_Majority_Element.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_155_Min_Stack.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_191_Number_of_1_Bits.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_283_Move_Zeroes.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_141_Linked_List_Cycle.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_23_Merge_k_Sorted_Lists.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_657_Judge_Route_Circle.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_2_Add_Two_Numbers.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_13_Roman_to_Integer.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_136_Single_Number.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_9_Palindrome_Number.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/_11_Container_With_Most_Water.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/_3_Longest_Substring_Without_Repeating_Characters.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="900" />
-    <option name="y" value="350" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-16" />
+    <option name="y" value="-16" />
+    <option name="width" value="3232" />
+    <option name="height" value="1732" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -176,7 +199,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -207,6 +229,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -217,7 +240,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="lengthOfLongestSubstring&#9;PSI&#9;JAVA://_3_Longest_Substring_Without_Repeating_Characters#lengthOfLongestSubstring&#10;longestCommonPrefix&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_14_Longest_Common_Prefix.java&#10;single&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_136_Single_Number.java" />
+    <property name="SearchEverywhereHistoryKey" value="mergeTwoLists&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java&#10;deleteNode&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java&#10;getSum&#9;PSI&#9;JAVA://_371_Sum_of_Two_Integers#getSum&#10;isValid&#9;PSI&#9;JAVA://_20_Valid_Parentheses#isValid&#10;intToRoman&#9;PSI&#9;JAVA://_12_Integer_to_Roman#intToRoman&#10;lengthOfLongestSubstring&#9;PSI&#9;JAVA://_3_Longest_Substring_Without_Repeating_Characters#lengthOfLongestSubstring&#10;maxArea&#9;PSI&#9;JAVA://_11_Container_With_Most_Water#maxArea&#10;isPalindrome&#9;PSI&#9;JAVA://_9_Palindrome_Number#isPalindrome&#10;convert&#9;PSI&#9;JAVA://_6_ZigZag_Conversion#convert&#10;longestCommonPrefix&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_14_Longest_Common_Prefix.java&#10;findMedianSortedArrays&#9;PSI&#9;JAVA://_4_Median_of_Two_Sorted_Arrays#findMedianSortedArrays&#10;singleNumber&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_136_Single_Number.java&#10;canWinNim&#9;PSI&#9;JAVA://_292_Nim_Game#canWinNim&#10;romanToInt&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_13_Roman_to_Integer.java&#10;addTwoNumbers&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_2_Add_Two_Numbers.java&#10;twoSum&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_1_Two_Sum.java&#10;reverseWords&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_557_Reverse_Words_in_a_String_III.java&#10;partitionLabels&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_763_Partition_Labels.java&#10;findComplement&#9;PSI&#9;JAVA://_476_Number_Complement#findComplement&#10;judgeCircle&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_657_Judge_Route_Circle.java&#10;rotateString&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_796_Rotate_String.java&#10;hammingWeight&#9;PSI&#9;JAVA://_191_Number_of_1_Bits#hammingWeight&#10;_155_Min_Stack&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_155_Min_Stack.java&#10;maxProfit&#9;PSI&#9;JAVA://_122_Best_Time_to_Buy_and_Sell_Stock_II#maxProfit&#10;LRUCache&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/LRUCache.java&#10;single&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_136_Single_Number.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -308,7 +331,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -318,7 +341,7 @@
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329904" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814372" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30538923" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -330,26 +353,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921812" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329904" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.4975186" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30658436" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18765904" sideWeight="0.5024814" order="3" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -361,15 +364,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java</url>
-          <line>22</line>
-          <properties />
-          <option name="timeStamp" value="49" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="51" />
+      <option name="time" value="54" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -398,29 +393,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF899B_MonthsAndYears.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF158B_Taxi.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF4A.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF61A_UltraFastMathematician.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF155A_I_love_username.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF129A_Cookies.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF899C_DividingTheNumbers.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF898C_PhoneNumbers.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/hr/implementation/OrganizingContainersOfBalls.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF334A_CandyBags.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF144A_ArrivalOfTheGeneral.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF104A_Blackjack.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF92A_Chips.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF200B_Drinks.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF282C_XORandOR.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt2.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt1.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_BonAppetit.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_FlatlandSpaceStations.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_AppleAndOrange.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_BonAppetit.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_ModifiedKaprekarNumbers.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_Kangaroo.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_HappyLadybugs.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/Impl_GradingStudents.java" />
     <entry file="file://$PROJECT_DIR$/../HackerRank/src/algorithms/Main.java">
@@ -430,166 +402,328 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
+    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="142" column="23" lean-forward="false" selection-start-line="142" selection-start-column="23" selection-end-line="142" selection-end-column="23" />
+        <state relative-caret-position="730">
+          <caret line="215" column="10" lean-forward="true" selection-start-line="215" selection-start-column="10" selection-end-line="215" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java">
+    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/util/ArrayList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="3" column="55" lean-forward="false" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_561_Array_Partition_I.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_796_Rotate_String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_657_Judge_Route_Circle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="3" column="52" lean-forward="false" selection-start-line="3" selection-start-column="52" selection-end-line="3" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="3" column="49" lean-forward="false" selection-start-line="3" selection-start-column="49" selection-end-line="3" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_728_Self_Dividing_Numbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_476_Number_Complement.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="3" column="50" lean-forward="false" selection-start-line="3" selection-start-column="50" selection-end-line="3" selection-end-column="50" />
+        <state relative-caret-position="321">
+          <caret line="552" column="16" lean-forward="false" selection-start-line="552" selection-start-column="16" selection-end-line="552" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="2449" column="25" lean-forward="false" selection-start-line="2449" selection-start-column="25" selection-end-line="2449" selection-end-column="25" />
+        <state relative-caret-position="540">
+          <caret line="1957" column="18" lean-forward="false" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
+          <folding>
+            <element signature="method#substring#1;class#String#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="978">
+          <caret line="553" column="13" lean-forward="false" selection-start-line="553" selection-start-column="13" selection-end-line="553" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="686">
+          <caret line="138" column="56" lean-forward="false" selection-start-line="138" selection-start-column="56" selection-end-line="138" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_5_Longest_Palindromic_Substring.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_7_Reverse_Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_23_Merge_k_Sorted_Lists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#267#268#0" expanded="false" />
+            <element signature="e#298#299#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_53_Maximum_Subarray.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_66_Plus_One.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_104_Maximum_Depth_of_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="3" column="6" lean-forward="false" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#207#0" expanded="false" />
+            <element signature="e#237#238#0" expanded="false" />
+            <element signature="e#627#637#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_122_Best_Time_to_Buy_and_Sell_Stock_II.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_141_Linked_List_Cycle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_155_Min_Stack.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_169_Majority_Element.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="6" column="6" lean-forward="false" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#263#281#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_191_Number_of_1_Bits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_206_Reverse_Linked_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_283_Move_Zeroes.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="5" column="6" lean-forward="false" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_535_Encode_and_Decode_TinyURL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#2012#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/LRUCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2044">
+          <caret line="76" column="30" lean-forward="false" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+          <folding>
+            <element signature="method#LRUCache#0;class#LRUCache#0" expanded="false" />
+            <element signature="method#get#0;class#LRUCache#0" expanded="false" />
+            <element signature="method#put#0;class#LRUCache#0" expanded="false" />
+            <element signature="method#addNode#0;class#LRUCache#0" expanded="false" />
+            <element signature="method#deleteTail#0;class#LRUCache#0" expanded="false" />
+            <element signature="method#deleteNode#0;class#LRUCache#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="12" column="21" lean-forward="true" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_728_Self_Dividing_Numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1022">
+          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-730">
+          <caret line="2" column="18" lean-forward="false" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+          <folding>
+            <element signature="e#228#229#0" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_561_Array_Partition_I.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1095">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_796_Rotate_String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="7" column="16" lean-forward="false" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_657_Judge_Route_Circle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_476_Number_Complement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="9" column="25" lean-forward="false" selection-start-line="9" selection-start-column="25" selection-end-line="9" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="876">
+          <caret line="16" column="22" lean-forward="true" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_557_Reverse_Words_in_a_String_III.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="3" column="30" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="803">
+          <caret line="11" column="17" lean-forward="false" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1489">
-          <caret line="483" column="24" lean-forward="true" selection-start-line="483" selection-start-column="24" selection-end-line="483" selection-end-column="24" />
-          <folding>
-            <element signature="e#19296#19297#0" expanded="false" />
-            <element signature="e#19379#19380#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="730">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="392">
+          <caret line="9" column="46" lean-forward="true" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_2_Add_Two_Numbers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1825">
-          <caret line="25" column="12" lean-forward="true" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="12" />
-          <folding>
-            <element signature="e#214#215#0" expanded="true" />
-            <element signature="e#245#246#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="146">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_13_Roman_to_Integer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="365">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_292_Nim_Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+        <state relative-caret-position="292">
+          <caret line="5" column="19" lean-forward="true" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
           <folding>
-            <element signature="e#0#326#0" expanded="true" />
-            <element signature="e#163#164#0" expanded="true" />
-            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#163#164#0" expanded="false" />
+            <element signature="e#196#197#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_136_Single_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="584">
+          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_4_Median_of_Two_Sorted_Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="649">
-          <caret line="21" column="25" lean-forward="false" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+        <state relative-caret-position="876">
+          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_14_Longest_Common_Prefix.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        <state relative-caret-position="219">
+          <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
           <folding>
             <element signature="e#150#151#0" expanded="true" />
             <element signature="e#212#213#0" expanded="true" />
@@ -597,44 +731,93 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/javax/swing/text/html/HTMLDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="3148" column="14" lean-forward="false" selection-start-line="3148" selection-start-column="14" selection-end-line="3148" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_6_ZigZag_Conversion.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="50" lean-forward="false" selection-start-line="0" selection-start-column="50" selection-end-line="0" selection-end-column="50" />
+        <state relative-caret-position="392">
+          <caret line="19" column="27" lean-forward="true" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_9_Palindrome_Number.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1533">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="1195">
+          <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_11_Container_With_Most_Water.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="1049">
+          <caret line="16" column="16" lean-forward="false" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_3_Longest_Substring_Without_Repeating_Characters.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="803">
-          <caret line="11" column="45" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="24" selection-end-column="1" />
+        <state relative-caret-position="876">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_12_Integer_to_Roman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#277#278#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_20_Valid_Parentheses.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="8" column="20" lean-forward="true" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_371_Sum_of_Two_Integers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="584">
+          <caret line="8" column="15" lean-forward="true" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="9" column="8" lean-forward="false" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="876">
-          <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+        <state relative-caret-position="438">
+          <caret line="36" column="24" lean-forward="true" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="219">
+          <caret line="3" column="4" lean-forward="false" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
           <folding />
         </state>
       </provider>

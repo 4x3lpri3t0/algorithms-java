@@ -1,21 +1,19 @@
-import java.io.*;
-import java.util.*;
-
 // https://leetcode.com/problems/merge-two-binary-trees
 
 public class _617_Merge_Two_Binary_Trees {
 
-    public class TreeNode {
+    // Binary Neode node
+    private class Node {
         int val;
-        TreeNode left;
-        TreeNode right;
+        Node left;
+        Node right;
 
-        TreeNode(int x) {
+        Node(int x) {
             val = x;
         }
     }
 
-    public static TreeNode mergeTrees(TreeNode t1, TreeNode t2) {
+    public static Node mergeTrees(Node t1, Node t2) {
         if (t1 == null)
             return t2;
 

@@ -7,13 +7,17 @@ class _11_Container_With_Most_Water {
         int r = height.length - 1;
 
         while (l < r) {
-            int newArea = Math.min(height[l], height[r]) * (r - l);
+            int currentWindow = r - l;
+
+            int newArea = Math.min(height[l], height[r]) * currentWindow;
+
             maxarea = Math.max(maxarea, newArea);
 
-            if (height[l] < height[r])
+            if (height[l] < height[r]) {
                 l++;
-            else
+            } else {
                 r--;
+            }
         }
 
         return maxarea;

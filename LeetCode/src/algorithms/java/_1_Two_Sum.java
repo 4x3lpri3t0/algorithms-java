@@ -11,7 +11,7 @@ public class _1_Two_Sum {
 
             // Look back if complement already exists in table
             if (map.containsKey(complement)) {
-                return new int[] { map.get(complement), i };
+                return new int[]{map.get(complement), i};
             }
 
             // Put index in table

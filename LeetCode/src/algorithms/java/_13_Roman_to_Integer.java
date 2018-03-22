@@ -6,7 +6,7 @@ import java.util.Map;
 //Ⅰ（1）、Ⅴ（5）、Ⅹ（10）、Ⅼ（50）、Ⅽ（100）、Ⅾ（500）and Ⅿ（1000）
 
 class _13_Roman_to_Integer {
-    public int romanToInt(String s) {
+    public static int romanToInt(String s) {
         if (s == null || s.length() == 0) {
             return 0;
         }
@@ -25,7 +25,8 @@ class _13_Roman_to_Integer {
         int next = 0;
 
         for (int i = 1; i < s.length(); i++) {
-            next = map.get(s.charAt(i));
+            Character cur = s.charAt(i);
+            next = map.get(cur);
 
             if (prev < next) {
                 sum -= prev;
@@ -33,11 +34,11 @@ class _13_Roman_to_Integer {
                 sum += prev;
             }
 
-            // Update prev because it is like sliding window
+            // Update prev
             prev = next;
         }
 
-        // Corner case when only one digit, we need to let sum = prev, so we add prev, not next
+        // Corner case when only one digit, we need to let sum = prev
         sum += prev;
 
         return sum;

@@ -10,8 +10,10 @@ class _9_Palindrome_Number {
         }
 
         while (x != 0) {
+            int digit = x % 10;
+
             // Build the reverse in rev
-            rev = rev * 10 + x % 10;
+            rev = rev * 10 + digit;
 
             // Remove last digit from x
             x /= 10;

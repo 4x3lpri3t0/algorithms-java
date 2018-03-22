@@ -22,6 +22,7 @@ public class _763_Partition_Labels {
                 anchor = i + 1;
             }
         }
+
         return ans;
     }
 }

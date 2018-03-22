@@ -24,6 +24,7 @@ public class _2_Add_Two_Numbers {
             int sum = x + y + carry;
             carry = sum / 10;
 
+            // Add digit to resulting LL
             current.next = new ListNode(sum % 10);
             current = current.next;
 
