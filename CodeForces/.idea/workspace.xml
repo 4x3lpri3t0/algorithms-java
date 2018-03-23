@@ -2,17 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF948A_Protect_Sheep.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF948B_Primal_Sport.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Dynamic_Arrays.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Sparse_Arrays.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/algorithms/java/CF955A_Feed_the_Cat.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/Main.java" afterPath="$PROJECT_DIR$/src/algorithms/Main.java" />
-      <change beforePath="$PROJECT_DIR$/../HackerRank/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../HackerRank/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/Main.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/Main.java" />
-      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/TwoD_Array_DS.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/TwoD_Array_DS.java" />
-      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_HappyLadybugs.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_HappyLadybugs.java" />
-      <change beforePath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_ModifiedKaprekarNumbers.java" afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_ModifiedKaprekarNumbers.java" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/../LeetCode/src/algorithms/Main.java" afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/Main.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,17 +25,7 @@
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="732">
-              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CF948B_Primal_Sport.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF948B_Primal_Sport.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="584">
-              <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+              <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,6 +37,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="CodeForces" />
       </list>
     </option>
   </component>
@@ -77,7 +62,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF129A_Cookies.java" />
         <option value="$PROJECT_DIR$/src/algorithms/CF334A_CandyBags.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF334A_CandyBags.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF144A_ArrivalOfTheGeneral.java" />
@@ -127,6 +111,7 @@
         <option value="$PROJECT_DIR$/src/algorithms/java/CF339_Xenia_And_Ringroad.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF948A_Protect_Sheep.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF948B_Primal_Sport.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF955A_Feed_the_Cat.java" />
         <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
       </list>
     </option>
@@ -157,7 +142,7 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -170,45 +155,12 @@
       <manualOrder />
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -307,7 +259,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.4975186" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1875" sideWeight="0.4975186" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299401" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
@@ -405,8 +357,20 @@
           <properties />
           <option name="timeStamp" value="66" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/java/CF955A_Feed_the_Cat.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/java/CF955A_Feed_the_Cat.java</url>
+          <line>15</line>
+          <properties />
+          <option name="timeStamp" value="91" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="88" />
+      <option name="time" value="92" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -440,7 +404,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF4A.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF61A_UltraFastMathematician.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
@@ -764,14 +727,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
           <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF955A_Feed_the_Cat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3358">
+          <caret line="55" column="41" lean-forward="true" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="41" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1148#1149#0" expanded="true" />
+            <element signature="e#1195#1196#0" expanded="true" />
+            <element signature="e#2216#2217#0" expanded="true" />
+            <element signature="e#2269#2270#0" expanded="true" />
+            <element signature="e#2300#2301#0" expanded="true" />
+            <element signature="e#2351#2352#0" expanded="true" />
+            <element signature="e#2386#2387#0" expanded="true" />
+            <element signature="e#2441#2442#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="732">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding />
         </state>
       </provider>
