@@ -2,38 +2,31 @@ import java.io.*;
 import java.util.*;
 
 public class CF955A_Feed_the_Cat {
+    private long ceil(long a, long b) {
+        if (a % b == 0) return a / b;
+        return a / b + 1;
+    }
+
     private void solve() {
-        int hour = readInt();
-        int mins = readInt();
+        int h = readInt();
+        int m = readInt();
         int H = readInt();
         int D = readInt();
         int C = readInt();
         int N = readInt();
 
-        double discounted;
-        double nonDiscounted = Integer.MAX_VALUE;
-
-        if (hour < 20) {
-            // Get minutes left to 20:00
-            int hLeft = 20 - hour - 1;
-            int mLeft = (hLeft * 60) + (60 - mins);
-
-            int neededBunsAtStart = (int) Math.ceil(H / (double) N);
-
-            // Get non-discounted
-            nonDiscounted = (double) (neededBunsAtStart * C);
-
-            // Get discounted
-            int accumulatedH = H + mLeft * D;
-            int neededBunsAtDiscTime = accumulatedH / N;
-            discounted = (neededBunsAtDiscTime * C) * 0.8;
+        if (h >= 20) {
+            out.println(ceil(H, N) * C * 0.8);
         } else {
-            // Buy at discount time anyways
-            discounted = (((int) Math.ceil(H / (double) N)) * C) * 0.8;
-        }
+            int hn = 20 - h - 1;
+            int mn = 60 - m;
+            int tm = hn * 60 + mn;
+            int HH = H + D * tm;
+            double a1 = ceil(HH, N) * C * 0.8;
+            double a2 = ceil(H, N) * C;
 
-        // Print the min
-        out.printf("%.4f", Math.min(discounted, nonDiscounted));
+            out.println(Math.min(a1, a2));
+        }
     }
 
     public static void main(String[] args) {

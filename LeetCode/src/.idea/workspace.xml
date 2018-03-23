@@ -5,12 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3f1d428-c4cf-444d-a652-ecedabb53ba2" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../CodeForces/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../CodeForces/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../../CodeForces/src/algorithms/java/CF955A_Feed_the_Cat.java" afterPath="$PROJECT_DIR$/../../CodeForces/src/algorithms/java/CF955A_Feed_the_Cat.java" />
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/algorithms/Main.java" afterPath="$PROJECT_DIR$/algorithms/Main.java" />
-      <change beforePath="$PROJECT_DIR$/algorithms/java/_23_Merge_k_Sorted_Lists.java" afterPath="$PROJECT_DIR$/algorithms/java/_23_Merge_k_Sorted_Lists.java" />
-      <change beforePath="$PROJECT_DIR$/algorithms/java/_42_Trapping_Rain_Water.java" afterPath="$PROJECT_DIR$/algorithms/java/_42_Trapping_Rain_Water.java" />
+      <change beforePath="$PROJECT_DIR$/../../CodeForces/src/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../CodeForces/src/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />

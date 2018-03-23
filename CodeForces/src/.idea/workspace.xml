@@ -14,8 +14,8 @@
       <file leaf-file-name="Main.java" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="625">
-              <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="29" />
+            <state relative-caret-position="771">
+              <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
               <folding />
             </state>
           </provider>
@@ -24,9 +24,13 @@
       <file leaf-file-name="CF955A_Feed_the_Cat.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/algorithms/java/CF955A_Feed_the_Cat.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-330">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding />
+            <state relative-caret-position="600">
+              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding>
+                <element signature="method#run#0;class#CF955A_Feed_the_Cat#0" expanded="false" />
+                <element signature="method#init#0;class#CF955A_Feed_the_Cat#0" expanded="false" />
+                <element signature="method#readString#0;class#CF955A_Feed_the_Cat#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -37,10 +41,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/algorithms/java/CF955A_Feed_the_Cat.java" />
+        <option value="$PROJECT_DIR$/algorithms/Main.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="900" />
     <option name="y" value="350" />
     <option name="width" value="1400" />
@@ -175,7 +180,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -209,17 +214,21 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="625">
-          <caret line="46" column="29" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="29" />
+        <state relative-caret-position="771">
+          <caret line="46" column="61" lean-forward="true" selection-start-line="46" selection-start-column="61" selection-end-line="46" selection-end-column="61" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/algorithms/java/CF955A_Feed_the_Cat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-330">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-          <folding />
+        <state relative-caret-position="600">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding>
+            <element signature="method#run#0;class#CF955A_Feed_the_Cat#0" expanded="false" />
+            <element signature="method#init#0;class#CF955A_Feed_the_Cat#0" expanded="false" />
+            <element signature="method#readString#0;class#CF955A_Feed_the_Cat#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

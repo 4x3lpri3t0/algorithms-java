@@ -44,7 +44,7 @@ public class Main {
 //        CF948A_Protect_Sheep.main(args);
 //        CF948B_Primal_Sport.main(args); // TODO
 
-//        CF955A_Feed_the_Cat.main(args); // TODO: Wrong! -> See editorial
+//        CF955A_Feed_the_Cat.main(args); // Interesting ceil
 
     }
 }
