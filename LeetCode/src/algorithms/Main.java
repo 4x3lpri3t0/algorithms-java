@@ -1,4 +1,3 @@
-
 public class Main {
     public static void main(String[] args) {
         // TODO's -> In this context means To Review
@@ -53,12 +52,16 @@ public class Main {
 
         // --- 2018-03-20 ---
 
-        // mergeKLists // TODO: PriorityQueue
+        // mergeKLists // TODO: PriorityQueue / Recursion
 
-        // --- 2018-03-23 ---
+        // --- 2008-03-22 ---
+
+        // quickSort // TODO: Debug
+		
+		// --- 2018-03-23 ---
 
         // _121_Best_Time_to_Buy_and_Sell_Stock.maxProfit // TODO: Min, Max
         // climbStairs // TODO: DP
-
+        // trap
     }
 }

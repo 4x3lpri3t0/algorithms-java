@@ -10,7 +10,7 @@ public class CF955A_Feed_the_Cat {
         int C = readInt();
         int N = readInt();
 
-        double discounted = 0;
+        double discounted;
         double nonDiscounted = Integer.MAX_VALUE;
 
         if (hour < 20) {
@@ -18,10 +18,10 @@ public class CF955A_Feed_the_Cat {
             int hLeft = 20 - hour - 1;
             int mLeft = (hLeft * 60) + (60 - mins);
 
-            int neededBunsAtStart = (int)Math.ceil(H / (double)N);
+            int neededBunsAtStart = (int) Math.ceil(H / (double) N);
 
             // Get non-discounted
-            nonDiscounted = (double)(neededBunsAtStart * C);
+            nonDiscounted = (double) (neededBunsAtStart * C);
 
             // Get discounted
             int accumulatedH = H + mLeft * D;
@@ -29,7 +29,7 @@ public class CF955A_Feed_the_Cat {
             discounted = (neededBunsAtDiscTime * C) * 0.8;
         } else {
             // Buy at discount time anyways
-            discounted = (((int)Math.ceil(H / (double)N)) * C) * 0.8;
+            discounted = (((int) Math.ceil(H / (double) N)) * C) * 0.8;
         }
 
         // Print the min
