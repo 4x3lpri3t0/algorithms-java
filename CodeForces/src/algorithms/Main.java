@@ -44,7 +44,7 @@ public class Main {
 //        CF948B_Primal_Sport.main(args); // TODO
 
 //        CF955A_Feed_the_Cat.main(args); // Interesting ceil
-        CF955B_Not_simply_beatiful_strings.main(args);
-
+//        CF955B_Not_simply_beatiful_strings.main(args);
+        CF957A_Tritonic_Iridescence.main(args);
     }
 }
