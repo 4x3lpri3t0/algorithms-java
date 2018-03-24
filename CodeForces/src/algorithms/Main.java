@@ -1,3 +1,4 @@
+import java.CF955B_Not_simply_beatiful_strings;
 
 public class Main {
     public static void main(String[] args) {
@@ -45,6 +46,7 @@ public class Main {
 //        CF948B_Primal_Sport.main(args); // TODO
 
 //        CF955A_Feed_the_Cat.main(args); // Interesting ceil
+        CF955B_Not_simply_beatiful_strings.main(args);
 
     }
 }
