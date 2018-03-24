@@ -1,5 +1,3 @@
-import java.CF955B_Not_simply_beatiful_strings;
-
 public class Main {
     public static void main(String[] args) {
 //        CF158B_Taxi.main(args);
