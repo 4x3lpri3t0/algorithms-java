@@ -1,6 +1,8 @@
 import java.io.*;
 import java.util.*;
 
+// http://codeforces.com/contest/957/problem/A
+
 public class CF957A_Tritonic_Iridescence {
     private void solve() {
         int n = readInt();
