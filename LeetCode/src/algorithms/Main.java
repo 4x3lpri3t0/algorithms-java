@@ -62,6 +62,10 @@ public class Main {
 
         // _121_Best_Time_to_Buy_and_Sell_Stock.maxProfit // TODO: Min, Max
         // climbStairs // TODO: DP
-        // trap
+
+        // --- 2018-03-27 ---
+        // --- Arrays ---
+
+
     }
 }
