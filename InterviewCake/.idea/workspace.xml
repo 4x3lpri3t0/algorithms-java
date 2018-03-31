@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="algorithms-java" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
+      <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3796">
+              <caret line="52" column="60" lean-forward="false" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Singleton" />
+        <option value="LeetCode" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>29</find>
+      <find>313128</find>
+      <find>main</find>
+      <find>TOdO</find>
+      <find>CF144A_ArrivalOfTheGeneral</find>
+      <find>TODO</find>
+      <find>OrganizingContainersOfBalls</find>
+      <find>HR_Impl</find>
+      <find>reverse</find>
+      <find>hash</find>
+      <find>quick</find>
+      <find>Pointers</find>
+      <find>reverseWords</find>
+      <find>partitionLabels</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>Impl</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/algorithms/java/_6_ZigZag_Conversion.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_3_Longest_Substring_Without_Repeating_Characters.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_12_Integer_to_Roman.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_20_Valid_Parentheses.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_371_Sum_of_Two_Integers.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_7_Reverse_Integer.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_535_Encode_and_Decode_TinyURL.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_104_Maximum_Depth_of_Binary_Tree.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_66_Plus_One.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_5_Longest_Palindromic_Substring.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_146_LRU_Cache.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/LRU_Cache.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_206_Reverse_Linked_List.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_122_Best_Time_to_Buy_and_Sell_Stock_II.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_53_Maximum_Subarray.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_169_Majority_Element.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_155_Min_Stack.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_191_Number_of_1_Bits.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_283_Move_Zeroes.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_141_Linked_List_Cycle.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_23_Merge_k_Sorted_Lists.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/LRUCache.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_657_Judge_Route_Circle.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_2_Add_Two_Numbers.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_13_Roman_to_Integer.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_136_Single_Number.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_9_Palindrome_Number.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_11_Container_With_Most_Water.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_38_Count_and_Say.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_121_Best_Time_to_Buy_and_Sell_Stock.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_70_Climbing_Stairs.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_42_Trapping_Rain_Water.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/stock_price.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/product_of_other_numbers.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_2_product_of_other_numbers.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_3_highest_product_of_3.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_4_merging_ranges.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_5_Making_Change.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_6_Rectangular_Love.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_7_Temperature_Tracker.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_8_Balanced_Binary_Tree.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_10_BST_Checker.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_190_BST_Checker.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_09_BST_Checker.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/_10_Second_Largest_Item_in_BST.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="3200" />
+    <option name="height" value="1800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Spelling</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>SpellCheckingInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="InterviewCake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCake" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="InterviewCake" type="b2602c69:ProjectViewProjectNode" />
+              <item name="InterviewCake" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/InterviewCake/src/algorithms/java/_10_Second_Largest_Item_in_BST.java&#10;climbStairs&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_70_Climbing_Stairs.java&#10;maxProfit&#9;PSI&#9;JAVA://_122_Best_Time_to_Buy_and_Sell_Stock_II#maxProfit&#10;mergeTwoLists&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java&#10;deleteNode&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java&#10;getSum&#9;PSI&#9;JAVA://_371_Sum_of_Two_Integers#getSum&#10;isValid&#9;PSI&#9;JAVA://_20_Valid_Parentheses#isValid&#10;intToRoman&#9;PSI&#9;JAVA://_12_Integer_to_Roman#intToRoman&#10;lengthOfLongestSubstring&#9;PSI&#9;JAVA://_3_Longest_Substring_Without_Repeating_Characters#lengthOfLongestSubstring&#10;maxArea&#9;PSI&#9;JAVA://_11_Container_With_Most_Water#maxArea&#10;isPalindrome&#9;PSI&#9;JAVA://_9_Palindrome_Number#isPalindrome&#10;convert&#9;PSI&#9;JAVA://_6_ZigZag_Conversion#convert&#10;longestCommonPrefix&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_14_Longest_Common_Prefix.java&#10;findMedianSortedArrays&#9;PSI&#9;JAVA://_4_Median_of_Two_Sorted_Arrays#findMedianSortedArrays&#10;singleNumber&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_136_Single_Number.java&#10;canWinNim&#9;PSI&#9;JAVA://_292_Nim_Game#canWinNim&#10;romanToInt&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_13_Roman_to_Integer.java&#10;addTwoNumbers&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_2_Add_Two_Numbers.java&#10;twoSum&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_1_Two_Sum.java&#10;reverseWords&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_557_Reverse_Words_in_a_String_III.java&#10;partitionLabels&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_763_Partition_Labels.java&#10;findComplement&#9;PSI&#9;JAVA://_476_Number_Complement#findComplement&#10;judgeCircle&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_657_Judge_Route_Circle.java&#10;rotateString&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_796_Rotate_String.java&#10;hammingWeight&#9;PSI&#9;JAVA://_191_Number_of_1_Bits#hammingWeight&#10;_155_Min_Stack&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_155_Min_Stack.java&#10;LRUCache&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/LRUCache.java&#10;single&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_136_Single_Number.java" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\priet\Desktop\Repos\algorithms-java\src\algorithms" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithms-java" />
+      <envs />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.Main" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="algorithms-java" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-16" y="-16" width="3232" height="1732" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1875" sideWeight="0.4975186" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329904" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32940447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32814372" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18765904" sideWeight="0.5024814" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.3048416" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="1703" y="1160" width="1426" height="510" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.328153" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32922655" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/java/_05_Making_Change.java</url>
+          <line>7</line>
+          <properties />
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/algorithms/java/_05_Making_Change.java</url>
+          <line>17</line>
+          <properties />
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="58" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>p | q</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p &amp; q</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>p</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>q</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_169_Majority_Element.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_191_Number_of_1_Bits.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_206_Reverse_Linked_List.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_283_Move_Zeroes.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_535_Encode_and_Decode_TinyURL.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/LRUCache.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_728_Self_Dividing_Numbers.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_561_Array_Partition_I.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_796_Rotate_String.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_657_Judge_Route_Circle.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_476_Number_Complement.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_557_Reverse_Words_in_a_String_III.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_2_Add_Two_Numbers.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_13_Roman_to_Integer.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_292_Nim_Game.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_136_Single_Number.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_4_Median_of_Two_Sorted_Arrays.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_14_Longest_Common_Prefix.java" />
+    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/javax/swing/text/html/HTMLDocument.java" />
+    <entry file="jar://C:/Programs/jdk1.8.0_144/src.zip!/javax/swing/text/html/HTMLDocument.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_6_ZigZag_Conversion.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_9_Palindrome_Number.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_11_Container_With_Most_Water.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_3_Longest_Substring_Without_Repeating_Characters.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_12_Integer_to_Roman.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_20_Valid_Parentheses.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_371_Sum_of_Two_Integers.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_38_Count_and_Say.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_122_Best_Time_to_Buy_and_Sell_Stock_II.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_121_Best_Time_to_Buy_and_Sell_Stock.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_70_Climbing_Stairs.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_42_Trapping_Rain_Water.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/test.java" />
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_01_stock_price.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="949">
+          <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#1578#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_02_product_of_other_numbers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1344">
+          <caret line="32" column="13" lean-forward="false" selection-start-line="32" selection-start-column="13" selection-end-line="32" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_03_highest_product_of_3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1309">
+          <caret line="62" column="13" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_04_merging_ranges.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="63" column="38" lean-forward="true" selection-start-line="63" selection-start-column="38" selection-end-line="63" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+            <element signature="e#997#998#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_06_Rectangular_Love.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1017">
+          <caret line="93" column="0" lean-forward="false" selection-start-line="93" selection-start-column="0" selection-end-line="94" selection-end-column="13" />
+          <folding>
+            <element signature="class#Rectangle#0;class#_06_Rectangular_Love#0" expanded="false" />
+            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+            <element signature="e#560#561#0" expanded="true" />
+            <element signature="e#598#599#0" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#701#702#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="class#RangeOverlap#0;class#_06_Rectangular_Love#0" expanded="false" />
+            <element signature="e#1022#1023#0" expanded="true" />
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_07_Temperature_Tracker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="35" column="13" lean-forward="false" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+          <folding>
+            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#615#616#0" expanded="true" />
+            <element signature="e#642#643#0" expanded="true" />
+            <element signature="e#672#673#0" expanded="true" />
+            <element signature="e#703#704#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_05_Making_Change.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1168">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_09_BST_Checker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1477">
+          <caret line="62" column="13" lean-forward="true" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="13" />
+          <folding>
+            <element signature="e#172#173#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_08_Balanced_Binary_Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="72" column="1" lean-forward="true" selection-start-line="72" selection-start-column="1" selection-end-line="72" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#253#254#0" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/_10_Second_Largest_Item_in_BST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2555">
+          <caret line="35" column="26" lean-forward="false" selection-start-line="35" selection-start-column="26" selection-end-line="35" selection-end-column="26" />
+          <folding>
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#229#230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3796">
+          <caret line="52" column="60" lean-forward="false" selection-start-line="52" selection-start-column="60" selection-end-line="52" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>algorithms-java</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
