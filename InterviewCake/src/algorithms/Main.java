@@ -97,6 +97,25 @@ public class Main {
         // 27 - Reverse Words // TODO: Review
         // Strings + Divide & Conquer
 
-        // 28 -
+        // 28 - Parenthesis Matching
+        // Stacks
+
+        // 29 - Bracket Validator
+        // HashMap, HashSet, Stack
+
+        // 30 - Permutation Palindrome
+        // HashMap
+
+        // 31 - Recursive String Permutations // TODO: Review!!
+        // Recursion, HashSet, substring
+
+        // 32 - Top Scores // TODO: Review!!
+        // Counting Sort
+
+        // 33 - Which appears twice
+        // Sum // TODO
+
+        // 34 - Word Cloud
+        //
     }
 }
