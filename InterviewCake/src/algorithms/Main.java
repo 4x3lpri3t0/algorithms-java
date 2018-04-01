@@ -52,5 +52,42 @@ public class Main {
 
         // 10 - Second Largest Item in BST // TODO: Review!!
         // BST
+
+        // 11 - Compress URL List // TODO: Review!!
+        // Trie
+
+        // 12 - Find in Ordered Set
+        // Binary Search
+
+        // 13 - Find Rotation Point // TODO: Review!!
+        // Binary Search
+
+        // 14 - Inflight Entertainment // TODO: Review!!
+        // HashSet
+
+        // 15 - Nth Fibonacci
+        // Recursive + memo / Iterative (Bottom-up)
+
+        // 16 - Cake Thief // TODO: Review!!
+        // TODO
+
+        // 19 - Queue Two Stacks
+
+        // 20 - Largest Stack
+        // Stacks
+
+        // 21 - Find Unique int Among Duplicates
+        // XOR
+
+        // 22 - Delete Node
+        // Linked List
+
+        // 23 - Linked List Cycles
+        // Tortoise and hare (Cycle Detection)
+
+        // 24 - Reverse Linked List
+        // Linked List
+
+        // 25 -
     }
 }
