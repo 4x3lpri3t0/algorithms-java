@@ -83,11 +83,20 @@ public class Main {
         // Linked List
 
         // 23 - Linked List Cycles
-        // Tortoise and hare (Cycle Detection)
+        // Linked List - Tortoise and hare (Cycle Detection)
 
         // 24 - Reverse Linked List
         // Linked List
 
-        // 25 -
+        // 25 - Kth to Last Node // TODO: Review!!
+        // Linked List
+
+        // 26 - Reverse String in Place
+        // Strings
+
+        // 27 - Reverse Words // TODO: Review
+        // Strings + Divide & Conquer
+
+        // 28 -
     }
 }
