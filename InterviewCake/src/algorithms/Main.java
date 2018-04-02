@@ -116,6 +116,14 @@ public class Main {
         // Sum // TODO
 
         // 34 - Word Cloud
-        //
+        // Character.isLetter, substring
+
+        // 35 - Shuffle // TODO
+        // Fisher-Yates shuffle / Knuth shuffle // TODO
+
+        // 36 - Single Riffle Check
+        // TODO
+
+        // 38
     }
 }

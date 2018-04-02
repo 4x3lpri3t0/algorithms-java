@@ -4,3 +4,6 @@ InterviewCake/InterviewCake/
 InterviewCake/src/InterviewCake.iml
 LeetCode/.idea/vcs.xml
 LeetCode/src/LeetCode.iml
+InterviewCake/.idea/
+InterviewCake/.idea/*
+InterviewCake/.idea/modules.xml
