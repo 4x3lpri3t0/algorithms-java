@@ -17,26 +17,26 @@ public class Main {
     public static void main(String[] args) {
         // 1 - Stock Price
         // Greedy
-        int[] stockPrices = new int[]{10, 7, 5, 8, 11, 9};
-        print(_01_stock_price.getMaxProfit(stockPrices));
+//        int[] stockPrices = new int[]{10, 7, 5, 8, 11, 9};
+//        print(_01_stock_price.getMaxProfit(stockPrices));
 
         // 2 - Product of Other Numbers
         // Greedy
-        int[] integers = new int[]{1, 7, 3, 4};
-        print(_02_product_of_other_numbers.getProductsOfAllIntsExceptAtIndex(integers));
+//        int[] integers = new int[]{1, 7, 3, 4};
+//        print(_02_product_of_other_numbers.getProductsOfAllIntsExceptAtIndex(integers));
 
         // 3 - Highest Product of 3
         // Greedy
-        integers = new int[]{-10, -10, 1, 3, 2};
-        print(_03_highest_product_of_3.highestProductOf3(integers));
+//        integers = new int[]{-10, -10, 1, 3, 2};
+//        print(_03_highest_product_of_3.highestProductOf3(integers));
 
         // 4 - Merging Ranges
         // Sort + Greedy
 
         // 5 - Making Change // TODO: Review!!
         // Greedy
-        int[] coins = new int[]{1, 2, 3};
-        print(_05_Making_Change.changePossibilitiesBottomUp(4, coins));
+//        int[] coins = new int[]{1, 2, 3};
+//        print(_05_Making_Change.changePossibilitiesBottomUp(4, coins));
 
         // 6 - Rectangular Love
         // Decompose problem
@@ -124,6 +124,27 @@ public class Main {
         // 36 - Single Riffle Check
         // TODO
 
-        // 38
+        // 38 - Simulate 7 Sided Die
+        // Math
+//        int[] freq = new int[8];
+//        for (int i = 0; i < 10000000; i++) {
+//            int rand = _38_Simulate_Seven_Sided_Die.rand7();
+//            freq[rand]++;
+//        }
+//        for (int i = 1; i < freq.length; i++) {
+//            print(i + " called " + freq[i] + " times");
+//        }
+
+        // 40 - Find Repeat Space Edition
+        // Modified Binary Search - TODO: 1..n
+
+        // 41 - Find Repeat Space Edition BEAST MODE
+        // TODO: NUTS!! (Not in scope of interviews)
+
+        // 45 - Graph Coloring
+        // Greedy
+
+        // 46 - Mesh Message // TODO: Review!! Transcribe
+        // BFS
     }
 }
