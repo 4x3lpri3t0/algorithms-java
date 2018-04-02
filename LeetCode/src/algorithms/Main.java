@@ -70,6 +70,8 @@ public class Main {
         // --- 2018-04-02 ---
         // --- Arrays ---
 
-
+        // wiggleSort
+        // isToeplitzMatrix
+        // getModifiedArray // TODO, cool solution!
     }
 }
