@@ -52,10 +52,6 @@ public class Busiest_Time {
                 cur -= arr[i].count;
             }
 
-            if (i < len && arr[i].time == arr[i + 1].time) {
-                continue;
-            }
-
             if (cur > max) {
                 max = cur;
                 result[0] = arr[i].time;
@@ -71,7 +67,7 @@ public class Busiest_Time {
         return result;
     }
 
-    public void main(String[] args) {
+    public void main() {
         Data[] info = new Data[10];
         info[0] = new Data(1, 2, false);
         info[1] = new Data(2, 2, true);

@@ -1,10 +1,13 @@
 /*
-The deletion distance of two strings is the minimum number of characters you need to delete in the two strings
-in order to get the same string. For instance, the deletion distance between "heat" and "hit" is 3:
+The deletion distance of two strings is the minimum number of characters you need to
+delete in the two strings in order to get the same string.
+
+For instance, the deletion distance between "heat" and "hit" is 3:
 By deleting 'e' and 'a' in "heat", and 'i' in "hit", we get the string "ht" in both cases.
 We cannot get the same string from both strings by deleting 2 letters or fewer.
-Given the strings str1 and str2, write an efficient function deletionDistance that
-returns the deletion distance between them.
+
+Given the strings str1 and str2, write an efficient function deletionDistance
+that returns the deletion distance between them.
 
 Examples:
 
@@ -23,19 +26,18 @@ output: 0
 
 public class Deletion_Distance {
     public static int deletionDistance(String one, String two) {
-        if (one == null || one.isEmpty()) {
-            return two == null ? 0 : two.length();
+        if (one.isEmpty() || two.isEmpty()) {
+            return Math.max(one.length(), two.length());
         }
 
-        if (two == null || two.isEmpty()) {
-            return one == null ? 0 : one.length();
-        }
-
+        String oneSub = one.substring(1, one.length());
+        String twoSub = two.substring(1, two.length());
         if (one.charAt(0) == two.charAt(0)) {
-            return deletionDistance(one.substring(1, one.length()), two.substring(1, two.length()));
+            return deletionDistance(oneSub, twoSub);
         } else {
-            return 1 + Math.min(deletionDistance(one.substring(1, one.length()), two),
-                    deletionDistance(one, two.substring(1, two.length())));
+            return 1 + Math.min(
+                    deletionDistance(oneSub, two),
+                    deletionDistance(one, twoSub));
         }
     }
 
@@ -58,15 +60,15 @@ public class Deletion_Distance {
         return matrix[one.length()][two.length()];
     }
 
-    public static void main(String[] args) {
-        System.out.println(deletionDistance("dog", ""));
-        System.out.println(deletionDistance("", "frog"));
-        System.out.println(deletionDistance("dog", "frog"));
-        System.out.println(deletionDistance("some", "some"));
-        System.out.println(deletionDistance("some", "ome"));
-        System.out.println(deletionDistance("some", "thing"));
-        System.out.println(deletionDistance("soie", "thing"));
-        System.out.println(deletionDistance("car", "racer"));
+    public static void main() {
+        System.out.println(deletionDistance("dog", "")); // 3
+        System.out.println(deletionDistance("", "frog")); // 4
+        System.out.println(deletionDistance("dog", "frog")); // 3
+        System.out.println(deletionDistance("some", "some")); // 0
+        System.out.println(deletionDistance("some", "ome")); // 1
+        System.out.println(deletionDistance("some", "thing")); // 9
+        System.out.println(deletionDistance("soie", "thing")); // 7
+        System.out.println(deletionDistance("car", "racer")); // 4
 
         System.out.println(deletionDistanceOptimized("dog", ""));
         System.out.println(deletionDistanceOptimized("", "frog"));

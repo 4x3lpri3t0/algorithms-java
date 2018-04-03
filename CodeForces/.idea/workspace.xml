@@ -2,12 +2,285 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/dictionaries/priet.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/modules.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" />
+      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codealike.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/priet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/codealike.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeForces.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF104A_Blackjack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF118B_PresentFromLena.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF124A_Number_Of_Positions.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF129A_Cookies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF144A_ArrivalOfTheGeneral.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF155A_I_love_username.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF158B_Taxi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF160_Twins.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF168A_Wizards_And_Demonstration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF200B_Drinks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF230A_Dragons.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF266B_QueueAtTheSchool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF268A_Games.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF270A_FancyFence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF276A_LunchRush.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF279B_Books_alt1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF279B_Books_alt2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF282C_XORandOR.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF285A_SlightlyDecreasingPermutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF330A_Cakeminator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF334A_CandyBags.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF336A_VasilyTheBearAndTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF339_Xenia_And_Ringroad.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF34B_Sale.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF352A_JeffAndDigits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF361A_LevkoAndTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF61A_UltraFastMathematician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF69A_YoungPhysicist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF898A_Rounding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF898B_ProperNutrition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF898C_PhoneNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF899A_SplittingInTeams.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF899B_MonthsAndYears.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF899C_DividingTheNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF907A_MashaAndBears.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF907B_TicTacToe.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF92A_Chips.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF948A_Protect_Sheep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF948B_Primal_Sport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF955A_Feed_the_Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF955B_Not_simply_beatiful_strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF957A_Tritonic_Iridescence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF957B_Mystical_Mosaic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF959A_Mahmoud_and_Ehab.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF959B_Mahmoud_and_Ehab_and_the_message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/codealike.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/dictionaries/priet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/codealike.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Arrays_DS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Dynamic_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Left_Rotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Sparse_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/TwoD_Array_DS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_AppleAndOrange.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_BonAppetit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_FlatlandSpaceStations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_GradingStudents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_HappyLadybugs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_Kangaroo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_ModifiedKaprekarNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/dictionaries/priet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/BFS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_01_stock_price.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_02_product_of_other_numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_03_highest_product_of_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_04_merging_ranges.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_05_Making_Change.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_06_Rectangular_Love.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_07_Temperature_Tracker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_08_Balanced_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_09_BST_Checker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_10_Second_Largest_Item_in_BST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_11_Compress_URL_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_12_Find_in_Ordered_Set.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_13_Find_Rotation_Point.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_14_Inflight_Entertainment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_15_Nth_Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_16_Cake_Thief.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_19_Queue_Two_Stacks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_20_Largest_Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_21_Find_Unique_Int_Among_Duplicates.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_22_Delete_Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_23_Linked_List_Cycles.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_24_Reverse_Linked_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_25_Kth_to_Last_Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_26_Reverse_String_in_Place.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_27_Reverse_Words.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_28_Matching_Parens.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_29_Bracket_Validator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_30_Permutation_Palindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_31_Recursive_String_Permutations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_32_Top_Scores.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_34_Word_Cloud.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_36_Single_Riffle_Check.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_38_Simulate_Seven_Sided_Die.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_40_Find_Duplicate_Optimize_for_Space.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_45_Graph_Coloring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_46_Mesh_Message.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/out/production/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/out/production/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/out/production/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/out/production/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/codealike.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/LRUCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_104_Maximum_Depth_of_Binary_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_11_Container_With_Most_Water.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_121_Best_Time_to_Buy_and_Sell_Stock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_122_Best_Time_to_Buy_and_Sell_Stock_II.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_12_Integer_to_Roman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_136_Single_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_13_Roman_to_Integer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_141_Linked_List_Cycle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_148_Sort_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_14_Longest_Common_Prefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_155_Min_Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_169_Majority_Element.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_191_Number_of_1_Bits.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_1_Two_Sum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_206_Reverse_Linked_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_20_Valid_Parentheses.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_23_Merge_k_Sorted_Lists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_23_Merge_k_Sorted_Lists_Recur.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_280_Wiggle_Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_283_Move_Zeroes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_292_Nim_Game.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_2_Add_Two_Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_370_Range_Addition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_371_Sum_of_Two_Integers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_38_Count_and_Say.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_3_Longest_Substring_Without_Repeating_Characters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_461_Hamming_Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_476_Number_Complement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_4_Median_of_Two_Sorted_Arrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_535_Encode_and_Decode_TinyURL.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_53_Maximum_Subarray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_557_Reverse_Words_in_a_String_III.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_561_Array_Partition_I.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_566_Reshape_the_Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_5_Longest_Palindromic_Substring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_617_Merge_Two_Binary_Trees.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_657_Judge_Route_Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_66_Plus_One.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_6_ZigZag_Conversion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_70_Climbing_Stairs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_728_Self_Dividing_Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_763_Partition_Labels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_766_Toeplitz_Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_771_Jewels_and_Stones.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_796_Rotate_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_7_Reverse_Integer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/algorithms/java/_9_Palindrome_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/out/production/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/out/production/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/out/production/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../LeetCode/src/out/production/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/dictionaries/priet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Arr_IndexAndElement_Equal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Array_of_Array_Products.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/BST_Successor.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/BasicRegexParser.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Budget_Cuts.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Busiest_Time$Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Busiest_Time.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Deletion_Distance.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Drone_Flight_Planner$Point.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Drone_Flight_Planner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Flatten_Dictionary.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Getting_Diff_Number.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/H_Tree.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Island_Count.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Isomorphic_Evaluator.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/K_Messed_Array_Sort.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Matrix_Spiral_Print.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Meeting_Planner.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Merge_Packages.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Min_Diff_Half.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Min_Sub_String.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Number_Of_Paths.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Pairs_With_Difference.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Quad_Combination.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Sentence_Reverse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Shifted_Array_Search.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Smallest_Substring.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Sudoku_Solver.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Word_Count_Engine$Data.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Word_Count_Engine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/Pramp.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Arr_IndexAndElement_Equal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Array_of_Array_Products.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/BST_Successor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/BasicRegexParser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Budget_Cuts.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Busiest_Time.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Deletion_Distance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Drone_Flight_Planner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Flatten_Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Getting_Diff_Number.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/H_Tree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Island_Count.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Isomorphic_Evaluator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/K_Messed_Array_Sort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Matrix_Spiral_Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Meeting_Planner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Merge_Packages.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Min_Diff_Half.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Min_Sub_String.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Number_Of_Paths.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Pairs_With_Difference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Quad_Combination.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Sentence_Reverse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Shifted_Array_Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Smallest_Substring.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Sudoku_Solver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Word_Count_Engine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/out/production/src/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/out/production/src/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/out/production/src/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Pramp/src/out/production/src/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../hightail.config" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,19 +298,18 @@
       <file leaf-file-name="Main.java" pinned="true" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-              <folding />
-            </state>
+            <state relative-caret-position="-775" />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CF955B_Not_simply_beatiful_strings.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF955B_Not_simply_beatiful_strings.java">
+      <file leaf-file-name="CF959C_Mahmoud_and_Ehab_and_the_wrong_algorithm.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF959C_Mahmoud_and_Ehab_and_the_wrong_algorithm.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -73,9 +345,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF334A_CandyBags.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF144A_ArrivalOfTheGeneral.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF898C_PhoneNumbers.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF104A_Blackjack.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF200B_Drinks.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF92A_Chips.java" />
@@ -122,16 +391,17 @@
         <option value="$PROJECT_DIR$/src/algorithms/java/CF948A_Protect_Sheep.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF948B_Primal_Sport.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF955A_Feed_the_Cat.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF955B_Not_simply_beatiful_strings.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF959_Mahmoud_and_Ehab.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF959A_Mahmoud_and_Ehab.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF959B_Mahmoud_and_Ehab_and_the_message.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="900" />
-    <option name="y" value="350" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="3200" />
+    <option name="height" value="1800" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -153,44 +423,44 @@
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="untitled" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="SearchEverywhereHistoryKey" value="CF166E_Tetrahedron_alt3&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/CodeForces/src/algorithms/java/CF166E_Tetrahedron_alt3.java" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="SearchEverywhereHistoryKey" value="CF166E_Tetrahedron_alt3&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/CodeForces/src/algorithms/java/CF166E_Tetrahedron_alt3.java" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -214,73 +484,45 @@
   </component>
   <component name="RunManager" selected="Application.Main (1)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="Main" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="algorithms-java" />
-      <envs />
+      <module name="CodeForces" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" value="algorithms.Main" />
-      <option name="VM_PARAMETERS" value="" />
-      <option name="PROGRAM_PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="algorithms.Main" />
       <module name="algorithms-java" />
-      <envs />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <option name="MAIN_CLASS_NAME" />
+      <module name="untitled" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="untitled" />
-      <envs />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
-      <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+    <list>
+      <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.Main" />
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,47 +534,48 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1875" sideWeight="0.4975186" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299401" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32816377" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32940447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.38383234" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="2144" y="1159" width="1053" height="640" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18765904" sideWeight="0.5024814" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32873806" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32940447" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32911393" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3299401" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32816377" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32940447" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975186" visible="true" weight="0.1875" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32814023" />
+      <window_info id="Learn" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" x="1005" y="526" width="842" height="533" id="Debug" order="3" type="FLOATING" weight="0.38383234" />
+      <window_info id="Favorites" order="3" sideWeight="0.5024814" side_tool="true" weight="0.18765904" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950708" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.184375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3997299" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184375" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32950708" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.3997299" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Messages" order="7" />
+      <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -407,9 +650,8 @@
           <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="92" />
+      <option name="time" value="105" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
@@ -441,53 +683,38 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF899C_DividingTheNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF898C_PhoneNumbers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="45" column="9" lean-forward="false" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/hr/implementation/OrganizingContainersOfBalls.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF334A_CandyBags.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3318">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF144A_ArrivalOfTheGeneral.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="869">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF104A_Blackjack.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF92A_Chips.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="632">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF200B_Drinks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-158">
-          <caret line="11" column="36" lean-forward="false" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -506,11 +733,7 @@
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/HR_Impl_BonAppetit.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/HR_Impl_HappyLadybugs.java" />
     <entry file="file://$PROJECT_DIR$/../HackerRank/src/algorithms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt2.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -522,7 +745,7 @@
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="455">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -536,7 +759,7 @@
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF336A_VasilyTheBearAndTriangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="711">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="92" selection-end-column="1" />
+          <caret line="28" column="26" lean-forward="true" selection-end-line="92" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -544,21 +767,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="869">
           <caret line="15" column="25" lean-forward="true" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF279B_Books_alt1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="869">
-          <caret line="21" column="50" lean-forward="false" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
+          <caret line="21" column="50" selection-start-line="21" selection-start-column="50" selection-end-line="21" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF276A_LunchRush.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
-          <caret line="3" column="29" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="1" />
+          <caret line="3" column="29" selection-end-line="74" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -569,9 +791,9 @@
           <folding>
             <element signature="e#1020#1021#0" expanded="true" />
             <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="method#run#0;class#CF330A_Cakeminator#0" expanded="false" />
-            <element signature="method#init#0;class#CF330A_Cakeminator#0" expanded="false" />
-            <element signature="method#readString#0;class#CF330A_Cakeminator#0" expanded="false" />
+            <element signature="method#run#0;class#CF330A_Cakeminator#0" />
+            <element signature="method#init#0;class#CF330A_Cakeminator#0" />
+            <element signature="method#readString#0;class#CF330A_Cakeminator#0" />
             <element signature="e#2087#2088#0" expanded="true" />
             <element signature="e#2140#2141#0" expanded="true" />
             <element signature="e#2171#2172#0" expanded="true" />
@@ -579,20 +801,6 @@
             <element signature="e#2257#2258#0" expanded="true" />
             <element signature="e#2312#2313#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF907B_TicTacToe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1738">
-          <caret line="23" column="3" lean-forward="false" selection-start-line="23" selection-start-column="3" selection-end-line="23" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF907A_MashaAndBears.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="928">
-          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -613,31 +821,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF268A_Games.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="20" column="30" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF361A_LevkoAndTable.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="948">
-          <caret line="13" column="36" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="1" />
+          <caret line="13" column="36" selection-end-line="72" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF69A_YoungPhysicist.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-395">
-          <caret line="9" column="26" lean-forward="false" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
+          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF266B_QueueAtTheSchool.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="553">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
@@ -651,15 +852,14 @@
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF352A_JeffAndDigits.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
-          <caret line="6" column="66" lean-forward="false" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+          <caret line="6" column="66" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF285A_SlightlyDecreasingPermutations.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="948">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
@@ -678,21 +878,14 @@
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF270A_FancyFence.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="237">
-          <caret line="10" column="22" lean-forward="false" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF230A_Dragons.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="73">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF124A_Number_Of_Positions.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-219">
-          <caret line="10" column="5" lean-forward="false" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <caret line="31" column="6" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -700,37 +893,21 @@
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF168A_Wizards_And_Demonstration.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="584">
-          <caret line="9" column="9" lean-forward="false" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
-          <folding />
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF339_Xenia_And_Ringroad.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1022">
-          <caret line="9" column="12" lean-forward="false" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3504">
-          <caret line="51" column="15" lean-forward="false" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF948A_Protect_Sheep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF948B_Primal_Sport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="9" column="19" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+          <caret line="51" column="15" selection-start-line="51" selection-start-column="15" selection-end-line="51" selection-end-column="15" />
         </state>
       </provider>
     </entry>
@@ -752,28 +929,89 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="26" column="11" lean-forward="false" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/TEST.java" />
     <entry file="file://$PROJECT_DIR$/../LeetCode/src/algorithms/java/_12_Integer_to_Roman.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF955B_Not_simply_beatiful_strings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="25" column="2" lean-forward="false" selection-start-line="25" selection-start-column="2" selection-end-line="25" selection-end-column="2" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="32" selection-start-line="32" selection-end-line="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF907A_MashaAndBears.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF948B_Primal_Sport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="9" column="19" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF948A_Protect_Sheep.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF124A_Number_Of_Positions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF907B_TicTacToe.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="50" column="13" selection-start-line="50" selection-start-column="13" selection-end-line="50" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF268A_Games.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="17" column="19" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF959A_Mahmoud_and_Ehab.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF959B_Mahmoud_and_Ehab_and_the_message.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="33" lean-forward="true" selection-start-line="13" selection-start-column="33" selection-end-line="13" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#187#204#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF959C_Mahmoud_and_Ehab_and_the_wrong_algorithm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -829,7 +1067,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>untitled</last-edited>
+          <last-edited>CodeForces</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

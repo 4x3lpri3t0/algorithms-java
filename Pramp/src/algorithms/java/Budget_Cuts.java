@@ -19,35 +19,50 @@ Assume that each grant is unique.
 import java.util.Arrays;
 
 public class Budget_Cuts {
-//    private int getOptimalCap(int[] grants, int newBudget) {
-//        // Sort
-//        Arrays.sort(grants);
-//
-//        int c = 0;
-//
-//        // Start from smallest
-//        for (int i = 0; i < grants.length; i++) {
-//            int current
-//        }
-//
-//        // neededBudget = smallest * length
-//        //
-//    }
-}
+    private static int getOptimalCap(int[] grants, int b) {
+        // Sort ascending
+        Arrays.sort(grants);
 
-/*
-def award_budget(p_budget, b):
-    p_budget.sort()
-    current_budget = sum(p_budget)
-    min_change = 0
-    max_cap = 0
-    for i in range(len(p_budget) - 1, -1, -1):
-        if current_budget > b:
-            leftover = b - current_budget
-            leftover /= min_change
-            if leftover > p_budget[i]:
-                return leftover
-        current_budget -= p_budget[i]
-        min_change += 1
-    return max_cap
-*/
+        int curB = 0;
+        int prevCap = b < grants[0] ? b : grants[0];
+        int accum = 0;
+
+        // Start from smallest
+        for (int i = 0; i < grants.length; i++) {
+            int curG = grants[i];
+
+            // Apply current grant amount to the biggest ones
+            int biggerGrants = grants.length - i;
+            curB = accum + curG * biggerGrants;
+
+            if (curB > b)
+                return prevCap;
+
+            // Distribute leftover among bigger grants
+            int leftover = b - curB;
+            // Substract 1 to not include current one
+            prevCap = curG + (leftover / (biggerGrants - 1));
+            accum += curG;
+        }
+
+        return prevCap;
+    }
+
+    public static void main() {
+        int[] grants = {1, 2, 3};
+        int b = 5; // 2?
+        System.out.println(getOptimalCap(grants, b));
+
+        grants = new int[]{1, 10};
+        b = 4; // 3?
+        System.out.println(getOptimalCap(grants, b));
+
+        grants = new int[]{10};
+        b = 9; // 9?
+        System.out.println(getOptimalCap(grants, b));
+
+        grants = new int[]{10, 11, 12};
+        b = 32; // 11?
+        System.out.println(getOptimalCap(grants, b));
+    }
+}

@@ -47,6 +47,7 @@ public class Main {
 //        CF955B_Not_simply_beatiful_strings.main(args);
 //        CF957A_Tritonic_Iridescence.main(args);
 //        CF957B_Mystical_Mosaic.main(args); // TODO: Review (I didn't even understand the problem statement)... See other solutions?
-
+//        CF959A_Mahmoud_and_Ehab.main(args);
+        CF959B_Mahmoud_and_Ehab_and_the_message.main(args);
     }
 }

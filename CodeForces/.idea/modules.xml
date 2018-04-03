@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/src/CodeForces.iml" filepath="$PROJECT_DIR$/src/CodeForces.iml" />
       <module fileurl="file://$PROJECT_DIR$/algorithms-java.iml" filepath="$PROJECT_DIR$/algorithms-java.iml" />
       <module fileurl="file://$PROJECT_DIR$/src/src.iml" filepath="$PROJECT_DIR$/src/src.iml" />
     </modules>
