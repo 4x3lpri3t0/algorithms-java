@@ -1,6 +1,5 @@
-
 /*
-#Number of Paths
+# Number of Paths
 
 You’re testing a new driverless car that is located at the Southwest (bottom-left)
 corner of an n×n grid.

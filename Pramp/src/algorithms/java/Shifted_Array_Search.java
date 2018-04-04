@@ -1,5 +1,5 @@
 /*
-#Shifted Array Search
+# Shifted Array Search
 
 Find a given number num in a sorted array arr:
 

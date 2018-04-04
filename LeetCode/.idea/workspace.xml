@@ -5,284 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/.idea/codealike.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/.idea/dictionaries/priet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/codealike.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/CodeForces.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF104A_Blackjack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF118B_PresentFromLena.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF124A_Number_Of_Positions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF129A_Cookies.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF144A_ArrivalOfTheGeneral.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF155A_I_love_username.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF158B_Taxi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF160_Twins.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF166E_Tetrahedron_alt1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF166E_Tetrahedron_alt2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF166E_Tetrahedron_alt3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF166E_Tetrahedron_alt4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF168A_Wizards_And_Demonstration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF200B_Drinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF230A_Dragons.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF266B_QueueAtTheSchool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF268A_Games.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF270A_FancyFence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF276A_LunchRush.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF279B_Books_alt1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF279B_Books_alt2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF282C_XORandOR.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF285A_SlightlyDecreasingPermutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF330A_Cakeminator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF334A_CandyBags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF336A_VasilyTheBearAndTriangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF339_Xenia_And_Ringroad.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF34B_Sale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF352A_JeffAndDigits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF361A_LevkoAndTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF61A_UltraFastMathematician.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF69A_YoungPhysicist.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF898A_Rounding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF898B_ProperNutrition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF898C_PhoneNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF899A_SplittingInTeams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF899B_MonthsAndYears.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF899C_DividingTheNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF907A_MashaAndBears.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF907B_TicTacToe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF92A_Chips.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF948A_Protect_Sheep.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF948B_Primal_Sport.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF955A_Feed_the_Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF955B_Not_simply_beatiful_strings.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF957A_Tritonic_Iridescence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF957B_Mystical_Mosaic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CodeForces/src/algorithms/java/CF959_Mahmoud_and_Ehab.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/codealike.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/description.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/dictionaries/priet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/project-template.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/codealike.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Arrays_DS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Dynamic_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Left_Rotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/Sparse_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/data_structures/_01_arrays/TwoD_Array_DS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_AppleAndOrange.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_BonAppetit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_FlatlandSpaceStations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_GradingStudents.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_HappyLadybugs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_Kangaroo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../HackerRank/src/algorithms/java/impl/Impl_ModifiedKaprekarNumbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/dictionaries/priet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_01_stock_price.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_02_product_of_other_numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_03_highest_product_of_3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_04_merging_ranges.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_05_Making_Change.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_06_Rectangular_Love.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_07_Temperature_Tracker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_08_Balanced_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_09_BST_Checker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_10_Second_Largest_Item_in_BST.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_11_Compress_URL_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_12_Find_in_Ordered_Set.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_13_Find_Rotation_Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_14_Inflight_Entertainment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_15_Nth_Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_16_Cake_Thief.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_19_Queue_Two_Stacks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_20_Largest_Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_21_Find_Unique_Int_Among_Duplicates.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_22_Delete_Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_23_Linked_List_Cycles.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_24_Reverse_Linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_25_Kth_to_Last_Node.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_26_Reverse_String_in_Place.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_27_Reverse_Words.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_28_Matching_Parens.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_29_Bracket_Validator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_30_Permutation_Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_31_Recursive_String_Permutations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_32_Top_Scores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_34_Word_Cloud.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_36_Single_Riffle_Check.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_38_Simulate_Seven_Sided_Die.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_40_Find_Duplicate_Optimize_for_Space.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_45_Graph_Coloring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/algorithms/java/_46_Mesh_Message.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/out/production/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/out/production/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/out/production/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../InterviewCake/src/out/production/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/codealike.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/LRUCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_104_Maximum_Depth_of_Binary_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_11_Container_With_Most_Water.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_121_Best_Time_to_Buy_and_Sell_Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_122_Best_Time_to_Buy_and_Sell_Stock_II.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_12_Integer_to_Roman.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_136_Single_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_13_Roman_to_Integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_141_Linked_List_Cycle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_148_Sort_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_14_Longest_Common_Prefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_155_Min_Stack.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_169_Majority_Element.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_191_Number_of_1_Bits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_1_Two_Sum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_206_Reverse_Linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_20_Valid_Parentheses.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_23_Merge_k_Sorted_Lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_23_Merge_k_Sorted_Lists_Recur.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_280_Wiggle_Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_283_Move_Zeroes.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_292_Nim_Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_2_Add_Two_Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_370_Range_Addition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_371_Sum_of_Two_Integers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_38_Count_and_Say.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_3_Longest_Substring_Without_Repeating_Characters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_461_Hamming_Distance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_476_Number_Complement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_4_Median_of_Two_Sorted_Arrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_535_Encode_and_Decode_TinyURL.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_53_Maximum_Subarray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_557_Reverse_Words_in_a_String_III.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_561_Array_Partition_I.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_566_Reshape_the_Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_5_Longest_Palindromic_Substring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_617_Merge_Two_Binary_Trees.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_657_Judge_Route_Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_66_Plus_One.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_6_ZigZag_Conversion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_70_Climbing_Stairs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_728_Self_Dividing_Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_763_Partition_Labels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_766_Toeplitz_Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_771_Jewels_and_Stones.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_796_Rotate_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_7_Reverse_Integer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/_9_Palindrome_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/out/production/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/out/production/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/out/production/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/out/production/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/dictionaries/priet.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Arr_IndexAndElement_Equal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Array_of_Array_Products.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/BST_Successor.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/BasicRegexParser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Budget_Cuts.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Busiest_Time$Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Busiest_Time.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Deletion_Distance.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Drone_Flight_Planner$Point.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Drone_Flight_Planner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Flatten_Dictionary.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Getting_Diff_Number.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/H_Tree.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Island_Count.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Isomorphic_Evaluator.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/K_Messed_Array_Sort.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Main.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Matrix_Spiral_Print.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Meeting_Planner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Merge_Packages.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Min_Diff_Half.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Min_Sub_String.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Number_Of_Paths.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Pairs_With_Difference.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Quad_Combination.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Sentence_Reverse.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Shifted_Array_Search.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Smallest_Substring.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Sudoku_Solver.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Word_Count_Engine$Data.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/out/production/Pramp/Word_Count_Engine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/Pramp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Arr_IndexAndElement_Equal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Array_of_Array_Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/BST_Successor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/BasicRegexParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Budget_Cuts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Busiest_Time.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Deletion_Distance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Drone_Flight_Planner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Flatten_Dictionary.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Getting_Diff_Number.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/H_Tree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Island_Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Isomorphic_Evaluator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/K_Messed_Array_Sort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Matrix_Spiral_Print.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Meeting_Planner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Merge_Packages.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Min_Diff_Half.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Min_Sub_String.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Number_Of_Paths.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Pairs_With_Difference.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Quad_Combination.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Sentence_Reverse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Shifted_Array_Search.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Smallest_Substring.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Sudoku_Solver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/algorithms/java/Word_Count_Engine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/out/production/src/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/out/production/src/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/out/production/src/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Pramp/src/out/production/src/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../hightail.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Pramp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Pramp/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -300,8 +24,8 @@
       <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="789">
-              <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+            <state relative-caret-position="1650">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -400,8 +124,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="3200" />
-    <option name="height" value="1800" />
+    <option name="x" value="900" />
+    <option name="y" value="350" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -428,6 +154,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -450,7 +177,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -918,8 +644,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="789">
-          <caret line="75" column="5" lean-forward="true" selection-start-line="75" selection-start-column="5" selection-end-line="75" selection-end-column="5" />
+        <state relative-caret-position="1650">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>

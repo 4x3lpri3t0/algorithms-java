@@ -1,11 +1,12 @@
 /*
-#Sentence Reverse
+# Sentence Reverse
 
-You are given an array of characters arr, which consists of sequences of characters separated by space characters.
+You are given an array of characters arr, which consists of sequences of characters
+separated by space characters.
+
 Each space-delimited sequence of characters defines a word.
 
 How can you most efficiently reverse the order of the words in the array?
-Implement. Analyze its time and space complexities.
 
 For example:
 

@@ -27,14 +27,27 @@ public class Main {
 
         // Reviewed:
 
-        // BST_Successor
+        // BST_Successor // TODO: Review
         // Budget_Cuts.main();
         // Busiest_Time bt = new Busiest_Time();
         // bt.main();
         // Deletion_Distance.main(); // TODO: Review! Cool solution / Review Optimized
+        // Drone_Flight_Planner planner = new Drone_Flight_Planner();
+        // planner.main();
+        // H_Tree
+        // Island_Count.main();
+        // Isomorphic_Evaluator.main();
 
+        // To review:
+        // Sentence_Reverse
+        // Meeting_Planner
+        // Number_Of_Paths
+        // Pairs_With_Difference
+        // Shifted_Array_Search
+        // Word_Count_Engine
 
-        // To review further:
+        // Min_Sub_String // Smallest_Substring
         // BasicRegexParser.main(args);
+        // Sudoku_Solver
     }
 }

@@ -32,6 +32,7 @@ public class Isomorphic_Evaluator {
                 if (c2 != value)
                     return false;
             } else {
+                // "abb", "fff" case
                 if (map.containsValue(c2))
                     return false;
 
@@ -42,9 +43,12 @@ public class Isomorphic_Evaluator {
         return true;
     }
 
-    public static void main(String[] args) {
-        System.out.println(isIsomorphic("egg", "add"));
-        System.out.println(isIsomorphic("foo", "bar"));
-        System.out.println(isIsomorphic("paper", "title"));
+    public static void main() {
+        System.out.println(isIsomorphic("abb", "fff")); // true
+        System.out.println(isIsomorphic("egg", "add")); // true
+        System.out.println(isIsomorphic("foo", "bar")); // false
+        System.out.println(isIsomorphic("paper", "title")); // true
+        System.out.println(isIsomorphic("abca", "zbxz")); // true
+        System.out.println(isIsomorphic("abab", "baba")); // true
     }
 }

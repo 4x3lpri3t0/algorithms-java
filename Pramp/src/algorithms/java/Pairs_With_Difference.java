@@ -1,5 +1,5 @@
 /*
-#Pairs with Specific Difference
+# Pairs with Specific Difference
 
 Given an array arr of distinct integers and a nonnegative integer k,
 write a function findPairsWithGivenDifference that returns an array of all pairs [x,y] in arr,
@@ -25,10 +25,12 @@ public class Pairs_With_Difference {
         ArrayList<Integer> res = new ArrayList<Integer>();
         int[][] resArr;
 
-        // Sort the array and use 2-pointers
+        // Sort the array
         Arrays.sort(arr);
 
-        int start = 0, end = 1;
+        // Use 2-pointers
+        int start = 0;
+        int end = 1;
         while (start < arr.length && end < arr.length) {
             if ((arr[end] - arr[start]) == k) {
                 res.add(arr[end]);
