@@ -18,8 +18,17 @@
       <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="833">
-              <caret line="148" column="5" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+            <state relative-caret-position="304">
+              <caret line="147" column="14" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_34_Word_Cloud.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/java/_34_Word_Cloud.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2880">
+              <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -118,8 +127,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="width" value="3200" />
-    <option name="height" value="1800" />
+    <option name="x" value="900" />
+    <option name="y" value="350" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -131,37 +142,12 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="InterviewCake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="InterviewCake" type="b2602c69:ProjectViewProjectNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/InterviewCake/src/algorithms/java/_28_Matching_Parens.java&#10;climbStairs&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_70_Climbing_Stairs.java&#10;maxProfit&#9;PSI&#9;JAVA://_122_Best_Time_to_Buy_and_Sell_Stock_II#maxProfit&#10;mergeTwoLists&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_21_Merge_Two_Sorted_Lists.java&#10;deleteNode&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_237_Delete_Node_in_a_Linked_List.java&#10;getSum&#9;PSI&#9;JAVA://_371_Sum_of_Two_Integers#getSum&#10;isValid&#9;PSI&#9;JAVA://_20_Valid_Parentheses#isValid&#10;intToRoman&#9;PSI&#9;JAVA://_12_Integer_to_Roman#intToRoman&#10;lengthOfLongestSubstring&#9;PSI&#9;JAVA://_3_Longest_Substring_Without_Repeating_Characters#lengthOfLongestSubstring&#10;maxArea&#9;PSI&#9;JAVA://_11_Container_With_Most_Water#maxArea&#10;isPalindrome&#9;PSI&#9;JAVA://_9_Palindrome_Number#isPalindrome&#10;convert&#9;PSI&#9;JAVA://_6_ZigZag_Conversion#convert&#10;longestCommonPrefix&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_14_Longest_Common_Prefix.java&#10;findMedianSortedArrays&#9;PSI&#9;JAVA://_4_Median_of_Two_Sorted_Arrays#findMedianSortedArrays&#10;singleNumber&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_136_Single_Number.java&#10;canWinNim&#9;PSI&#9;JAVA://_292_Nim_Game#canWinNim&#10;romanToInt&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_13_Roman_to_Integer.java&#10;addTwoNumbers&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_2_Add_Two_Numbers.java&#10;twoSum&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_1_Two_Sum.java&#10;reverseWords&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_557_Reverse_Words_in_a_String_III.java&#10;partitionLabels&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_763_Partition_Labels.java&#10;findComplement&#9;PSI&#9;JAVA://_476_Number_Complement#findComplement&#10;judgeCircle&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_657_Judge_Route_Circle.java&#10;rotateString&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_796_Rotate_String.java&#10;hammingWeight&#9;PSI&#9;JAVA://_191_Number_of_1_Bits#hammingWeight&#10;_155_Min_Stack&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_155_Min_Stack.java&#10;LRUCache&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/LRUCache.java&#10;single&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/LeetCode/src/algorithms/java/_136_Single_Number.java" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pramp" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -227,27 +213,38 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-6" y="-6" width="1293" height="693" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975186" visible="true" weight="0.165625" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4975186" weight="0.1875" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32940447" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329904" />
-      <window_info id="Learn" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3275553" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.32940447" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" x="539" y="253" width="842" height="533" id="Debug" order="3" type="FLOATING" weight="0.3048416" />
       <window_info id="Favorites" order="3" sideWeight="0.5024814" side_tool="true" weight="0.18765904" />
+      <window_info anchor="bottom" x="1703" y="1160" width="1426" height="510" id="Debug" order="3" type="FLOATING" weight="0.3048416" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975186" visible="true" weight="0.165625" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32940447" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.32940447" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275553" />
+      <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32875076" />
+      <window_info id="Learn" order="3" />
+      <window_info anchor="bottom" x="539" y="253" width="842" height="533" id="Debug" order="3" type="FLOATING" weight="0.3048416" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.329904" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.328153" />
+      <window_info id="Favorites" order="3" sideWeight="0.5024814" side_tool="true" weight="0.18765904" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -508,17 +505,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Map.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="271" column="6" selection-start-line="271" selection-start-column="6" selection-end-line="271" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Map.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/_34_Word_Cloud.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-270">
-          <caret line="27" column="34" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+        <state relative-caret-position="2880">
+          <caret line="96" column="1" selection-start-line="96" selection-start-column="1" selection-end-line="96" selection-end-column="1" />
         </state>
       </provider>
     </entry>
@@ -562,8 +553,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="833">
-          <caret line="148" column="5" selection-start-line="148" selection-start-column="5" selection-end-line="148" selection-end-column="5" />
+        <state relative-caret-position="304">
+          <caret line="147" column="14" selection-start-line="147" selection-start-column="14" selection-end-line="147" selection-end-column="14" />
         </state>
       </provider>
     </entry>

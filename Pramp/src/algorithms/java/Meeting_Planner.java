@@ -1,55 +1,67 @@
 import java.util.Arrays;
 
 /*
- Implement a function meetingPlanner that given the availability, slotsA and slotsB,
- of two people and a meeting duration dur, returns the earliest time slot that works
- for both of them and is of duration dur.
+Implement a function meetingPlanner that given the availability, slotsA and
+slotsB, of two people and a meeting duration dur, returns the earliest time
+slot that works for both of them and is of duration dur.
 
- If there is no common time slot that satisfies the duration requirement, return null.
+If there is no common time slot that satisfies the duration requirement,
+return null.
 
- Time is given in a Unix format called Epoch, which is a nonnegative integer holding
- the number of seconds that have elapsed since 00:00:00 UTC, Thursday, 1 January 1970.
+Time is given in a Unix format called Epoch, which is a nonnegative integer
+holding the number of seconds that have elapsed since 00:00:00 UTC,
+Thursday, 1 January 1970.
 
- Each person’s availability is represented by an array of pairs.
- Each pair is an epoch array of size two.
- The first epoch in a pair represents the start time of a slot.
- The second epoch is the end time of that slot.
- The input variable dur is a positive integer that represents the duration of a meeting in seconds.
- The output is also a pair represented by an epoch array of size two.
+Each person’s availability is represented by an array of pairs.
+Each pair is an epoch array of size two.
+The first epoch in a pair represents the start time of a slot.
+The second epoch is the end time of that slot.
+The input variable dur is a positive integer that represents the duration
+of a meeting in seconds.
+The output is also a pair represented by an epoch array of size two.
 
- In your implementation assume that the time slots in a person’s availability are disjointed, i.e,
- time slots in a person’s availability don’t overlap.
+In your implementation assume that the time slots in a person’s availability
+are disjointed, i.e, time slots in a person’s availability don’t overlap.
 
- Further assume that the slots are sorted by slots’ start time.
- Implement an efficient solution and analyze its time and space complexities.
+Further assume that the slots are sorted by slots’ start time.
+Implement an efficient solution and analyze its time and space complexities.
 
- Examples:
+Examples:
 
- input:  slotsA = [[10, 50], [60, 120], [140, 210]]
- slotsB = [[0, 15], [60, 70]]
- dur = 8
- output: [60, 68]
+input:  slotsA = [[10, 50], [60, 120], [140, 210]]
+slotsB = [[0, 15], [60, 70]]
+dur = 8
+output: [60, 68]
 
- input:  slotsA = [[10, 50], [60, 120], [140, 210]]
- slotsB = [[0, 15], [60, 70]]
- dur = 12
- output: null // since there is no common slot whose duration is 12
- */
+input:  slotsA = [[10, 50], [60, 120], [140, 210]]
+slotsB = [[0, 15], [60, 70]]
+dur = 12
+output: null // since there is no common slot whose duration is 12
+*/
 
 public class Meeting_Planner {
-    public static int[] meetingPlanner(int[][] slotsA, int[][] slotsB, int duration) {
-        if (slotsA == null || slotsB == null || slotsA.length == 0 || slotsB.length == 0)
+    public static int[] meetingPlanner(
+            int[][] slotsA, int[][] slotsB, int duration) {
+        if (slotsA == null
+                || slotsB == null
+                || slotsA.length == 0
+                || slotsB.length == 0)
             return null;
 
         int pointerA = 0, pointerB = 0;
         while (pointerA < slotsA.length && pointerB < slotsB.length) {
-            int start = Math.max(slotsA[pointerA][0], slotsB[pointerB][0]);
-            int end = Math.min(slotsA[pointerA][1], slotsB[pointerB][1]);
+            int aStart = slotsA[pointerA][0];
+            int bStart = slotsB[pointerB][0];
+            int aEnd = slotsA[pointerA][1];
+            int bEnd = slotsB[pointerB][1];
+
+            int start = Math.max(aStart, bStart);
+            int end = Math.min(aEnd, bEnd);
 
             if (start + duration <= end)
                 return new int[]{start, start + duration};
 
-            if (slotsA[pointerA][1] < slotsB[pointerB][1])
+            if (aEnd < bEnd)
                 pointerA++;
             else
                 pointerB++;

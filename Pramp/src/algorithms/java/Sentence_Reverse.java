@@ -1,8 +1,8 @@
 /*
 # Sentence Reverse
 
-You are given an array of characters arr, which consists of sequences of characters
-separated by space characters.
+You are given an array of characters arr, which consists of sequences
+of characters separated by space characters.
 
 Each space-delimited sequence of characters defines a word.
 
@@ -34,7 +34,7 @@ public class Sentence_Reverse {
     }
 
     private void reverse(StringBuilder string, int from, int to) {
-        for (int i = 0; i < (to - from) / 2; ++i) {
+        for (int i = 0; i < (to - from) / 2; i++) {
             swapCharacters(string, from + i, to - 1 - i);
         }
     }
