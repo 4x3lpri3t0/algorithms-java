@@ -9,32 +9,37 @@ your function would return: [84, 24, 56, 42]
     (by calculating: [7*3*4, 2*3*4, 2*7*4, 2*7*3])
  */
 
+import java.util.Arrays;
+
 public class Array_of_Array_Products {
-    private static int[] getAoAP(int[] arr) {
-        if (arr == null || arr.length == 0) {
-            return null;
+    static int[] arrayOfArrayProducts(int[] arr) {
+        int n = arr.length;
+        if (n == 0 || n == 1) {
+            return new int[0];
         }
 
-        int n = arr.length;
         int[] result = new int[n];
-        result[0] = 1;
-        for (int i = 1; i < n; i++) {
-            result[i] = arr[i - 1] * result[i - 1];
+
+        // Iterate from left to right
+        int accum = 1;
+        for (int i = 0; i < arr.length; i++) {
+            result[i] = accum;
+            accum *= arr[i];
         }
-        int product = 1;
-        for (int i = n - 2; i >= 0; i--) {
-            product *= arr[i + 1];
-            result[i] *= product;
+
+        // Iterate from right to left
+        accum = 1;
+        for (int i = arr.length - 1; i >= 0; i--) {
+            result[i] *= accum;
+            accum *= arr[i];
         }
 
         return result;
     }
 
     public static void main(String[] args) {
-        int[] arr = {1, 2, 3, 4, 5};
-        arr = getAoAP(arr);
-        for (int i : arr) {
-            System.out.println(i);
-        }
+        int[] arr = new int[] {2, 3, 4, 5};
+        System.out.println(Arrays.toString(arrayOfArrayProducts(arr)));
+        // [60, 40, 30, 24]
     }
 }

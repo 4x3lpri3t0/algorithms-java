@@ -43,7 +43,6 @@ public class Sudoku_Solver {
         }
 
         Set<Integer> tempSet;
-
         for (int i = 0; i < 9; i++) {
             for (int j = 0; j < 9; j++) {
                 value = board[i][j];
@@ -65,7 +64,7 @@ public class Sudoku_Solver {
         return true;
     }
 
-    public static int get3x3Grid(int i, int j) {
+    private static int get3x3Grid(int i, int j) {
         int row = i / 3;
         int col = j / 3;
         return 3 * row + col;

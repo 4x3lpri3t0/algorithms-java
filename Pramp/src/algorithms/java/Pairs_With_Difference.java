@@ -1,15 +1,14 @@
 /*
 # Pairs with Specific Difference
 
-Given an array arr of distinct integers and a nonnegative integer k,
-write a function findPairsWithGivenDifference that returns an array of all pairs [x,y] in arr,
-such that x - y = k.
+Given an array arr of distinct integers and a nonnegative integer
+k, write a function that returns an array of all pairs [x,y]
+in arr, such that x - y = k.
 
 If no such pairs exist, return an empty array.
 
-In your solution, try to reduce the memory usage while maintaining time efficiency.
-
-Prove the correctness of your solution and analyze its time and space complexities.
+In your solution, try to reduce the memory usage while maintaining
+time efficiency.
 */
 
 import java.util.ArrayList;
@@ -54,7 +53,7 @@ public class Pairs_With_Difference {
 
         // Print pairs
         for (int i = 0; i < resArr.length; i++) {
-            System.out.println("pair : " + resArr[i][0] + resArr[i][1]);
+            System.out.println("pair: " + resArr[i][0] + resArr[i][1]);
         }
 
         return resArr;

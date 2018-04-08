@@ -11,6 +11,8 @@ Given n, the size of the grid’s axes, write a function numOfPathsToDest
 that returns the number of the possible paths the driverless car can take.
 */
 
+// https://medium.com/@vickdayaram/find-the-number-of-paths-d7d9cfccba08
+
 public class Number_Of_Paths {
     static int numOfPathsToDest(int n) {
         int[][] memo = new int[n][n];
@@ -24,17 +26,19 @@ public class Number_Of_Paths {
         // i = row, j = col
         for (int i = 1; i < n; i++) {
             for (int j = i; j < n; j++) {
-                if (i == j)
-                    memo[i][j] = memo[i - 1][j];
-                else
-                    memo[i][j] = memo[i][j - 1] + memo[i - 1][j];
+                int left = memo[i][j - 1];
+                int top = memo[i - 1][j];
+                memo[i][j] = left + top;
             }
         }
 
+        // Take the last one
         return memo[n - 1][n - 1];
     }
 
-    public static void main(String[] args) {
-        System.out.println(numOfPathsToDest(4));
+    public static void main() {
+//        System.out.println(numOfPathsToDest(3));
+//        System.out.println(numOfPathsToDest(4));
+        System.out.println(numOfPathsToDest(5));
     }
 }

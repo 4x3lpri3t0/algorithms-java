@@ -25,6 +25,7 @@ public class Main {
         // Merge_Packages
         // K_Messed_Array_Sort
         // Largest_Smaller_BST_Key
+        // Sudoku_Solver // TODO: Review
 
         // Reviewed:
 
@@ -40,16 +41,14 @@ public class Main {
         // Isomorphic_Evaluator.main();
         // Sentence_Reverse
         // Meeting_Planner // TODO: Review again
+        // Number_Of_Paths.main();
 
         // To review:
 
-        // Number_Of_Paths // TODO: Draw each step from 1 (1x1)
         // Pairs_With_Difference
         // Shifted_Array_Search
         // Word_Count_Engine
-
         // Min_Sub_String // Smallest_Substring
         // BasicRegexParser.main(args);
-        // Sudoku_Solver
     }
 }
