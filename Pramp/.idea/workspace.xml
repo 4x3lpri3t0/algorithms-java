@@ -3,15 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/../InterviewCake/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../InterviewCake/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pramp/Array_of_Array_Products.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pramp/Array_of_Array_Products.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pramp/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pramp/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Pramp/Number_Of_Paths.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Pramp/Number_Of_Paths.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/java/Array_of_Array_Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/java/Array_of_Array_Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/java/Number_Of_Paths.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/java/Number_Of_Paths.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/java/Pairs_With_Difference.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/java/Pairs_With_Difference.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/algorithms/java/Sudoku_Solver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/java/Sudoku_Solver.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,20 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Main.java" pinned="true" current-in-tab="false">
+      <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="35">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Sudoku_Solver.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/java/Sudoku_Solver.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-870">
-              <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+            <state relative-caret-position="30">
+              <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -154,6 +136,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,8 +160,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -258,11 +240,11 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32940447" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.3298351" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3275553" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32940447" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3275553" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" x="898" y="332" width="378" height="372" id="Debug" order="3" type="FLOATING" weight="0.3048416" />
       <window_info id="Favorites" order="3" sideWeight="0.5024814" side_tool="true" weight="0.18765904" />
+      <window_info anchor="bottom" x="898" y="332" width="378" height="372" id="Debug" order="3" type="FLOATING" weight="0.3048416" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -498,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1740">
           <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#1695#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -570,17 +549,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Sudoku_Solver.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="35">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="-270">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Sudoku_Solver.java">
+    <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-870">
-          <caret line="14" column="14" lean-forward="true" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="14" />
+        <state relative-caret-position="30">
+          <caret line="27" column="19" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
         </state>
       </provider>
     </entry>
