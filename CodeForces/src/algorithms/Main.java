@@ -55,6 +55,7 @@ public class Main {
 //        CF43A_Football.main();
 //        CF320A_Magic_Numbers.main();
 
-
+//        CF300A_Array.main(args);
+//        CF102B_Sum_of_Digits.main(args);
     }
 }
