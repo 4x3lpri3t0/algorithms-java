@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF102B_Sum_of_Digits.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF300A_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF219A_k_String.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/CF102B_Sum_of_Digits.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms-java/CF102B_Sum_of_Digits.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/algorithms-java/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/algorithms-java/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/algorithms/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/algorithms/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,8 +24,8 @@
       <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="739">
-              <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+            <state relative-caret-position="1530">
+              <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -52,6 +51,7 @@
       <find>OrganizingContainersOfBalls</find>
       <find>fil</find>
       <find>args</find>
+      <find>out</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -63,8 +63,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/java/Kangaroo.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_Kangaroo.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/ModifiedKaprekarNumbers.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_ModifiedKaprekarNumbers.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/HR_Impl_BonAppetit.java" />
@@ -109,11 +107,13 @@
         <option value="$PROJECT_DIR$/src/algorithms/java/CF75A_Life_Without_Zeros.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF43A_Football.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF320A_Magic_Numbers.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/test.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF282C_XORandOR.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF300A_Array.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF102B_Sum_of_Digits.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/test.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/Main2.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF219A_k_String.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
       </list>
     </option>
   </component>
@@ -129,7 +129,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,7 +159,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -269,20 +269,20 @@
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.184375" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32950708" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3997299" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="7" />
       <window_info id="Favorites" order="3" side_tool="true" />
     </layout-to-restore>
@@ -359,7 +359,7 @@
           <option name="timeStamp" value="91" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="112" />
+      <option name="time" value="113" />
     </breakpoint-manager>
   </component>
   <component name="debuggerHistoryManager">
@@ -407,7 +407,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/HR_Impl_Kangaroo.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/HR_Impl_BonAppetit.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/HR_Impl_HappyLadybugs.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt2.java">
@@ -710,7 +709,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/test.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF320A_Magic_Numbers.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -786,10 +784,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="24" column="9" selection-start-line="7" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF219A_k_String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="20" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="739">
-          <caret line="58" column="42" lean-forward="true" selection-start-line="58" selection-start-column="42" selection-end-line="58" selection-end-column="42" />
+        <state relative-caret-position="1530">
+          <caret line="51" column="35" lean-forward="true" selection-start-line="51" selection-start-column="35" selection-end-line="51" selection-end-column="35" />
         </state>
       </provider>
     </entry>
