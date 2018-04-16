@@ -61,5 +61,10 @@ public class Main {
 //        CF102B_Sum_of_Digits.main(args);
 
 //        CF219A_k_String.main(args); // TODO: Review, transcribe
+
+//        CF337A_Puzzles
+//        CF27A_Next_Test.main(args);
+
+//        CF456A_Laptops // TODO: The importance of reading a description carefully...
     }
 }
