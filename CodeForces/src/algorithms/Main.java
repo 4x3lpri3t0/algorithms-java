@@ -66,5 +66,16 @@ public class Main {
 //        CF27A_Next_Test.main(args);
 
 //        CF456A_Laptops // TODO: The importance of reading a description carefully...
+
+//        CF459A_Pashmak_and_Garden // TODO: Review
+//        CF121A_Lucky_Sum.main(args); // TODO: Review O_O
+
+//        CF433B_Kuriyama_Mirais_Stones.main(args);
+//        CF433A_Kitahara_Harukis_Gift.main(args); // TODO: Check other solutions
+
+//        CF347A_Difference_Row.main(args);
+
+//        CF166B_Little_Pigs_and_Wolves.main(args);
+        CF230B_Tprimes.main(args);
     }
 }
