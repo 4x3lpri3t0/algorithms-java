@@ -78,6 +78,15 @@ public class Main {
 //        CF166B_Little_Pigs_and_Wolves.main(args);
 //        CF230B_Tprimes.main(args); // TODO: Review
 
+//        CF342A_Xenia_and_Divisors
 
+//        CF277A_LearningLanguages // TODO
+
+//        CF966B_Battleship.main(args);
+//        CF966C_Greedy_Arkady.main(args); // TODO: Review!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+//        CF277A_LearningLanguages.main(args); // TODO: Review! REDO the visual aid notes
+
+        
     }
 }
