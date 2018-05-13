@@ -2,11 +2,14 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-//        CF158B_Taxi.main();
+//        CF158B_Taxi.main(); // Greedy
 //        CF898A_Rounding.main();
-//        CF898B_ProperNutrition.main();
-//        CF898C_PhoneNumbers.main(); // TODO: Close but no cigar
-//        CF899A_SplittingInTeams.main();
+//        CF898B_ProperNutrition.main(); // Number Theory
+//        CF898C_PhoneNumbers.main(); // Strings // TODO: Close but no cigar
+
+        // --- Last time reviewed until here ---
+
+//        CF899A_SplittingInTeams.main(); // Greedy
 //        CF899B_MonthsAndYears.main();
 //        CF899C_DividingTheNumbers.main();
 //        CF144A_ArrivalOfTheGeneral.main(); // TODO: Grok
@@ -87,6 +90,8 @@ public class Main {
 
 //        CF277A_LearningLanguages.main(args); // TODO: Review! REDO the visual aid notes
 
-        
+//        CF467B_Fedor_and_New_Game.main(args); // Bitmasks
+
+        CF978C_Letters.main(args); // TODO - No that hard, but I was burned out...
     }
 }

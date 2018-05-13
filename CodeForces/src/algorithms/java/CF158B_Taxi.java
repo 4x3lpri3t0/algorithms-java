@@ -1,14 +1,13 @@
 import java.util.Scanner;
 
 public class CF158B_Taxi {
-    public static void main(String[] args)
-    {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int[] s = new int[5];
 
         // Assign frequencies
-        for(int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) {
             int count = in.nextInt();
             s[count]++;
         }
