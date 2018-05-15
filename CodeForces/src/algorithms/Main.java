@@ -92,6 +92,6 @@ public class Main {
 
 //        CF467B_Fedor_and_New_Game.main(args); // Bitmasks
 
-        CF978C_Letters.main(args); // TODO - No that hard, but I was burned out...
+//        CF978C_Letters.main(args); // TODO - No that hard, but I was burned out...
     }
 }

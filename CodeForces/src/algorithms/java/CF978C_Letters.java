@@ -5,7 +5,20 @@ import static java.lang.Math.*;
 
 public class CF978C_Letters extends PrintWriter {
     public void solve() throws IOException {
-        // TODO
+        int n = readInt();
+        int m = readInt();
+        long[] a = readLongArray(n);
+        long sum = 0;
+        int index = 0;
+        for (int i = 0; i < m; i++) {
+            long x = readLong();
+            while (sum + a[index] < x) {
+                sum += a[index];
+                index++;
+            }
+
+            println((index + 1) + " " + (x - sum));
+        }
     }
 
     BufferedReader in;
