@@ -1,10 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/algorithms/Main.java" line="73" />
+    <bookmark url="file://$PROJECT_DIR$/src/algorithms/Main.java" line="5" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="" />
+    <list default="true" id="77ebfdfb-cdd2-4796-a951-9229c482e48e" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/java/CF160A_Twins.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CodeForces/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CodeForces/.idea/workspace.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,8 +24,17 @@
       <file leaf-file-name="Main.java" pinned="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="969">
-              <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+            <state relative-caret-position="120">
+              <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CF160A_Twins.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF160A_Twins.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -60,7 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF361A_LevkoAndTable.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF69A_YoungPhysicist.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF266B_QueueAtTheSchool.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF118B_PresentFromLena.java" />
@@ -109,8 +120,9 @@
         <option value="$PROJECT_DIR$/src/algorithms/java/CF158B_Taxi.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF978A_Remove_Duplicates.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF978B_File_Name.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF978C_Letters.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF160A_Twins.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
       </list>
     </option>
   </component>
@@ -129,27 +141,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeForces_ALadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeForces_ALadder" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeForces_ALadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeForces_ALadder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeForces_ALadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeForces_ALadder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="CodeForces" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces" type="462c0819:PsiDirectoryNode" />
+              <item name="CodeForces_ALadder" type="b2602c69:ProjectViewProjectNode" />
+              <item name="CodeForces_ALadder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -158,15 +172,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="CF898C_PhoneNumbers&#9;PSI&#9;JAVA://CF898C_PhoneNumbers&#10;CF898B_ProperNutrition&#9;FILE&#9;file://C:/Users/Axel/Desktop/algorithms-java/CodeForces/src/algorithms/java/CF898B_ProperNutrition.java&#10;CF898A_Rounding&#9;PSI&#9;JAVA://CF898A_Rounding&#10;CF158B_Taxi&#9;PSI&#9;JAVA://CF158B_Taxi&#10;CF43A_Football&#9;FILE&#9;file://C:/Users/Axel/Desktop/algorithms-java/CodeForces/src/algorithms/java/CF43A_Football.java&#10;CF166E_Tetrahedron_alt3&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/CodeForces/src/algorithms/java/CF166E_Tetrahedron_alt3.java" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CodeForces_ALadder" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
@@ -244,18 +256,20 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975186" visible="true" weight="0.1546875" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32940447" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3271665" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32943678" />
       <window_info id="Learn" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32940447" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32816377" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32940447" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="3" sideWeight="0.5024814" side_tool="true" weight="0.18765904" />
       <window_info anchor="bottom" x="1054" y="28" width="842" height="1026" id="Debug" order="3" type="FLOATING" weight="0.38383234" />
+      <window_info id="Favorites" order="3" sideWeight="0.5024814" side_tool="true" weight="0.18765904" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -263,7 +277,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32731137" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3271665" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -296,98 +309,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF166E_Tetrahedron_alt1.java</url>
-          <line>33</line>
-          <properties />
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF279B_Books_alt2.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="54" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF330A_Cakeminator.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="59" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF160_Twins.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="60" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF160_Twins.java</url>
-          <line>11</line>
-          <properties />
-          <option name="timeStamp" value="62" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF285A_SlightlyDecreasingPermutations.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="63" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF34B_Sale.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="64" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF168A_Wizards_And_Demonstration.java</url>
-          <line>9</line>
-          <properties />
-          <option name="timeStamp" value="66" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF955A_Feed_the_Cat.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="90" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF955A_Feed_the_Cat.java</url>
-          <line>15</line>
-          <properties />
-          <option name="timeStamp" value="91" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF277A_LearningLanguages.java</url>
-          <line>37</line>
-          <properties />
-          <option name="timeStamp" value="135" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF277A_LearningLanguages.java</url>
-          <line>14</line>
-          <properties />
-          <option name="timeStamp" value="136" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF277A_LearningLanguages.java</url>
-          <line>12</line>
-          <properties />
-          <option name="timeStamp" value="140" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF277A_LearningLanguages.java</url>
-          <line>13</line>
-          <properties />
-          <option name="timeStamp" value="141" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/algorithms/java/CF277A_LearningLanguages.java</url>
-          <line>40</line>
-          <properties />
-          <option name="timeStamp" value="142" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="148" />
     </breakpoint-manager>
     <watches-manager>
@@ -451,13 +372,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2340">
-          <caret line="78" column="32" selection-start-line="78" selection-start-column="32" selection-end-line="78" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF230B_Tprimes.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
@@ -786,10 +700,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF160A_Twins.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="7" column="26" lean-forward="true" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="969">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="120">
+          <caret line="4" column="40" selection-start-line="4" selection-start-column="40" selection-end-line="4" selection-end-column="40" />
         </state>
       </provider>
     </entry>
@@ -850,7 +771,6 @@
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>
