@@ -3,30 +3,24 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF160A_Twins extends PrintWriter {
+public class CF58A_Chat_Room extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[] A = readIntArray(n);
+        char[] s = read().toCharArray();
+        char[] seq = new char[] { 'h', 'e', 'l', 'l', 'o' };
+        int next = 0;
 
-        Arrays.sort(A);
+        for (int i = 0; i < s.length; i++) {
+            if (s[i] == seq[next]) {
+                next++;
+            }
 
-        int mid = 0;
-        for (int i = 0; i < n; i++) {
-            mid += A[i];
-        }
-        mid /= 2;
-
-        int count = 0;
-        int sum = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            sum += A[i];
-            count++;
-
-            if (sum > mid)
-                break;
+            if (next == 5) {
+                println("YES");
+                return;
+            }
         }
 
-        println(count);
+        println("NO");
     }
 
     BufferedReader in;
@@ -42,12 +36,12 @@ public class CF160A_Twins extends PrintWriter {
         }
     }
 
-    CF160A_Twins() throws IOException {
+    CF58A_Chat_Room() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF160A_Twins(String s) throws IOException {
+    CF58A_Chat_Room(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -57,7 +51,7 @@ public class CF160A_Twins extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF160A_Twins().run();
+        new CF58A_Chat_Room().run();
     }
 
     String read() throws IOException {

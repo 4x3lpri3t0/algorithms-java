@@ -3,30 +3,16 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF160A_Twins extends PrintWriter {
+public class CF318A_EvenOdds extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[] A = readIntArray(n);
+        long n = readLong();
+        long k = readLong() - 1;
 
-        Arrays.sort(A);
-
-        int mid = 0;
-        for (int i = 0; i < n; i++) {
-            mid += A[i];
+        if (k < (n + 1) / 2) {
+            println(k * 2 + 1);
+        } else {
+            println((k - (n + 1) / 2) * 2 + 2);
         }
-        mid /= 2;
-
-        int count = 0;
-        int sum = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            sum += A[i];
-            count++;
-
-            if (sum > mid)
-                break;
-        }
-
-        println(count);
     }
 
     BufferedReader in;
@@ -42,12 +28,12 @@ public class CF160A_Twins extends PrintWriter {
         }
     }
 
-    CF160A_Twins() throws IOException {
+    CF318A_EvenOdds() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF160A_Twins(String s) throws IOException {
+    CF318A_EvenOdds(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -57,7 +43,7 @@ public class CF160A_Twins extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF160A_Twins().run();
+        new CF318A_EvenOdds().run();
     }
 
     String read() throws IOException {

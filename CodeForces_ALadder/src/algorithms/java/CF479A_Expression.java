@@ -3,30 +3,14 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF160A_Twins extends PrintWriter {
+public class CF479A_Expression extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[] A = readIntArray(n);
+        int a = readInt();
+        int b = readInt();
+        int c = readInt();
 
-        Arrays.sort(A);
-
-        int mid = 0;
-        for (int i = 0; i < n; i++) {
-            mid += A[i];
-        }
-        mid /= 2;
-
-        int count = 0;
-        int sum = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            sum += A[i];
-            count++;
-
-            if (sum > mid)
-                break;
-        }
-
-        println(count);
+        List<Integer> list = Arrays.asList(a+b+c, (a+b)*c, a*(b+c), a*b*c, a+b*c, a*b+c);
+        println(Collections.max(list));
     }
 
     BufferedReader in;
@@ -42,12 +26,12 @@ public class CF160A_Twins extends PrintWriter {
         }
     }
 
-    CF160A_Twins() throws IOException {
+    CF479A_Expression() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF160A_Twins(String s) throws IOException {
+    CF479A_Expression(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -57,7 +41,7 @@ public class CF160A_Twins extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF160A_Twins().run();
+        new CF479A_Expression().run();
     }
 
     String read() throws IOException {

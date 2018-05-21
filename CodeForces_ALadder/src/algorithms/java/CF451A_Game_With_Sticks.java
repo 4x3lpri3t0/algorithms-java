@@ -3,30 +3,13 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF160A_Twins extends PrintWriter {
+public class CF451A_Game_With_Sticks extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
-        int[] A = readIntArray(n);
+        int m = readInt();
+        int a = min(n, m);
 
-        Arrays.sort(A);
-
-        int mid = 0;
-        for (int i = 0; i < n; i++) {
-            mid += A[i];
-        }
-        mid /= 2;
-
-        int count = 0;
-        int sum = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            sum += A[i];
-            count++;
-
-            if (sum > mid)
-                break;
-        }
-
-        println(count);
+        println(a % 2 == 0 ? "Malvika" : "Akshat");
     }
 
     BufferedReader in;
@@ -42,12 +25,12 @@ public class CF160A_Twins extends PrintWriter {
         }
     }
 
-    CF160A_Twins() throws IOException {
+    CF451A_Game_With_Sticks() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF160A_Twins(String s) throws IOException {
+    CF451A_Game_With_Sticks(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -57,7 +40,7 @@ public class CF160A_Twins extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF160A_Twins().run();
+        new CF451A_Game_With_Sticks().run();
     }
 
     String read() throws IOException {

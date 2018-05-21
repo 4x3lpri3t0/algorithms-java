@@ -3,30 +3,29 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF160A_Twins extends PrintWriter {
+public class CF469_IWannaBeTheGuy extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
-        int[] A = readIntArray(n);
+        boolean[] N = new boolean[n];
 
-        Arrays.sort(A);
+        int x = readInt();
+        for (int i = 0; i < x; i++) {
+            N[readInt() - 1] = true;
+        }
 
-        int mid = 0;
+        int y = readInt();
+        for (int i = 0; i < y; i++) {
+            N[readInt() - 1] = true;
+        }
+
         for (int i = 0; i < n; i++) {
-            mid += A[i];
-        }
-        mid /= 2;
-
-        int count = 0;
-        int sum = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            sum += A[i];
-            count++;
-
-            if (sum > mid)
-                break;
+            if (!N[i]) {
+                println("Oh, my keyboard!");
+                return;
+            }
         }
 
-        println(count);
+        println("I become the guy.");
     }
 
     BufferedReader in;
@@ -42,12 +41,12 @@ public class CF160A_Twins extends PrintWriter {
         }
     }
 
-    CF160A_Twins() throws IOException {
+    CF469_IWannaBeTheGuy() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF160A_Twins(String s) throws IOException {
+    CF469_IWannaBeTheGuy(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -57,7 +56,7 @@ public class CF160A_Twins extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF160A_Twins().run();
+        new CF469_IWannaBeTheGuy().run();
     }
 
     String read() throws IOException {

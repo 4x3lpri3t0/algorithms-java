@@ -3,27 +3,24 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF160A_Twins extends PrintWriter {
+public class CF443A_Anton_and_Letters extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[] A = readIntArray(n);
+        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
 
-        Arrays.sort(A);
+        String input = in.readLine();
 
-        int mid = 0;
-        for (int i = 0; i < n; i++) {
-            mid += A[i];
-        }
-        mid /= 2;
+        HashSet<Character> set = new HashSet<>();
 
         int count = 0;
-        int sum = 0;
-        for (int i = n - 1; i >= 0; i--) {
-            sum += A[i];
-            count++;
 
-            if (sum > mid)
-                break;
+        for (int i = 0; i < input.length(); i++) {
+            char cur = input.charAt(i);
+            if (Character.isAlphabetic(cur)) {
+                if (!set.contains(cur)) {
+                    count++;
+                    set.add(cur);
+                }
+            }
         }
 
         println(count);
@@ -42,12 +39,12 @@ public class CF160A_Twins extends PrintWriter {
         }
     }
 
-    CF160A_Twins() throws IOException {
+    CF443A_Anton_and_Letters() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF160A_Twins(String s) throws IOException {
+    CF443A_Anton_and_Letters(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -57,7 +54,7 @@ public class CF160A_Twins extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF160A_Twins().run();
+        new CF443A_Anton_and_Letters().run();
     }
 
     String read() throws IOException {
