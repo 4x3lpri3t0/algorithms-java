@@ -9,5 +9,8 @@ public class Main {
 //        CF443A_Anton_and_Letters.main(args);
 //        CF469_IWannaBeTheGuy.main(args);
 //        CF318A_EvenOdds.main(args); // Math
+//        CF466A_CheapTravel.main(args);
+//        CF313A_AIlyaAndBankAccount.main(args);
+//        CF476A_DreamoonAndStairs.main(args); // TODO: Review some day... Tutorial: http://codeforces.com/blog/entry/14256
     }
 }
