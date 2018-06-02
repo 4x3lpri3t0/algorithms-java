@@ -18,17 +18,17 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="660">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CF404A_ValeraAndX.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF404A_ValeraAndX.java">
+      <file leaf-file-name="CF165A_SupercentralPoint.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF165A_SupercentralPoint.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+            <state relative-caret-position="150">
+              <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -66,9 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF300A_Array.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/CF102B_Sum_of_Digits.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/java/Main2.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF219A_k_String.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF337A_Puzzles.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF27A_Next_Test.java" />
@@ -115,12 +112,15 @@
         <option value="$PROJECT_DIR$/src/algorithms/java/CF496A_MinimumDifficulty.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF255A_GregsWorkout.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF483A_Counterexample.java" />
-        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
         <option value="$PROJECT_DIR$/src/algorithms/java/CF404A_ValeraAndX.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF233A_PerfectPermutation.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF499A_WatchingAMovie.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/Main.java" />
+        <option value="$PROJECT_DIR$/src/algorithms/java/CF165A_SupercentralPoint.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="width" value="1600" />
     <option name="height" value="900" />
   </component>
@@ -135,7 +135,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -165,6 +164,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -259,11 +259,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32911393" />
       <window_info id="Learn" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32940447" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32816377" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32940447" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" x="1360" y="28" width="536" height="1026" id="Debug" order="3" type="FLOATING" weight="0.38383234" />
       <window_info id="Favorites" order="3" sideWeight="0.5024814" side_tool="true" weight="0.18765904" />
-      <window_info anchor="bottom" x="1251" y="28" width="645" height="1026" id="Debug" order="3" type="FLOATING" weight="0.38383234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -311,7 +311,7 @@
           <option name="timeStamp" value="152" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="161" />
+      <option name="time" value="163" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -381,15 +381,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF459A_Pashmak_and_Garden.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF121A_Lucky_Sum.java" />
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-176">
-          <caret line="139" column="6" lean-forward="true" selection-start-line="139" selection-start-column="6" selection-end-line="139" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF433A_Kitahara_Harukis_Gift.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF365B_The_Fibonacci_Segment.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF347A_Difference_Row.java" />
@@ -580,17 +571,38 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="19" column="35" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF404A_ValeraAndX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
-          <caret line="25" column="17" lean-forward="true" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF233A_PerfectPermutation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF499A_WatchingAMovie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="18" column="24" lean-forward="true" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF165A_SupercentralPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
         </state>
       </provider>
     </entry>

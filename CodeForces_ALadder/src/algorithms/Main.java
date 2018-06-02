@@ -17,6 +17,9 @@ public class Main {
 //        CF462A_ApplemanAndEasyTask.main(args);
 //        CF385A_BearAndRaspberry.main(args); // Greedy
 //        CF483A_Counterexample.main(args); // Number Theory
-        CF404A_ValeraAndX.main(args);
+//        CF404A_ValeraAndX.main(args);
+//        CF233A_PerfectPermutation.main(args); // TODO: Review
+//        CF499A_WatchingAMovie.main(args); // TODO: Failed. Recode
+
     }
 }
