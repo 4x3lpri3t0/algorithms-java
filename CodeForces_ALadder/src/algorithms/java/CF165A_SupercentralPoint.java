@@ -5,9 +5,37 @@ import static java.lang.Math.*;
 
 public class CF165A_SupercentralPoint extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        
-        println();
+        int N = readInt();
+
+        int[] X = new int[N];
+        int[] Y = new int[N];
+
+        for (int i = 0; i < N; i++) {
+            X[i] = readInt();
+            Y[i] = readInt();
+        }
+
+        int ans = 0;
+        for (int i = 0; i < N; i++) {
+            boolean cnt[] = new boolean[4];
+            for (int j = 0; j < N; j++) {
+                if (i != j) {
+                    if (X[j] == X[i] && Y[j] < Y[i])
+                        cnt[0] = true;
+                    else if (X[j] == X[i] && Y[j] > Y[i])
+                        cnt[1] = true;
+                    else if (Y[j] == Y[i] && X[j] < X[i])
+                        cnt[2] = true;
+                    else if (Y[j] == Y[i] && X[j] > X[i])
+                        cnt[3] = true;
+                }
+            }
+
+            if (cnt[0] && cnt[1] && cnt[2] && cnt[3])
+                ans++;
+        }
+
+        println(ans);
     }
 
     BufferedReader in;

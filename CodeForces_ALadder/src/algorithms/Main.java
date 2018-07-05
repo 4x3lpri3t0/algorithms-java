@@ -20,6 +20,7 @@ public class Main {
 //        CF404A_ValeraAndX.main(args);
 //        CF233A_PerfectPermutation.main(args); // TODO: Review
 //        CF499A_WatchingAMovie.main(args); // TODO: Failed. Recode
+//        CF165A_SupercentralPoint.main(args); // TODO: Try to implement by myself
 
     }
 }
