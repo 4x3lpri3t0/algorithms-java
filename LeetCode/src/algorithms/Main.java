@@ -73,5 +73,10 @@ public class Main {
         // wiggleSort
         // isToeplitzMatrix
         // getModifiedArray // TODO, cool solution!
+
+        // --- 2018-07-05 --- A new beginning...
+        // --- Arrays / Strings ---
+        // arrayPairSum
+        // flipAndInvertImage
     }
 }
