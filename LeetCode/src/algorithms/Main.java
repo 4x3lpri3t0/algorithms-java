@@ -78,5 +78,16 @@ public class Main {
         // --- Arrays / Strings ---
         // arrayPairSum
         // flipAndInvertImage
+
+        // --- 2018-07-09 ---
+        // transpose
+
+        // TODO: (Paper first! -> I need to struggle)
+        // Flipping an Image
+        // Array Partition I
+        // Wiggle Sort
+        // Toeplitz Matrix
+        // Reshape the Matrix
+        // Range Addition
     }
 }
