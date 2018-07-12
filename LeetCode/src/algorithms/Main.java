@@ -82,6 +82,7 @@ public class Main {
 
         // ---------------------------------------------------------------------
         // --- 2018-07-05 --- A new beginning...
+
         // --- Arrays ---
         // arrayPairSum
         // flipAndInvertImage
@@ -89,12 +90,14 @@ public class Main {
         // arrayPairSum
         // isToeplitzMatrix // TODO: Redo
         // matrixReshape
-        // findLadders(); // TODO: Hard. But good exercise for debugging and understanding.
+        // findLadders(); // TODO: Hardest. Good exercise for debugging and understanding.
+        // findDuplicates // TODO: Review
+        // findMaxConsecutiveOnes
 
-        // TODO:
-        // Reshape the Matrix
-        // Range Addition
-        // https://leetcode.com/tag/array/
+        // --- String ---
+        // isNumber // TODO: Hardest
+
+        // TODO: https://leetcode.com/tag/string/
     }
 
     private static void findLadders() {
