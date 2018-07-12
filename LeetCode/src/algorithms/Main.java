@@ -1,3 +1,9 @@
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+import static java.lang.System.out;
+
 public class Main {
     public static void main(String[] args) {
         // TODO's -> In this context means To Review
@@ -57,8 +63,8 @@ public class Main {
         // --- 2018-03-22 ---
 
         // quickSort // TODO: Debug
-		
-		// --- 2018-03-23 ---
+
+        // --- 2018-03-23 ---
 
         // _121_Best_Time_to_Buy_and_Sell_Stock.maxProfit // TODO: Min, Max
         // climbStairs // TODO: DP
@@ -83,12 +89,28 @@ public class Main {
         // arrayPairSum
         // isToeplitzMatrix // TODO: Redo
         // matrixReshape
-
-        // findLadders
+        // findLadders(); // TODO: Hard. But good exercise for debugging and understanding.
 
         // TODO:
         // Reshape the Matrix
         // Range Addition
         // https://leetcode.com/tag/array/
+    }
+
+    private static void findLadders() {
+        String start = "hit";
+        String end = "cog";
+        List<String> wordList = Arrays.asList("hot", "dot", "dog", "lot", "log", "cog");
+
+        _126_Word_Ladder_II solver = new _126_Word_Ladder_II();
+        List<List<String>> result = solver.findLadders(start, end, wordList);
+
+        for (List<String> words : result) {
+            for (String word : words) {
+                out.print(word + " ");
+            }
+
+            out.println();
+        }
     }
 }
