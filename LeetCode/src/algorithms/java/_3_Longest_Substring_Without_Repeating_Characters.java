@@ -16,7 +16,7 @@ class _3_Longest_Substring_Without_Repeating_Characters {
             } else {
                 set.add(s.charAt(r));
                 r++;
-                ans = Math.max(ans, r - l); // No need to +1 since we already r++
+                ans = Math.max(ans, r - l); // No +1 because we already r++
             }
         }
 

@@ -15,13 +15,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
+            <state relative-caret-position="828">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CodeForces.iml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/CodeForces.iml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="algorithms-java.iml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/algorithms-java.iml">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -141,19 +151,6 @@
               <item name="CodeForces_ALadder" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="CodeForces_ALadder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces_ALadder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="CodeForces_ALadder" type="b2602c69:ProjectViewProjectNode" />
-              <item name="CodeForces_ALadder" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -164,7 +161,7 @@
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="CF898C_PhoneNumbers&#9;PSI&#9;JAVA://CF898C_PhoneNumbers&#10;CF898B_ProperNutrition&#9;FILE&#9;file://C:/Users/Axel/Desktop/algorithms-java/CodeForces/src/algorithms/java/CF898B_ProperNutrition.java&#10;CF898A_Rounding&#9;PSI&#9;JAVA://CF898A_Rounding&#10;CF158B_Taxi&#9;PSI&#9;JAVA://CF158B_Taxi&#10;CF43A_Football&#9;FILE&#9;file://C:/Users/Axel/Desktop/algorithms-java/CodeForces/src/algorithms/java/CF43A_Football.java&#10;CF166E_Tetrahedron_alt3&#9;FILE&#9;file://C:/Users/priet/Desktop/algorithms-java/CodeForces/src/algorithms/java/CF166E_Tetrahedron_alt3.java" />
     <property name="full.screen.before.presentation.mode" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LeetCode" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -243,7 +240,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4975186" visible="true" weight="0.1546875" />
@@ -251,11 +247,11 @@
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32911393" />
       <window_info id="Learn" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32816377" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32940447" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32816377" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" x="1360" y="28" width="536" height="1026" id="Debug" order="3" type="FLOATING" weight="0.38383234" />
       <window_info id="Favorites" order="3" sideWeight="0.5024814" side_tool="true" weight="0.18765904" />
+      <window_info anchor="bottom" x="1360" y="28" width="536" height="1026" id="Debug" order="3" type="FLOATING" weight="0.38383234" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -374,8 +370,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF433A_Kitahara_Harukis_Gift.java" />
-    <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF365B_The_Fibonacci_Segment.java" />
     <entry file="file://$PROJECT_DIR$/src/algorithms/java/CF347A_Difference_Row.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -594,10 +588,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/algorithms/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
+        <state relative-caret-position="828">
           <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CodeForces.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/algorithms-java.iml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
