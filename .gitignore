@@ -1,10 +1,9 @@
 CodeForces/out/*
+CodeForces_ALadder/out/*
+CtCI/out/*
+HackerRank/out/*
+InterviewCake/out/*
+LeetCode/out/*
+Pramp/out/*
 
-CodeForces/untitled/
-InterviewCake/InterviewCake/
-InterviewCake/src/InterviewCake.iml
-LeetCode/.idea/vcs.xml
-LeetCode/src/LeetCode.iml
-InterviewCake/.idea/
-InterviewCake/.idea/*
-InterviewCake/.idea/modules.xml
+CodeForces/.idea/workspace.xml
