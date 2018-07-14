@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class Main {
+public class _Main {
     private static void print(Object obj) {
         if (obj instanceof int[]) {
             print(Arrays.toString((int[]) obj));
@@ -17,8 +17,8 @@ public class Main {
     public static void main(String[] args) {
         // 1 - Stock Price
         // Greedy
-//        int[] stockPrices = new int[]{10, 7, 5, 8, 11, 9};
-//        print(_01_stock_price.getMaxProfit(stockPrices));
+        int[] stockPrices = new int[]{10, 7, 5, 8, 11, 9};
+        print(_01_stock_price.getMaxProfit(stockPrices));
 
         // 2 - Product of Other Numbers
         // Greedy
@@ -145,6 +145,6 @@ public class Main {
         // Greedy
 
         // 46 - Mesh Message // TODO: Review!! Transcribe
-        // BFS
+        // _BFS
     }
 }

@@ -1,3 +1,5 @@
+package data.structures._01_arrays;
+
 import java.util.Scanner;
 
 public class Sparse_Arrays {

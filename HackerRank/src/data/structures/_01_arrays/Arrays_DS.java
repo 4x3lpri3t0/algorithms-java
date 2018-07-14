@@ -1,4 +1,4 @@
-package data_structures._01_arrays; // Delete in HR, CF
+package data.structures._01_arrays; // Delete in HR, CF
 
 import java.io.*;
 import java.util.*;

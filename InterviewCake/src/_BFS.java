@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class BFS {
+public class _BFS {
     public static void bfs(Map<String, String[]> graph, String startNode, String endNode) {
         Queue<String> nodesToVisit = new ArrayDeque<>();
         nodesToVisit.add(startNode);

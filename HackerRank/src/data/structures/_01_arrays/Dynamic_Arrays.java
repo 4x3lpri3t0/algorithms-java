@@ -1,3 +1,5 @@
+package data.structures._01_arrays;
+
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Scanner;
