@@ -6,7 +6,7 @@ import static java.lang.System.out;
 
 public class Main {
     public static void main(String[] args) {
-        // TODO's -> In this context means To Review
+        // TODO's -> Needs review
 
         // numJewelsInStones
         // rotateString
