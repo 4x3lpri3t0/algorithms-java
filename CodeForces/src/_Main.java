@@ -93,5 +93,11 @@ public class _Main {
 //        CF467B_Fedor_and_New_Game.main(args); // Bitmasks
 
 //        CF978C_Letters.main(args); // TODO - No that hard, but I was burned out...
+
+        // CF Round #498 (CF1006)
+//        CF1006A_Adjacent_Replacements
+//        CF1006B_Polycarps_Practice.main(args);
+        // C
+
     }
 }
