@@ -6,7 +6,7 @@ public class LLNode {
         data = d;
     }
 
-    void appendForTail(int d) {
+    void appendToTail(int d) {
         LLNode end = new LLNode(d);
         LLNode n = this;
         while (n.next != null) {
