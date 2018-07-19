@@ -6,21 +6,36 @@ import static java.lang.Math.*;
 public class CF1006D_Two_Strings_Swaps extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
-        String s1 = read();
-        String s2 = read();
+        char[] a = read().toCharArray();
+        char[] b = read().toCharArray();
+        int res = 0;
 
-        int preprocess = 0;
-        for (int i = 0; i < n; i++) {
-            // ai == bn−i+1 &&
-
-            // ai and bi
-
-            // ai and an−i+1
-
-            // bi and bn−i+1
+        if (n % 2 == 1) {
+            if (a[n / 2] != b[n / 2])
+                res++;
         }
 
-        println();
+        for (int i = 0; i < n / 2; i++) {
+            int i1 = n - 1 - i;
+            if (a[i] == a[i1] && b[i] == b[i1])
+                continue;
+            if (a[i] == b[i] && a[i1] == b[i1])
+                continue;
+            if (a[i] == b[i1] && a[i1] == b[i])
+                continue;
+            if (b[i] == b[i1]) {
+                res++;
+            } else {
+                // All four are different
+                if (b[i] != a[i] && b[i1] != a[i] && b[i] != a[i1] && b[i1] != a[i1]) {
+                    res += 2;
+                } else {
+                    res++;
+                }
+            }
+        }
+
+        println(res);
     }
 
     BufferedReader in;

@@ -97,7 +97,7 @@ public class _Main {
         // CF Round #498 (CF1006)
 //        CF1006A_Adjacent_Replacements
 //        CF1006B_Polycarps_Practice.main(args);
-        // C
-
+//        CF1006C_Three_Parts_of_the_Array.main(args);
+//        CF1006D_Two_Strings_Swaps.main(args);
     }
 }
