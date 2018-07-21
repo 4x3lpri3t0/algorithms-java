@@ -9,5 +9,6 @@ public class _Main {
 //        new _3_2_StackWithMin().main();
 //        new _3_3_SetOfStacks().main();
 //        new _3_4_TowersOfHanoi().main(); // TODO: Debug recursiveness
+        new _3_5_TwoStacksQ().main();
     }
 }
