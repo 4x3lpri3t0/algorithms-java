@@ -263,7 +263,7 @@ public class AssortedMethods {
                 "help", "power", "country", "next", "things", "word", "looked",
                 "real", "John", "line", "second", "church", "seem", "certain",
                 "big", "Four", "felt", "several", "children", "service",
-                "feel", "important", "rather", "name", "per", "among", "often",
+                "feel", "important", "rather", "getName", "per", "among", "often",
                 "turn", "development", "keep", "family", "seemed", "white",
                 "company", "mind", "members", "others", "within", "done",
                 "along", "turned", "god", "sense", "week", "best", "change",
