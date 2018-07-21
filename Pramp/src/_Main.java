@@ -16,7 +16,7 @@ public class _Main {
     }
 
     public static void main(String[] args) {
-        // Already interviewed:
+        // Already asked:
 
         // Arr_IndexAndElement_Equal
         // Array_of_Array_Products
@@ -26,29 +26,25 @@ public class _Main {
         // Merge_Packages
         // K_Messed_Array_Sort
         // Largest_Smaller_BST_Key
-        // Sudoku_Solver // TODO: Review
+        // Sudoku_Solver
+        // BST_Successor
+        // Word_Count_Engine
 
-        // Reviewed:
+        // Not asked:
 
-        // BST_Successor // TODO: Review
         // Budget_Cuts.main();
         // Busiest_Time bt = new Busiest_Time();
         // bt.main();
         // Deletion_Distance.main(); // TODO: Review! Cool solution / Review Optimized
-        // Drone_Flight_Planner planner = new Drone_Flight_Planner();
-        // planner.main();
+        // new Drone_Flight_Planner().main();
         // H_Tree
         // Island_Count.main();
         // Isomorphic_Evaluator.main();
         // Sentence_Reverse
         // Meeting_Planner // TODO: Review again
         // Number_Of_Paths.main();
-
-        // To review:
-
         // Pairs_With_Difference
         // Shifted_Array_Search
-        // Word_Count_Engine
         // Min_Sub_String // Smallest_Substring
         // BasicRegexParser.main(args);
     }

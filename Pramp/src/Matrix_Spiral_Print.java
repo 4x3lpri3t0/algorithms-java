@@ -21,20 +21,20 @@ public class Matrix_Spiral_Print {
         int lastRow = M.length - 1;
         int lastCol = M[0].length - 1;
 
-        int frstRow = 0;
-        int frstCol = 0;
+        int firstRow = 0;
+        int firstCol = 0;
 
         StringBuilder sb = new StringBuilder();
 
-        while (frstCol <= lastCol && frstRow <= lastRow) {
-            for (int j = frstCol; j <= lastCol; j++) {
+        while (firstCol <= lastCol && firstRow <= lastRow) {
+            for (int j = firstCol; j <= lastCol; j++) {
                 // Right
-                sb.append(M[frstRow][j]);
+                sb.append(M[firstRow][j]);
                 sb.append(" ");
             }
-            frstRow++;
+            firstRow++;
 
-            for (int i = frstRow; i <= lastRow; i++) {
+            for (int i = firstRow; i <= lastRow; i++) {
                 // Down
                 sb.append(M[i][lastCol]);
                 sb.append(" ");
@@ -42,18 +42,18 @@ public class Matrix_Spiral_Print {
             lastCol--;
 
             // Left
-            for (int j = lastCol; j >= frstCol; j--) {
+            for (int j = lastCol; j >= firstCol; j--) {
                 sb.append(M[lastRow][j]);
                 sb.append(" ");
             }
             lastRow--;
 
             // Up
-            for (int i = lastRow; i >= frstRow; i--) {
-                sb.append(M[i][frstCol]);
+            for (int i = lastRow; i >= firstRow; i--) {
+                sb.append(M[i][firstCol]);
                 sb.append(" ");
             }
-            frstCol++;
+            firstCol++;
         }
 
         System.out.println(sb.toString());
