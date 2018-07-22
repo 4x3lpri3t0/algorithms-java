@@ -23,5 +23,6 @@ public class _Main {
 //        CF499A_WatchingAMovie.main(args); // TODO: Failed. Recode
 //        CF165A_SupercentralPoint.main(args); // TODO: Try to implement by myself
 //        CF262A_RomaAndLuckyNumbers.main(args);
+//        CF501A_Contest.main(args);
     }
 }
