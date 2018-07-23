@@ -24,5 +24,9 @@ public class _Main {
 //        CF165A_SupercentralPoint.main(args); // TODO: Try to implement by myself
 //        CF262A_RomaAndLuckyNumbers.main(args);
 //        CF501A_Contest.main(args);
+
+        // TODO Keep debugging with different inputs
+        // http://codeforces.com/contest/189/submission/19890104
+        CF189A_CutRibbon.main(args); // TODO: Debug (Failed) [dp]
     }
 }
