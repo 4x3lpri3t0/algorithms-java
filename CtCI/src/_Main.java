@@ -13,8 +13,12 @@ public class _Main {
 
         // TODO: Grok it (But probably too much for an interview anyways...)
 //        new _3_6_StackSort().main();
+
 //        new _3_7_AnimalQ().main();
-
-
+//        new _4_1_IsBalancedTree().main();
+//        _4_2_IsThereARoute.main();
+//        _4_3_BstFromArray.main(args);
+//        _4_4_LLAtDepth_BFS.main(args); // TODO: Review
+//        _4_5_LLAtDepth_DFS.main(args); // TODO: Review
     }
 }
