@@ -19,6 +19,8 @@ public class _Main {
 //        _4_2_IsThereARoute.main();
 //        _4_3_BstFromArray.main(args);
 //        _4_4_LLAtDepth_BFS.main(args); // TODO: Review
-//        _4_5_LLAtDepth_DFS.main(args); // TODO: Review
+//        _4_4_LLAtDepth_DFS.main(args); // TODO: Review
+//        _4_5_IsBinaryTree.main(args);
+        _4_5_IsBinaryTreeB.main(args); // TODO: Review
     }
 }
