@@ -1,6 +1,6 @@
 import static java.lang.System.out;
 
-public class _4_5_IsBinaryTree {
+public class _4_5_IsBST_A {
     public static Integer lastPrinted = Integer.MIN_VALUE;
 
     private static boolean checkBST(TreeNode n) {

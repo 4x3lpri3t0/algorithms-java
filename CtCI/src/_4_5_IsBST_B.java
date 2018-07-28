@@ -3,18 +3,22 @@ import java.util.*;
 
 import static java.lang.System.out;
 
-public class _4_5_IsBinaryTreeB {
+public class _4_5_IsBST_B {
     public static boolean checkBST(TreeNode n, Integer min, Integer max) {
         if (n == null) {
             return true;
         }
-        if ((min != null && n.data <= min) || (max != null && n.data > max)) {
+
+        if ((min != null && n.data <= min) ||
+            (max != null && n.data > max)) {
             return false;
         }
+
         if (!checkBST(n.left, min, n.data) ||
             !checkBST(n.right, n.data, max)) {
             return false;
         }
+
         return true;
     }
 
