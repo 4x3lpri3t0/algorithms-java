@@ -4,13 +4,15 @@ import java.util.*;
 import static java.lang.System.out;
 
 public class _4_4_LLAtDepth_DFS {
-    public static void createLevelLinkedList(TreeNode root,
-                                             ArrayList<LinkedList<TreeNode>> lists,
-                                             int level) {
+    public static void createLevelLinkedList(
+            TreeNode root,
+            ArrayList<LinkedList<TreeNode>> lists,
+            int level) {
+
         if (root == null)
             return;
 
-        LinkedList<TreeNode> list = null;
+        LinkedList<TreeNode> list;
         if (lists.size() == level) { // Level not contained in list
             list = new LinkedList<>();
 
@@ -24,12 +26,15 @@ public class _4_4_LLAtDepth_DFS {
         }
         list.add(root);
         createLevelLinkedList(root.left, lists, level + 1);
-        createLevelLinkedList(root.left, lists, level + 1);
+        createLevelLinkedList(root.right, lists, level + 1);
     }
 
-    public static ArrayList<LinkedList<TreeNode>> createLevelLinkedList(TreeNode root) {
+    public static ArrayList<LinkedList<TreeNode>> createLevelLinkedList(
+            TreeNode root) {
+
         ArrayList<LinkedList<TreeNode>> lists = new ArrayList<>();
         createLevelLinkedList(root, lists, 0);
+
         return lists;
     }
 
@@ -38,9 +43,11 @@ public class _4_4_LLAtDepth_DFS {
         for (LinkedList<TreeNode> entry : result) {
             Iterator<TreeNode> i = entry.listIterator();
             out.print("Link list at depth " + depth + ":");
+
             while (i.hasNext()) {
                 out.print(" " + i.next().data);
             }
+
             out.println();
             depth++;
         }

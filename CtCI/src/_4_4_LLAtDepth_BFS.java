@@ -35,10 +35,12 @@ public class _4_4_LLAtDepth_BFS {
         int depth = 0;
         for (LinkedList<TreeNode> treeNodes : result) {
             Iterator<TreeNode> i = treeNodes.listIterator();
+
             out.println("Link list at depth " + depth + ":");
             while (i.hasNext()) {
-                out.println(" " + i.next().data);
+                out.print(" " + i.next().data);
             }
+
             out.println();
             depth++;
         }
