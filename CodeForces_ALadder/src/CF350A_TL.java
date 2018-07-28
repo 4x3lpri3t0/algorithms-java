@@ -24,10 +24,14 @@ public class CF350A_TL extends PrintWriter {
             minM = min(minM, cur);
         }
 
-        if (n > 1)
-            println(2 * minN <= maxN && minM > maxN ? maxN : -1);
-        else
-            println(2 * minN < minM ? minN * 2 : -1);
+        for(int i = maxN; i < minM; i++){
+            if(2 * minN <= i){
+                println(i);
+                return;
+            }
+        }
+
+        println(-1);
     }
 
     BufferedReader in;
