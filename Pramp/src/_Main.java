@@ -30,6 +30,7 @@ public class _Main {
         // Sudoku_Solver
         // BST_Successor
         // Word_Count_Engine
+        // BasicRegexParser // TODO: Review (when finished all others)
 
         // Not asked:
 
@@ -46,6 +47,5 @@ public class _Main {
         // Pairs_With_Difference
         // Shifted_Array_Search
         // Min_Sub_String // Smallest_Substring
-        // BasicRegexParser.main(args);
     }
 }
