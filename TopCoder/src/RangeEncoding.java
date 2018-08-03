@@ -1,3 +1,5 @@
+// https://arena.topcoder.com/index.html#/u/practiceCode/16919/55785/14592/2/330166
+
 public class RangeEncoding {
     public int minRanges(int[] arr) {
         if (arr.length == 1)
