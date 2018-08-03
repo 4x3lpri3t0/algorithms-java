@@ -30,6 +30,8 @@ public class _Main {
 //        CF189A_CutRibbon // TODO: Debug (Failed) [dp]
 
 //        CF350A_TL // TODO: Review
-
+//        CF152A_Marks
+//        CF265A_ColorfulStones
+//        CF353A_Domino // TODO: Review
     }
 }
