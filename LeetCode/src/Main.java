@@ -97,8 +97,14 @@ public class Main {
         // --- String ---
         // isNumber // TODO: Hardest (Review)
         // longestValidParentheses
+        // toLowerCase
+        // uniqueMorseRepresentations
+        // findLUSlength
+        optimalDivision
 
         // TODO: https://leetcode.com/tag/string/
+
+        // --- Tree ---
     }
 
     private static void findLadders() {
