@@ -34,5 +34,7 @@ public class _Main {
         // DP
 //        _9_1_NSteps
 //        _9_2_PossiblePaths // TODO: Followup (Google "ctci robot grid")
+//        _9_3_MagicIndex
+
     }
 }
