@@ -99,5 +99,9 @@ public class _Main {
 //        CF1006B_Polycarps_Practice.main(args);
 //        CF1006C_Three_Parts_of_the_Array.main(args);
 //        CF1006D_Two_Strings_Swaps.main(args);
+
+//        CF1027A_PalindromicTwist.main(args);
+//        CF1027B_NumbersOnTheChessboard // TODO: Fix
+        CF1027C_MinimumValueRectangle.main(args); // TODO: Fix
     }
 }
