@@ -12,15 +12,15 @@ public class CF1027A_PalindromicTwist {
             String s = readString();
             Boolean valid = true;
 
-            // While i <= mid ?
             int i = 0;
-            while (i <= len / 2 && valid) {
+            while (i <= len / 2) {
                 char l = s.charAt(i);
                 char r = s.charAt(len - 1 - i);
 
                 int dist = abs(l - r);
                 if (dist != 2 && dist != 0) {
                     valid = false;
+                    break;
                 }
                 i++;
             }

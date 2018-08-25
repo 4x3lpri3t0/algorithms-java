@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/27/A
 public class CF27A_Next_Test extends PrintWriter {
     public void solve() throws IOException {
         int n = nextInt();

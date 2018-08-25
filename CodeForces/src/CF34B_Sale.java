@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// http://codeforces.com/problemset/problem/34/B
 public class CF34B_Sale {
     private void solve() {
         int n = readInt();

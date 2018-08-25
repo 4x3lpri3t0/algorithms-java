@@ -1,31 +1,25 @@
 import java.io.*;
-import java.util.*;
+import java.util.StringTokenizer;
 
-// http://codeforces.com/problemset/problem/43/As
-public class CF43A_Football {
+public class CF1029A_ManyEqualSubstrings {
     private void solve() {
-        int n = readInt();
-        String cur = readString();
-        int count = 1;
-        for (int i = 0; i < n - 1; i++) {
-            String next = readString();
-            if (next.equals(cur)) {
-                count++;
-            } else {
-                count--;
-            }
+        int length = readInt();
+        int count = readInt();
+        String pattern = readString();
 
-            if (count == 0) {
-                cur = next;
-                count = 1;
-            }
+        int i = length - 1;
+        while (i > 0 && !pattern.endsWith(pattern.substring(0, i))) {
+            i--;
         }
 
-        out.println(cur);
+        out.print(pattern);
+        for (int k = 1; k < count; k++) {
+            out.print(pattern.substring(i));
+        }
     }
 
     public static void main(String[] args) {
-        new CF43A_Football().run();
+        new CF1029A_ManyEqualSubstrings().run();
     }
 
     private void run() {
@@ -76,5 +70,13 @@ public class CF43A_Football {
 
     private double readDouble() {
         return Double.parseDouble(readString());
+    }
+
+    int[] readIntArray(int len) throws IOException {
+        int[] a = new int[len];
+        for (int i = 0; i < len; i++) {
+            a[i] = readInt();
+        }
+        return a;
     }
 }

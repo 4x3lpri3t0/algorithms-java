@@ -5,39 +5,24 @@ public class CF1027B_NumbersOnTheChessboard {
     private void solve() {
         int n = readInt();
         int q = readInt();
-        long[][] grid = new long[n][n];
-        long counter = 1;
-
-        // Print even places
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j += 2) {
-               if ((j + i) % 2 != 0)
-                   j++;
-
-                if (j < n) {
-                    grid[i][j] = counter;
-                    counter++;
-                }
-            }
-        }
-        
-        // Print odd places
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < n; j += 2) {
-                if ((j + i) % 2 == 0)
-                    j++;
-
-                if (j < n) {
-                    grid[i][j] = counter;
-                    counter++;
-                }
-            }
-        }
 
         while (q-- > 0) {
             int r = readInt();
             int c = readInt();
-            out.println(grid[r - 1][c - 1]);
+            long ans;
+            long d = (r - 1) * n + c;
+
+            if ((r % 2 == 0 && c % 2 == 0) || (r % 2 != 0 && c % 2 != 0)) {
+                ans = (d + 1) / 2;
+            } else {
+                ans = (n * n) / 2;
+                if (n % 2 != 0)
+                    ans++;
+
+                ans += (d + 1) / 2;
+            }
+
+            out.println(ans);
         }
     }
 
