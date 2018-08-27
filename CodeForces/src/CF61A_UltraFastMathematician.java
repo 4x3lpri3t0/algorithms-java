@@ -1,6 +1,7 @@
 import java.io.*;
 import java.util.*;
 
+// https://codeforces.com/problemset/problem/61/A
 public class CF61A_UltraFastMathematician {
     private void solve() {
         String x = readString();

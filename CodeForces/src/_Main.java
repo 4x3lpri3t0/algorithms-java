@@ -106,5 +106,7 @@ public class _Main {
 
 //        CF1029A_ManyEqualSubstrings // TODO: Review
 
+//        CF1028A_FindSquare
+//        CF1028B_UnnaturalConditions // TODO
     }
 }

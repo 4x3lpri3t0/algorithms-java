@@ -13,6 +13,7 @@ public class MaxSumSubsequence {
         int[] result = new int[a.length];
         result[0] = a[0];
         for (int i = 1; i < a.length; i++) {
+            // result[i] = 0 or more
             result[i] = Math.max(a[i], result[i - 1]);
 
             if (i - 2 >= 0) {
