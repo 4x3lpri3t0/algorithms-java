@@ -1,5 +1,7 @@
 hightail.config
 
+SPOJ/SPOJ.iml
+
 CodeForces/out/*
 CodeForces_ALadder/out/*
 CtCI/out/*
@@ -8,6 +10,7 @@ InterviewCake/out/*
 LeetCode/out/*
 Pramp/out/*
 TopCoder/out/*
+SPOJ/out/*
 CodeRust/out/*
 
 CodeForces/.idea/workspace.xml
@@ -18,5 +21,5 @@ InterviewCake/.idea/workspace.xml
 LeetCode/.idea/workspace.xml
 Pramp/.idea/workspace.xml
 TopCoder/.idea/workspace.xml
-SPOJ/SPOJ.iml
+SPOJ/.idea/workspace.xml
 CodeRust/.idea/workspace.xml
