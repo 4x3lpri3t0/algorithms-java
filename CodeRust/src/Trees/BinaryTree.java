@@ -2,6 +2,7 @@ package Trees;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Queue;
 
 import static java.lang.System.out;
@@ -82,5 +83,21 @@ public class BinaryTree {
         displayInorder(node.left);
         out.println(node.data);
         displayInorder(node.right);
+    }
+
+    public static List<Integer> bstToArrayList(Node root) {
+        ArrayList<Integer> list = new ArrayList<>();
+
+        treeTravel(root, list);
+
+        return list;
+    }
+
+    private static void treeTravel(Node node, ArrayList<Integer> list) {
+        if (node != null) {
+            treeTravel(node.left, list);
+            list.add(node.data);
+            treeTravel(node.right, list);
+        }
     }
 }
