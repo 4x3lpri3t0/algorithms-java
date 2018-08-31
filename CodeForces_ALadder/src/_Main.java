@@ -33,5 +33,8 @@ public class _Main {
 //        CF152A_Marks
 //        CF265A_ColorfulStones
 //        CF353A_Domino // TODO: Review
+
+//        CF114A_Cifera
+//        CF389A_FoxAndNumberGame
     }
 }

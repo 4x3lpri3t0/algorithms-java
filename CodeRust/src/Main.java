@@ -6,6 +6,10 @@ public class Main {
         // BinarySearch
         // MaxSlidingWindow
         // SearchRotated
+        // LeastCommonNumber
+        // RotateArray
+        // FindLowHigh
+        // MoveZeroesToLeft // TODO: Actually easy! Review
 
         // --- Math & Stats ---
 
@@ -29,5 +33,15 @@ public class Main {
         // NthFibonacci
         // LargestSumSubarray
         // MaxSumSubsequence // TODO
+
+        // --- Graph ---
+
+        // CloneGraph // TODO
+        // MinimumSpanningTree // TODO -> Need to debug
+        // WordChaining // TODO -> Broken locally
+
+        // --- Backtracking ---
+        // Boggle // TODO
+
     }
 }
