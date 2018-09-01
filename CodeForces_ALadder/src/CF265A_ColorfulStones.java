@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// http://codeforces.com/problemset/problem/265/A
 public class CF265A_ColorfulStones extends PrintWriter {
     public void solve() throws IOException {
         String s = read();

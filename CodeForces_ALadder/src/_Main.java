@@ -3,7 +3,7 @@ import java.io.IOException;
 public class _Main {
 
     public static void main(String[] args) throws IOException {
-        // Need to resume URL pasting + review from problem:
+        // Need to resume URL pasting + review from problem: CF350A_TL
 
 //        CF160A_Twins // Greedy, Sort
 //        CF58A_Chat_Room // Greedy, Strings
@@ -13,7 +13,7 @@ public class _Main {
 //        CF469_IWannaBeTheGuy
 //        CF318A_EvenOdds // Math
 //        CF466A_CheapTravel
-//        CF313A_AIlyaAndBankAccount
+//        CF313A_IlyaAndBankAccount
 //        CF476A_DreamoonAndStairs // TODO: Review some day... Tutorial: http://codeforces.com/blog/entry/14256
 //        CF490A_TeamOlympiad // Greedy
 //        CF439A_DevuTheSingerAndChuruTheJoker // Greedy

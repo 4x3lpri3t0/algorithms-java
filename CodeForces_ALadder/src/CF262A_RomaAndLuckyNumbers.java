@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// http://codeforces.com/problemset/problem/262/A
 public class CF262A_RomaAndLuckyNumbers extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();

@@ -3,7 +3,8 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF313A_AIlyaAndBankAccount extends PrintWriter {
+// https://codeforces.com/problemset/problem/313/A
+public class CF313A_IlyaAndBankAccount extends PrintWriter {
     private int getWithoutLast(int n) {
         return n / 10;
     }
@@ -37,12 +38,12 @@ public class CF313A_AIlyaAndBankAccount extends PrintWriter {
         }
     }
 
-    CF313A_AIlyaAndBankAccount() throws IOException {
+    CF313A_IlyaAndBankAccount() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF313A_AIlyaAndBankAccount(String s) throws IOException {
+    CF313A_IlyaAndBankAccount(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -52,7 +53,7 @@ public class CF313A_AIlyaAndBankAccount extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF313A_AIlyaAndBankAccount().run();
+        new CF313A_IlyaAndBankAccount().run();
     }
 
     String read() throws IOException {

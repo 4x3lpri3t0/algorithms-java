@@ -3,16 +3,17 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/318/A
 public class CF318A_EvenOdds extends PrintWriter {
     public void solve() throws IOException {
         long n = readLong();
-        long k = readLong() - 1;
+        long k = readLong();
 
-        if (k < (n + 1) / 2) {
-            println(k * 2 + 1);
-        } else {
-            println((k - (n + 1) / 2) * 2 + 2);
-        }
+        long nodd = (n + 1) / 2;
+        if (k <= nodd)
+            println(k * 2 - 1);
+        else
+            println((k - nodd) * 2);
     }
 
     BufferedReader in;

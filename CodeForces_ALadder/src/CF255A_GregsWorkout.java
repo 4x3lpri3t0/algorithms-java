@@ -17,7 +17,7 @@ public class CF255A_GregsWorkout extends PrintWriter {
             println("chest");
         } else if (accum[1] > accum[0] && accum[1] > accum[2]) {
             println("biceps");
-        } else if (accum[2] > accum[1] && accum[2] > accum[0]) {
+        } else {
             println("back");
         }
     }
