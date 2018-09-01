@@ -2,7 +2,7 @@ package impl;
 
 import java.util.Scanner;
 
-public class Impl_BonAppetit {
+public class BonAppetit {
     static int bonAppetit(int n, int k, int b, int[] ar) {
         int total = 0;
 
@@ -15,7 +15,7 @@ public class Impl_BonAppetit {
         return b - expected;
     }
 
-    public static void main() {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
         int k = in.nextInt();

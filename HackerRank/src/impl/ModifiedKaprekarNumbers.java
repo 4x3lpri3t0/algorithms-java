@@ -5,8 +5,8 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class Impl_ModifiedKaprekarNumbers {
-    public static void main() throws IOException {
+public class ModifiedKaprekarNumbers {
+    public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
         // Get inputs

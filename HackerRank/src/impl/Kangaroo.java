@@ -2,8 +2,8 @@ package impl;
 
 import java.util.Scanner;
 
-public class Impl_Kangaroo {
-    public static void main() {
+public class Kangaroo {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int x1 = in.nextInt();
         int v1 = in.nextInt();

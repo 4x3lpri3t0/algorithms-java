@@ -2,8 +2,8 @@ package impl;
 
 import java.util.Scanner;
 
-public class Impl_GradingStudents {
-    public static void main() {
+public class GradingStudents {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int n = in.nextInt();
 

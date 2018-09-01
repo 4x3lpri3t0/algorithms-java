@@ -38,7 +38,6 @@ public class SieveOfEratosthenes {
     // * Not cache friendly even for slightly bigger n
     // (Algorithm traverses the array without locality of reference).
     // https://www.geeksforgeeks.org/segmented-sieve/
-    // TODO: Review
     static void segmentedSieve(int n) {
         // Compute primes >= to square root of n using simple sieve
         int limit = (int) (floor(sqrt(n)) + 1);

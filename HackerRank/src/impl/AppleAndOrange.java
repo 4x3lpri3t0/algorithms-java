@@ -2,8 +2,8 @@ package impl;
 
 import java.util.Scanner;
 
-public class Impl_AppleAndOrange {
-    public static void main() {
+public class AppleAndOrange {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         int s = in.nextInt();
         int t = in.nextInt();
