@@ -4,7 +4,7 @@ import static java.lang.System.*;
 
 public class MinimumSwaps2 {
     static int minimumSwaps(int[] arr) {
-        
+
 
         return 0;
     }
