@@ -12,6 +12,7 @@ Pramp/out/*
 TopCoder/out/*
 SPOJ/out/*
 CodeRust/out/*
+AdHoc/out/*
 
 CodeForces/.idea/*
 CodeForces_ALadder/.idea/*
@@ -23,3 +24,4 @@ Pramp/.idea/*
 TopCoder/.idea/*
 SPOJ/.idea/*
 CodeRust/.idea/*
+AdHoc/.idea/*
