@@ -3,10 +3,21 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/389/A
 public class CF389A_FoxAndNumberGame extends PrintWriter {
+    int gcd(int a, int b) {
+        return b == 0 ? a : gcd(b, a % b);
+    }
+
     public void solve() throws IOException {
         int n = readInt();
-        println();
+
+        int gcd = readInt();
+        for (int k = 1; k < n; k++) {
+            gcd = gcd(gcd, readInt());
+        }
+
+        println(gcd * n);
     }
 
     BufferedReader in;

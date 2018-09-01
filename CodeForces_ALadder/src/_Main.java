@@ -3,7 +3,7 @@ import java.io.IOException;
 public class _Main {
 
     public static void main(String[] args) throws IOException {
-        // Need to resume URL pasting + review from problem: CF350A_TL
+        // Need to resume URL pasting + review from problem: CF404A_ValeraAndX
 
 //        CF160A_Twins // Greedy, Sort
 //        CF58A_Chat_Room // Greedy, Strings
@@ -35,8 +35,8 @@ public class _Main {
 //        CF152A_Marks
 //        CF265A_ColorfulStones
 //        CF353A_Domino // TODO: Review
-
 //        CF114A_Cifera
-//        CF389A_FoxAndNumberGame
+//        CF389A_FoxAndNumberGame // TODO: Review gcd technique
+
     }
 }

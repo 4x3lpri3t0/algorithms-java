@@ -3,27 +3,24 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/378/A
 public class CF378A_PlayingWithDice extends PrintWriter {
     public void solve() throws IOException {
         int a = readInt();
         int b = readInt();
 
-        int aWins = 0;
-        int draws = 0;
-        int bWins = 0;
+        int[] ans = new int[3];
         for (int i = 1; i <= 6; i++) {
-            int difA = abs(a - i);
-            int difB = abs(b - i);
-
-            if (difA < difB)
-                aWins++;
-            else if (difA == difB)
-                draws++;
-            else
-                bWins++;
+            if (abs(a - i) < abs(b - i)) {
+                ans[0]++;
+            } else if (abs(a - i) == abs(b - i)) {
+                ans[1]++;
+            } else {
+                ans[2]++;
+            }
         }
 
-        println(aWins + " " + draws + " " + bWins);
+        print(ans[0] + " " + ans[1] + " " + ans[2]);
     }
 
     BufferedReader in;

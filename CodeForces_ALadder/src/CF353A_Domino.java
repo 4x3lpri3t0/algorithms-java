@@ -3,35 +3,36 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// http://codeforces.com/problemset/problem/353/A
 public class CF353A_Domino extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
+        boolean ok = false; // Is there at least an odd with two non-equal sides?
+        int sumLeft = 0, sumRight = 0;
 
-        int x = 0, y = 0, xy = 0;
         for (int i = 0; i < n; i++) {
-            int xi = readInt();
-            int yi = readInt();
-            if (xi % 2 == 1) {
-                if (yi % 2 == 1)
-                    xy++;
-                else
-                    x++;
-            }
-            else if (yi % 2 == 1)
-                y++;
+            int left = readInt(), right = readInt();
+            sumLeft += left;
+            sumRight += right;
+            if (left % 2 != right % 2)
+                ok = true;
         }
 
-        if ((x + xy) % 2 == 0 && (y + xy) % 2 == 0)
-            println(0);
-        else if ((x + xy) % 2 == 1 && (y + xy) % 2 == 0)
-            println(-1);
-        else if ((x + xy) % 2 == 0 && (y + xy) % 2 == 1)
-            println(-1);
-        else {
-            if (x > 0 || y > 0)
-                println(1);
-            else
+        if (sumLeft % 2 == 0) {
+            if (sumRight % 2 == 0) {
+                println(0);
+            } else { // right odd
                 println(-1);
+            }
+        } else { // left odd
+            if (sumRight % 2 == 0) {
+                println(-1);
+            } else { // right odd
+                if (ok)
+                    println(1);
+                else
+                    println(-1);
+            }
         }
     }
 
