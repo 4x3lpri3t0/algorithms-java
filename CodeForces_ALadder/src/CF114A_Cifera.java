@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// http://codeforces.com/problemset/problem/114/A
 public class CF114A_Cifera extends PrintWriter {
     public void solve() throws IOException {
         long k = readLong();

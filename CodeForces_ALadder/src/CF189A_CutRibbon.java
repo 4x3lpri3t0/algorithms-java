@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/189/A
 public class CF189A_CutRibbon extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();

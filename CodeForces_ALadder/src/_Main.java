@@ -3,6 +3,8 @@ import java.io.IOException;
 public class _Main {
 
     public static void main(String[] args) throws IOException {
+        // Need to resume URL pasting + review from problem:
+
 //        CF160A_Twins // Greedy, Sort
 //        CF58A_Chat_Room // Greedy, Strings
 //        CF451A_Game_With_Sticks
@@ -25,7 +27,7 @@ public class _Main {
 //        CF262A_RomaAndLuckyNumbers
 //        CF501A_Contest
 
-        // TODO Keep debugging with different inputs
+        // TODO Keep debugging with different inputs and solutions
         // http://codeforces.com/contest/189/submission/19890104
 //        CF189A_CutRibbon // TODO: Debug (Failed) [dp]
 

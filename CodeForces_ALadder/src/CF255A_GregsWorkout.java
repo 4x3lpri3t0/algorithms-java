@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/255/A
 public class CF255A_GregsWorkout extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();

@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/152/A
 public class CF152A_Marks extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
@@ -29,8 +30,8 @@ public class CF152A_Marks extends PrintWriter {
         }
 
         int total = 0;
-        for (boolean s : succStudents) {
-            if (s)
+        for (boolean successful : succStudents) {
+            if (successful)
                 total++;
         }
 

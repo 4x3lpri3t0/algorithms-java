@@ -3,18 +3,20 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// http://codeforces.com/problemset/problem/160/A
 public class CF160A_Twins extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
         int[] A = readIntArray(n);
 
+        // Sort -> Asc
         Arrays.sort(A);
 
-        int mid = 0;
+        int half = 0;
         for (int i = 0; i < n; i++) {
-            mid += A[i];
+            half += A[i];
         }
-        mid /= 2;
+        half /= 2;
 
         int count = 0;
         int sum = 0;
@@ -22,7 +24,7 @@ public class CF160A_Twins extends PrintWriter {
             sum += A[i];
             count++;
 
-            if (sum > mid)
+            if (sum > half)
                 break;
         }
 

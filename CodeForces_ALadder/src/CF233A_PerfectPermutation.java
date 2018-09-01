@@ -3,20 +3,21 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/233/A
 public class CF233A_PerfectPermutation extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
 
         if (n % 2 != 0) {
-            System.out.println("-1");
+            println(-1);
             return;
         }
 
         for (int i = 1; i <= n; i++) {
             if (i % 2 == 0)
-                System.out.print((i - 1) + " ");
+                print((i - 1) + " ");
             else
-                System.out.print((i + 1) + " ");
+                print((i + 1) + " ");
         }
     }
 

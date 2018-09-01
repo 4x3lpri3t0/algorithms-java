@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/165/A
 public class CF165A_SupercentralPoint extends PrintWriter {
     public void solve() throws IOException {
         int N = readInt();

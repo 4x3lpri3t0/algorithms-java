@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/58/A
 public class CF58A_Chat_Room extends PrintWriter {
     public void solve() throws IOException {
         char[] s = read().toCharArray();
