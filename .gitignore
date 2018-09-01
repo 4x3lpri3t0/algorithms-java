@@ -13,15 +13,13 @@ TopCoder/out/*
 SPOJ/out/*
 CodeRust/out/*
 
-CodeForces/.idea/workspace.xml
-CodeForces_ALadder/.idea/workspace.xml
-CtCI/.idea/workspace.xml
-HackerRank/.idea/workspace.xml
-InterviewCake/.idea/workspace.xml
-LeetCode/.idea/workspace.xml
-Pramp/.idea/workspace.xml
-TopCoder/.idea/workspace.xml
-SPOJ/.idea/workspace.xml
-CodeRust/.idea/workspace.xml
-CodeRust/.idea/workspace.xml___jb_tmp___
+CodeForces/.idea/*
+CodeForces_ALadder/.idea/*
+CtCI/.idea/*
+HackerRank/.idea/*
+InterviewCake/.idea/*
+LeetCode/.idea/*
+Pramp/.idea/*
+TopCoder/.idea/*
+SPOJ/.idea/*
 CodeRust/.idea/*

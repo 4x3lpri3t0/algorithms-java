@@ -3,18 +3,20 @@ import java.util.*;
 
 public class CF1027B_NumbersOnTheChessboard {
     private void solve() {
-        int n = readInt();
-        int q = readInt();
+        long n = readLong();
+        long q = readLong();
 
         while (q-- > 0) {
-            int r = readInt();
-            int c = readInt();
-            long ans;
+            long r = readLong();
+            long c = readLong();
             long d = (r - 1) * n + c;
+            long ans = 0;
 
             if ((r % 2 == 0 && c % 2 == 0) || (r % 2 != 0 && c % 2 != 0)) {
+                // 1 to ceil(n2/2)
                 ans = (d + 1) / 2;
             } else {
+                // ceil(n2/2) + 1 to n2
                 ans = (n * n) / 2;
                 if (n % 2 != 0)
                     ans++;
