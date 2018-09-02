@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/contest/483/problem/A
 public class CF483A_Counterexample extends PrintWriter {
     public void solve() throws IOException {
         long l = readLong();
@@ -12,11 +13,9 @@ public class CF483A_Counterexample extends PrintWriter {
             l++;
 
         if (r - l < 2)
-            println(-1);
+            print(-1);
         else // l and l + 2 will have '2' as common factor
-            println(l + " " + (l + 1) + " " + (l + 2));
-
-        println();
+            print(l + " " + (l + 1) + " " + (l + 2));
     }
 
     BufferedReader in;

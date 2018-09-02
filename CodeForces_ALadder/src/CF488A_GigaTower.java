@@ -1,15 +1,38 @@
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.StringTokenizer;
 
-import static java.lang.Math.*;
+import static java.lang.Math.abs;
 
-public class CF451A_Game_With_Sticks extends PrintWriter {
+// http://codeforces.com/problemset/problem/488/A
+public class CF488A_GigaTower extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int m = readInt();
-        int a = min(n, m);
+        long a = readLong();
+        long b = 1;
 
-        println(a % 2 == 0 ? "Malvika" : "Akshat");
+        while(!isLucky(a, b)) {
+            b++;
+        }
+
+        print(b);
+    }
+
+    private boolean isLuckyAlt(int value) {
+        return String.valueOf(value).indexOf('8') >= 0;
+    }
+
+    private boolean isLucky(long a, long b) {
+        long n = abs(a + b);
+
+        while (n > 0) {
+            if (n % 10 == 8)
+                return true;
+            n /= 10;
+        }
+
+        return false;
     }
 
     BufferedReader in;
@@ -25,12 +48,12 @@ public class CF451A_Game_With_Sticks extends PrintWriter {
         }
     }
 
-    CF451A_Game_With_Sticks() throws IOException {
+    CF488A_GigaTower() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF451A_Game_With_Sticks(String s) throws IOException {
+    CF488A_GigaTower(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -40,7 +63,7 @@ public class CF451A_Game_With_Sticks extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF451A_Game_With_Sticks().run();
+        new CF488A_GigaTower().run();
     }
 
     String read() throws IOException {

@@ -3,15 +3,15 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/contest/432/problem/A
 public class CF432A_ChoosingTeams extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
         int k = 5 - readInt();
         int ans = 0;
         for (int i = 0; i < n; i++) {
-            if (readInt() <= k) {
+            if (readInt() <= k)
                 ans++;
-            }
         }
 
         println(ans / 3);

@@ -4,7 +4,7 @@ import java.util.*;
 import static java.lang.Math.*;
 
 // https://codeforces.com/problemset/problem/58/A
-public class CF58A_Chat_Room extends PrintWriter {
+public class CF58A_ChatRoom extends PrintWriter {
     public void solve() throws IOException {
         char[] s = read().toCharArray();
         char[] seq = new char[] { 'h', 'e', 'l', 'l', 'o' };
@@ -37,12 +37,12 @@ public class CF58A_Chat_Room extends PrintWriter {
         }
     }
 
-    CF58A_Chat_Room() throws IOException {
+    CF58A_ChatRoom() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF58A_Chat_Room(String s) throws IOException {
+    CF58A_ChatRoom(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -52,7 +52,7 @@ public class CF58A_Chat_Room extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF58A_Chat_Room().run();
+        new CF58A_ChatRoom().run();
     }
 
     String read() throws IOException {

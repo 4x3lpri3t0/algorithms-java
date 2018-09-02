@@ -3,13 +3,21 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/contest/479/problem/A
 public class CF479A_Expression extends PrintWriter {
     public void solve() throws IOException {
         int a = readInt();
         int b = readInt();
         int c = readInt();
 
-        List<Integer> list = Arrays.asList(a+b+c, (a+b)*c, a*(b+c), a*b*c, a+b*c, a*b+c);
+        List<Integer> list = Arrays.asList(
+                a + b + c,
+                (a + b) * c,
+                a * (b + c),
+                a * b * c,
+                a + b * c,
+                a * b + c);
+
         println(Collections.max(list));
     }
 

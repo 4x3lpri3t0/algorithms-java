@@ -3,27 +3,14 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF443A_Anton_and_Letters extends PrintWriter {
+// https://codeforces.com/contest/451/problem/A
+public class CF451A_GameWithSticks extends PrintWriter {
     public void solve() throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        int n = readInt();
+        int m = readInt();
+        int a = min(n, m);
 
-        String input = in.readLine();
-
-        HashSet<Character> set = new HashSet<>();
-
-        int count = 0;
-
-        for (int i = 0; i < input.length(); i++) {
-            char cur = input.charAt(i);
-            if (Character.isAlphabetic(cur)) {
-                if (!set.contains(cur)) {
-                    count++;
-                    set.add(cur);
-                }
-            }
-        }
-
-        println(count);
+        println(a % 2 == 0 ? "Malvika" : "Akshat");
     }
 
     BufferedReader in;
@@ -39,12 +26,12 @@ public class CF443A_Anton_and_Letters extends PrintWriter {
         }
     }
 
-    CF443A_Anton_and_Letters() throws IOException {
+    CF451A_GameWithSticks() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF443A_Anton_and_Letters(String s) throws IOException {
+    CF451A_GameWithSticks(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -54,7 +41,7 @@ public class CF443A_Anton_and_Letters extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF443A_Anton_and_Letters().run();
+        new CF451A_GameWithSticks().run();
     }
 
     String read() throws IOException {

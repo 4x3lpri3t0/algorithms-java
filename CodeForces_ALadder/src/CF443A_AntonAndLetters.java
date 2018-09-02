@@ -3,27 +3,19 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-// https://codeforces.com/contest/441/problem/A
-public class CF441A_ValeraAndAntiqueItems extends PrintWriter {
+// https://codeforces.com/contest/443/problem/A
+public class CF443A_AntonAndLetters extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int v = readInt();
-        ArrayList<Integer> ans = new ArrayList<>();
-        for (int i = 1; i <= n; i++) {
-            int k = readInt();
-            boolean found = false;
-            for (int j = 0; j < k; j++) {
-                if (readInt() < v && !found) {
-                    ans.add(i);
-                    found = true;
-                }
-            }
+        String input = in.readLine();
+        Set<Character> set = new HashSet<>();
+
+        for (int i = 0; i < input.length(); i++) {
+            char cur = input.charAt(i);
+            if (Character.isAlphabetic(cur))
+                set.add(cur);
         }
 
-        println(ans.size());
-        for (Integer x : ans) {
-            print(x + " ");
-        }
+        println(set.size());
     }
 
     BufferedReader in;
@@ -39,12 +31,12 @@ public class CF441A_ValeraAndAntiqueItems extends PrintWriter {
         }
     }
 
-    CF441A_ValeraAndAntiqueItems() throws IOException {
+    CF443A_AntonAndLetters() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF441A_ValeraAndAntiqueItems(String s) throws IOException {
+    CF443A_AntonAndLetters(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -54,7 +46,7 @@ public class CF441A_ValeraAndAntiqueItems extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF441A_ValeraAndAntiqueItems().run();
+        new CF443A_AntonAndLetters().run();
     }
 
     String read() throws IOException {

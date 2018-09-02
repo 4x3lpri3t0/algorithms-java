@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/problemset/problem/404/A
 public class CF404A_ValeraAndX extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
@@ -15,7 +16,8 @@ public class CF404A_ValeraAndX extends PrintWriter {
 
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n; j++)
-                if (i == j || i == (n - 1 - j)) { // First or last
+                // First or last diagonal member
+                if (i == j || i == (n - 1 - j)) {
                     if (p[i][j] != c1) {
                         println("NO");
                         return;

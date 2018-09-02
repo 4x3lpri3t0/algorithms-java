@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/contest/466/problem/A
 public class CF466A_CheapTravel extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
@@ -10,18 +11,17 @@ public class CF466A_CheapTravel extends PrintWriter {
         int a = readInt();
         int b = readInt();
 
-        if ((b / (double) m) >= a) {
-            println(n * a);
+        long ans;
+
+        if (b < a * m) {
+            ans = (n / m) * b;
+            n %= m;
+            ans += min(n * a, b);
         } else {
-            int rest = n % m;
-
-            if (rest * a < b)
-                rest *= a;
-            else
-                rest = b;
-
-            println((n / m) * b + rest);
+            ans = a * n;
         }
+
+        print(ans);
     }
 
     BufferedReader in;

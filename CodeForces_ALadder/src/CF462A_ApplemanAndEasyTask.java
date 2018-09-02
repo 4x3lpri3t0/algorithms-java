@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/contest/462/problem/A
 public class CF462A_ApplemanAndEasyTask extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();

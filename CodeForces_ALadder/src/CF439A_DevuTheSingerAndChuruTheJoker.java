@@ -3,9 +3,8 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/contest/439/problem/A
 public class CF439A_DevuTheSingerAndChuruTheJoker extends PrintWriter {
-    private static int JOKE_LENGTH = 5;
-
     public void solve() throws IOException {
         int n = readInt();
         int d = readInt();
