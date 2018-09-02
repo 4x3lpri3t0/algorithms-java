@@ -1,73 +1,77 @@
 import java.io.*;
-import java.util.StringTokenizer;
+import java.util.*;
 
-public class CF1037A_Packets {
-    private void solve() {
-        long n = readInt();
-        long cur = 1;
-        long i = 2;
+import static java.lang.Math.*;
 
-        while (cur < n) {
-            cur += i;
-            i++;
+public class CF1037A_Packets extends PrintWriter {
+    public void solve() throws IOException {
+        int n = readInt();
+        int coins = 0;
+        int test = 1;
+
+        while (test <= n) {
+            coins++;
+            test *= 2;
         }
 
-        out.println(i - 1);
-    }
+        if (n <= 2)
+            coins = n;
 
-
-    public static void main(String[] args) {
-        new CF1037A_Packets().run();
-    }
-
-    private void run() {
-        try {
-            init();
-            solve();
-            out.close();
-        } catch (Exception e) {
-            e.printStackTrace();
-            System.exit(-1);
-        }
+        println(coins);
     }
 
     BufferedReader in;
-    PrintWriter out;
-    StringTokenizer tok = new StringTokenizer("");
+    StringTokenizer stok;
 
-    private void init() throws IOException {
-        String filename = "";
-        if (filename.isEmpty()) {
-            in = new BufferedReader(new InputStreamReader(System.in));
-            out = new PrintWriter(System.out);
-        } else {
-            in = new BufferedReader(new FileReader(filename + ".in"));
-            out = new PrintWriter(new FileWriter(filename + ".out"));
+    public void run() {
+        try {
+            solve();
+            close();
+        } catch (Exception e) {
+            e.printStackTrace();
+            System.exit(abs(-1));
         }
     }
 
-    private String readString() {
-        while (!tok.hasMoreTokens()) {
-            try {
-                tok = new StringTokenizer(in.readLine());
-            } catch (Exception e) {
+    CF1037A_Packets() throws IOException {
+        super(System.out);
+        in = new BufferedReader(new InputStreamReader(System.in));
+    }
+
+    CF1037A_Packets(String s) throws IOException {
+        super("".equals(s) ? "output.txt" : (s + ".out"));
+        in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
+    }
+
+    public static void main(String[] args) throws IOException {
+        try {
+            Locale.setDefault(Locale.US);
+        } catch (Exception ignored) {
+        }
+        new CF1037A_Packets().run();
+    }
+
+    String read() throws IOException {
+        while (stok == null || !stok.hasMoreTokens()) {
+            String s = in.readLine();
+            if (s == null) {
                 return null;
             }
+            stok = new StringTokenizer(s);
         }
-
-        return tok.nextToken();
+        return stok.nextToken();
     }
 
-    private int readInt() {
-        return Integer.parseInt(readString());
+    int readInt() throws IOException {
+        return Integer.parseInt(read());
     }
 
-    private long readLong() {
-        return Long.parseLong(readString());
+    long readLong() throws IOException {
+        return Long.parseLong(read());
     }
 
-    private double readDouble() {
-        return Double.parseDouble(readString());
+    double readDouble() throws IOException {
+        return Double.parseDouble(read());
     }
 
     int[] readIntArray(int len) throws IOException {
@@ -76,5 +80,13 @@ public class CF1037A_Packets {
             a[i] = readInt();
         }
         return a;
+    }
+
+    <T> List<T>[] createAdjacencyList(int countVertex) {
+        List<T>[] res = new List[countVertex];
+        for (int i = 0; i < countVertex; i++) {
+            res[i] = new ArrayList<T>();
+        }
+        return res;
     }
 }
