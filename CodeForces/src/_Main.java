@@ -108,5 +108,9 @@ public class _Main {
 
 //        CF1028A_FindSquare
 //        CF1028B_UnnaturalConditions // TODO
+
+        // CF1037A_Packets
+        // CF1037B_ReachMedian
+        // CF1037C_Equalize // TODO
     }
 }
