@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/contest/496/problem/A
 public class CF496A_MinimumDifficulty extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();

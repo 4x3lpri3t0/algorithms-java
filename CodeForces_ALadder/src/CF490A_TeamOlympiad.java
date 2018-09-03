@@ -7,9 +7,9 @@ import static java.lang.Math.*;
 public class CF490A_TeamOlympiad extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
-        Stack<Integer> t1 = new Stack<Integer>();
-        Stack<Integer> t2 = new Stack<Integer>();
-        Stack<Integer> t3 = new Stack<Integer>();
+        Stack<Integer> t1 = new Stack<>();
+        Stack<Integer> t2 = new Stack<>();
+        Stack<Integer> t3 = new Stack<>();
 
         int[] t = new int[3];
         for (int i = 0; i < n; i++) {
