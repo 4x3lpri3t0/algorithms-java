@@ -11,15 +11,24 @@ public class Main {
         // FindLowHigh
         // MoveZeroesToLeft // TODO: Actually easy! Review
 
+        // --- Linked Lists ---
+
+        // ReverseSLL // TODO: Review recursive approach
+        // RemoveDuplicates
+        // DeleteNodeWithKey
+        // InsertionSort // TODO
+
         // --- Math & Stats ---
 
-        // FindKthPermutation
+        // FindKthPermutation // TODO: Review (Cool)
+        // DivideInteger
 
         // --- String ---
 
         // ReverseSentenceWords
         // RemoveDuplicates
         // StringSegmentation // TODO: Actually easy! Review
+        // PalindromeSubstrings // TODO: Actually easy! Review
 
         // --- Trees ---
 
@@ -42,6 +51,5 @@ public class Main {
 
         // --- Backtracking ---
         // Boggle // TODO
-
     }
 }

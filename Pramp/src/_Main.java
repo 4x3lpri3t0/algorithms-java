@@ -31,19 +31,19 @@ public class _Main {
         // BST_Successor
         // Word_Count_Engine
         // BasicRegexParser // TODO: Review (when finished all others)
+        // Number_Of_Paths
 
         // Not asked:
 
-        // Budget_Cuts.main();
-        // new Busiest_Time().main();
-        // Deletion_Distance.main(); // TODO: Review! Cool solution / Review Optimized
-        // new Drone_Flight_Planner().main();
+        // Budget_Cuts
+        // Busiest_Time
+        // Deletion_Distance // TODO: Review! Cool solution / Review Optimized
+        // Drone_Flight_Planner
         // H_Tree
-        // Island_Count.main();
-        // Isomorphic_Evaluator.main();
+        // Island_Count
+        // Isomorphic_Evaluator
         // Sentence_Reverse
         // Meeting_Planner // TODO: Review again
-        // Number_Of_Paths.main();
         // Pairs_With_Difference
         // Shifted_Array_Search
         // Min_Sub_String // Smallest_Substring
