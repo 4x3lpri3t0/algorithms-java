@@ -112,5 +112,8 @@ public class _Main {
         // CF1037A_Packets
         // CF1037B_ReachMedian // TODO: Review (Tutorial?)
         // CF1037C_Equalize // TODO
+
+        // CF1040A_PalindromeDance // TODO: Improve with others solutions
+        // CF1040B_ShashlikCooking // TODO: Improve with others solutions
     }
 }
