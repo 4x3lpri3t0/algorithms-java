@@ -3,32 +3,44 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
+public class CF1038C_Gambling extends PrintWriter {
     public void solve() throws IOException {
-        int y = readInt();
-        int k = readInt();
         int n = readInt();
+        Integer[] A = readIntArray(n);
+        Integer[] B = readIntArray(n);
 
-        if (y >= n) {
-            // x cannot be 0
-            println(-1);
-            return;
+        Arrays.sort(A);
+        Arrays.sort(B);
+
+        Stack<Integer> s1 = new Stack<>();
+        s1.addAll(Arrays.asList(A));
+        Stack<Integer> s2 = new Stack<>();
+        s2.addAll(Arrays.asList(B));
+
+        long score1 = 0;
+        long score2 = 0;
+
+        while (!s1.empty() || !s2.empty()) {
+            int a = s1.size() == 0 ? 0 : s1.peek();
+            int b = s2.size() == 0 ? 0 : s2.peek();
+
+            if (a > b) {
+                score1 += s1.pop();
+            } else { // b >= a
+                s2.pop();
+            }
+
+            a = s1.size() == 0 ? 0 : s1.peek();
+            b = s2.size() == 0 ? 0 : s2.peek();
+
+            if (b > a) {
+                score2 += s2.pop();
+            } else { // a >= b
+                s1.pop();
+            }
         }
 
-        int ground = k;
-        while (ground < y) {
-            ground += k;
-        }
-        ground -= y;
-
-        boolean valid = false;
-        for (int x = ground; x + y <= n; x += k) {
-            print(x + " ");
-            valid = true;
-        }
-
-        if (!valid)
-            println(-1);
+        println(score1 - score2);
     }
 
     BufferedReader in;
@@ -44,17 +56,17 @@ public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
         }
     }
 
-    CF239A_TwoBagsOfPotatoes() throws IOException {
+    CF1038C_Gambling() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         try {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF239A_TwoBagsOfPotatoes().run();
+        new CF1038C_Gambling().run();
     }
 
     String read() throws IOException {
@@ -80,8 +92,8 @@ public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
         return Double.parseDouble(read());
     }
 
-    int[] readIntArray(int len) throws IOException {
-        int[] a = new int[len];
+    Integer[] readIntArray(int len) throws IOException {
+        Integer[] a = new Integer[len];
         for (int i = 0; i < len; i++) {
             a[i] = readInt();
         }

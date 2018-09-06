@@ -3,32 +3,25 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
+public class CF1038A_Equality extends PrintWriter {
     public void solve() throws IOException {
-        int y = readInt();
-        int k = readInt();
         int n = readInt();
+        int k = readInt();
+        String str = read();
+        int[] freq = new int[k];
 
-        if (y >= n) {
-            // x cannot be 0
-            println(-1);
-            return;
+        for (int i = 0; i < n; i++) {
+            char cur = str.charAt(i);
+            if (cur - 'A' < k)
+                freq[cur - 'A']++;
         }
 
-        int ground = k;
-        while (ground < y) {
-            ground += k;
-        }
-        ground -= y;
-
-        boolean valid = false;
-        for (int x = ground; x + y <= n; x += k) {
-            print(x + " ");
-            valid = true;
+        int min = Integer.MAX_VALUE;
+        for (int i = 0; i < k; i++) {
+            min = min(min, freq[i]);
         }
 
-        if (!valid)
-            println(-1);
+        println(min * k);
     }
 
     BufferedReader in;
@@ -44,9 +37,14 @@ public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
         }
     }
 
-    CF239A_TwoBagsOfPotatoes() throws IOException {
+    CF1038A_Equality() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
+    }
+
+    CF1038A_Equality(String s) throws IOException {
+        super("".equals(s) ? "output.txt" : (s + ".out"));
+        in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
 
     public static void main(String[] args) throws IOException {
@@ -54,7 +52,7 @@ public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF239A_TwoBagsOfPotatoes().run();
+        new CF1038A_Equality().run();
     }
 
     String read() throws IOException {

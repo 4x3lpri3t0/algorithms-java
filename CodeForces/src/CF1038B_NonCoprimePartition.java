@@ -3,32 +3,22 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
+public class CF1038B_NonCoprimePartition extends PrintWriter {
     public void solve() throws IOException {
-        int y = readInt();
-        int k = readInt();
         int n = readInt();
 
-        if (y >= n) {
-            // x cannot be 0
-            println(-1);
+        if (n <= 2) {
+            println("No");
             return;
         }
 
-        int ground = k;
-        while (ground < y) {
-            ground += k;
-        }
-        ground -= y;
+        println("Yes");
+        println(1 + " " + n);
+        print((n - 1) + " ");
 
-        boolean valid = false;
-        for (int x = ground; x + y <= n; x += k) {
-            print(x + " ");
-            valid = true;
+        for (int i = 1; i < n; i++) {
+            print(i + " ");
         }
-
-        if (!valid)
-            println(-1);
     }
 
     BufferedReader in;
@@ -44,7 +34,7 @@ public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
         }
     }
 
-    CF239A_TwoBagsOfPotatoes() throws IOException {
+    CF1038B_NonCoprimePartition() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -54,7 +44,7 @@ public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF239A_TwoBagsOfPotatoes().run();
+        new CF1038B_NonCoprimePartition().run();
     }
 
     String read() throws IOException {
