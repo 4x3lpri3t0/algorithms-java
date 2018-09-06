@@ -1,25 +1,25 @@
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.StringTokenizer;
 
-import static java.lang.Math.*;
+import static java.lang.Math.abs;
+import static java.lang.Math.sqrt;
 
-// https://codeforces.com/contest/496/problem/A
-public class CF496A_MinimumDifficulty extends PrintWriter {
+public class CF224A_Parallelepiped extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[] a = readIntArray(n);
+        long ab = readInt();
+        long bc = readInt();
+        long ca = readInt();
 
-        int max = 0;
-        for (int i = 1; i < n; i++) {
-            max = max(max, a[i] - a[i - 1]);
-        }
+        long abc = (long) sqrt(ab * bc * ca);
 
-        int min = Integer.MAX_VALUE;
-        for (int i = 1; i < n - 1; i++) {
-            min = min(min, max(max, a[i + 1] - a[i - 1]));
-        }
+        long a = abc / bc;
+        long b = abc / ca;
+        long c = abc / ab;
 
-        println(min);
+        println((a + b + c) * 4);
     }
 
     BufferedReader in;
@@ -35,12 +35,12 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
         }
     }
 
-    CF496A_MinimumDifficulty() throws IOException {
+    CF224A_Parallelepiped() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF496A_MinimumDifficulty(String s) throws IOException {
+    CF224A_Parallelepiped(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -50,7 +50,7 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF496A_MinimumDifficulty().run();
+        new CF224A_Parallelepiped().run();
     }
 
     String read() throws IOException {

@@ -1,8 +1,6 @@
 public class _Main {
 
     public static void main(String[] args) {
-        // Need to resume reviewing from problem: CF490A_TeamOlympiad
-
         // TODO: Only include harder problems for future reviewing
 
         // CF160A_Twins // Greedy, Sort
@@ -37,5 +35,8 @@ public class _Main {
         // CF353A_Domino // TODO: Review
         // CF114A_Cifera
         // CF389A_FoxAndNumberGame // TODO: Review gcd technique
+        // CF224A_Parallelepiped // TODO: Review geometry
+        // CF510A_FoxAndSnake // TODO: Review
+        // CF373A_CollectingBeatsIsFun
     }
 }

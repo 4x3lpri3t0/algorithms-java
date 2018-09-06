@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/contest/510/problem/A
 public class CF510A_FoxAndSnake extends PrintWriter {
     public void solve() throws IOException {
         int row = readInt();

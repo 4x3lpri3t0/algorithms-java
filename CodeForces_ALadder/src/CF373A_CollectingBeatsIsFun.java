@@ -3,23 +3,33 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-// https://codeforces.com/contest/496/problem/A
-public class CF496A_MinimumDifficulty extends PrintWriter {
+public class CF373A_CollectingBeatsIsFun extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[] a = readIntArray(n);
+        int kk = readInt() * 2;
+        Map<Integer, Integer> map = new HashMap<>();
 
-        int max = 0;
-        for (int i = 1; i < n; i++) {
-            max = max(max, a[i] - a[i - 1]);
+        for (int i = 0; i < 4; i++) {
+            String row = read();
+            for (int j = 0; j < 4; j++) {
+                char cur = row.charAt(j);
+                if (cur == '.')
+                    continue;
+
+                int digit = cur - '0';
+                if (!map.containsKey(digit))
+                    map.put(digit, 0);
+                int newVal = map.get(digit) + 1;
+
+                if (newVal > kk) {
+                    println("NO");
+                    return;
+                }
+
+                map.put(digit, newVal);
+            }
         }
 
-        int min = Integer.MAX_VALUE;
-        for (int i = 1; i < n - 1; i++) {
-            min = min(min, max(max, a[i + 1] - a[i - 1]));
-        }
-
-        println(min);
+        println("YES");
     }
 
     BufferedReader in;
@@ -35,14 +45,9 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
         }
     }
 
-    CF496A_MinimumDifficulty() throws IOException {
+    CF373A_CollectingBeatsIsFun() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
-    }
-
-    CF496A_MinimumDifficulty(String s) throws IOException {
-        super("".equals(s) ? "output.txt" : (s + ".out"));
-        in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
 
     public static void main(String[] args) throws IOException {
@@ -50,7 +55,7 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF496A_MinimumDifficulty().run();
+        new CF373A_CollectingBeatsIsFun().run();
     }
 
     String read() throws IOException {

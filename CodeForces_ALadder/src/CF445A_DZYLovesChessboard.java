@@ -1,25 +1,27 @@
 import java.io.*;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Locale;
+import java.util.StringTokenizer;
 
-import static java.lang.Math.*;
+import static java.lang.Math.abs;
 
-// https://codeforces.com/contest/496/problem/A
-public class CF496A_MinimumDifficulty extends PrintWriter {
+public class CF445A_DZYLovesChessboard extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
-        int[] a = readIntArray(n);
+        int m = readInt();
 
-        int max = 0;
-        for (int i = 1; i < n; i++) {
-            max = max(max, a[i] - a[i - 1]);
+        for (int i = 0; i < n; i++) {
+            char[] row = read().toCharArray();
+            for (int j = 0; j < m; j++) {
+                char cur = row[j];
+                if (cur == '-')
+                    print('-');
+                else
+                    print((j + i) % 2 == 0 ? 'B' : 'W');
+            }
+            println();
         }
-
-        int min = Integer.MAX_VALUE;
-        for (int i = 1; i < n - 1; i++) {
-            min = min(min, max(max, a[i + 1] - a[i - 1]));
-        }
-
-        println(min);
     }
 
     BufferedReader in;
@@ -35,12 +37,12 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
         }
     }
 
-    CF496A_MinimumDifficulty() throws IOException {
+    CF445A_DZYLovesChessboard() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF496A_MinimumDifficulty(String s) throws IOException {
+    CF445A_DZYLovesChessboard(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -50,7 +52,7 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF496A_MinimumDifficulty().run();
+        new CF445A_DZYLovesChessboard().run();
     }
 
     String read() throws IOException {

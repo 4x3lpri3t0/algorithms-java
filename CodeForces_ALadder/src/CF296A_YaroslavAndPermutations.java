@@ -1,25 +1,29 @@
 import java.io.*;
 import java.util.*;
 
-import static java.lang.Math.*;
+import static java.lang.Math.abs;
+import static java.lang.Math.sqrt;
 
-// https://codeforces.com/contest/496/problem/A
-public class CF496A_MinimumDifficulty extends PrintWriter {
+public class CF296A_YaroslavAndPermutations extends PrintWriter {
     public void solve() throws IOException {
+        Map<Integer, Integer> map = new HashMap<>();
         int n = readInt();
-        int[] a = readIntArray(n);
+        for (int i = 0; i < n; i++) {
+            int cur = readInt();
+            if (!map.containsKey(cur))
+                map.put(cur, 0);
 
-        int max = 0;
-        for (int i = 1; i < n; i++) {
-            max = max(max, a[i] - a[i - 1]);
+            int iValue = map.get(cur) + 1;
+
+            map.put(cur, iValue);
+
+            if (iValue > (n + 1) / 2) {
+                print("NO");
+                return;
+            }
         }
 
-        int min = Integer.MAX_VALUE;
-        for (int i = 1; i < n - 1; i++) {
-            min = min(min, max(max, a[i + 1] - a[i - 1]));
-        }
-
-        println(min);
+        print("YES");
     }
 
     BufferedReader in;
@@ -35,12 +39,12 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
         }
     }
 
-    CF496A_MinimumDifficulty() throws IOException {
+    CF296A_YaroslavAndPermutations() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
 
-    CF496A_MinimumDifficulty(String s) throws IOException {
+    CF296A_YaroslavAndPermutations(String s) throws IOException {
         super("".equals(s) ? "output.txt" : (s + ".out"));
         in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
@@ -50,7 +54,7 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF496A_MinimumDifficulty().run();
+        new CF296A_YaroslavAndPermutations().run();
     }
 
     String read() throws IOException {

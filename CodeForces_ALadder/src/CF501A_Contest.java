@@ -3,6 +3,7 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// https://codeforces.com/contest/501/problem/A
 public class CF501A_Contest extends PrintWriter {
     private double getPoints(int p, int t) {
         return Math.max((3 * p) / 10, p - (p / 250) * t);

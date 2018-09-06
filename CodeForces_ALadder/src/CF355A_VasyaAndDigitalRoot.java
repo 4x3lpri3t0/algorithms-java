@@ -3,23 +3,22 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-// https://codeforces.com/contest/496/problem/A
-public class CF496A_MinimumDifficulty extends PrintWriter {
+public class CF355A_VasyaAndDigitalRoot extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[] a = readIntArray(n);
+        int k = readInt();
+        int d = readInt();
 
-        int max = 0;
-        for (int i = 1; i < n; i++) {
-            max = max(max, a[i] - a[i - 1]);
+        if (d == 0 && k > 1) {
+            println("No solution");
+            return;
         }
 
-        int min = Integer.MAX_VALUE;
-        for (int i = 1; i < n - 1; i++) {
-            min = min(min, max(max, a[i + 1] - a[i - 1]));
+        StringBuilder s = new StringBuilder(Integer.toString(d));
+        for (int i = 1; i < k; i++) {
+            s.append("0");
         }
 
-        println(min);
+        println(s);
     }
 
     BufferedReader in;
@@ -35,14 +34,9 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
         }
     }
 
-    CF496A_MinimumDifficulty() throws IOException {
+    CF355A_VasyaAndDigitalRoot() throws IOException {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
-    }
-
-    CF496A_MinimumDifficulty(String s) throws IOException {
-        super("".equals(s) ? "output.txt" : (s + ".out"));
-        in = new BufferedReader(new FileReader("".equals(s) ? "input.txt" : (s + ".in")));
     }
 
     public static void main(String[] args) throws IOException {
@@ -50,7 +44,7 @@ public class CF496A_MinimumDifficulty extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF496A_MinimumDifficulty().run();
+        new CF355A_VasyaAndDigitalRoot().run();
     }
 
     String read() throws IOException {
