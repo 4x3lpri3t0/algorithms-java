@@ -3,32 +3,21 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
+// http://codeforces.com/contest/239/problem/A
 public class CF239A_TwoBagsOfPotatoes extends PrintWriter {
     public void solve() throws IOException {
         int y = readInt();
         int k = readInt();
         int n = readInt();
 
-        if (y >= n) {
-            // x cannot be 0
-            println(-1);
-            return;
-        }
-
-        int ground = k;
-        while (ground < y) {
-            ground += k;
-        }
-        ground -= y;
-
-        boolean valid = false;
-        for (int x = ground; x + y <= n; x += k) {
+        boolean hasOne = false;
+        for (int x = k - y % k; x + y <= n; x += k) {
+            hasOne = true;
             print(x + " ");
-            valid = true;
         }
-
-        if (!valid)
-            println(-1);
+        if (!hasOne) {
+            print(-1);
+        }
     }
 
     BufferedReader in;
