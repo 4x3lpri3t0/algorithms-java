@@ -41,5 +41,6 @@ public class _Main {
         // CF239A_TwoBagsOfPotatoes // TODO: Review initial x value setup
         // CF358A_DimaAndContinuousLine // TODO: Review (failed)
         // CF34A_Reconnaissance2 // TODO: Not hard but worth a review
+        // CF108A_PalindromicTimes // TODO: Review. I overcomplicated it.
     }
 }
