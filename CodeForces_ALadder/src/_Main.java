@@ -40,5 +40,6 @@ public class _Main {
         // CF373A_CollectingBeatsIsFun
         // CF239A_TwoBagsOfPotatoes // TODO: Review initial x value setup
         // CF358A_DimaAndContinuousLine // TODO: Review (failed)
+        // CF34A_Reconnaissance2 // TODO: Not hard but worth a review
     }
 }
