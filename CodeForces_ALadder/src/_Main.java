@@ -42,5 +42,10 @@ public class _Main {
         // CF358A_DimaAndContinuousLine // TODO: Review (failed)
         // CF34A_Reconnaissance2 // TODO: Not hard but worth a review
         // CF108A_PalindromicTimes // TODO: Review. I overcomplicated it.
+
+        // CF194A_Exams // TODO: Review
+
+        // CF279A_PointOnSpiral // TODO: Review... many times
+        // CF370A_RookBishopAndKing // TODO: Review bishop logic
     }
 }

@@ -42,10 +42,11 @@ public class _Main {
         // H_Tree
         // Island_Count
         // Isomorphic_Evaluator
-        // Sentence_Reverse
         // Meeting_Planner // TODO: Review again
         // Pairs_With_Difference
-        // Shifted_Array_Search
+        // Sentence_Reverse
+        // Shift
+        // ed_Array_Search
         // Min_Sub_String // Smallest_Substring
     }
 }

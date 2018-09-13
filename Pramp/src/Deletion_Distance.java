@@ -30,8 +30,8 @@ public class Deletion_Distance {
             return Math.max(one.length(), two.length());
         }
 
-        String oneSub = one.substring(1, one.length());
-        String twoSub = two.substring(1, two.length());
+        String oneSub = one.substring(1);
+        String twoSub = two.substring(1);
         if (one.charAt(0) == two.charAt(0)) {
             return deletionDistance(oneSub, twoSub);
         } else {
