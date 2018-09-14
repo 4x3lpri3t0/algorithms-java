@@ -3,20 +3,24 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF284A_CowsAndPrimitiveRoots extends PrintWriter {
-    static long GCD(long A, long B) {
-        return B == 0 ? A : GCD(B, A % B);
-    }
-
+public class CF192A_FunkyNumbers extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        long answer = 0;
-        for (int i = 1; i <= n - 1; i++) {
-            if (GCD(n - 1, i) == 1)
-                answer++;
+        int s = 0;
+        Set<Integer> t = new HashSet<>();
+        for (int i = 1; s <= 1000 * 1000 * 1000; i++) {
+            s += i;
+            t.add(s);
         }
 
-        println(answer);
+        int n = readInt();
+        for (Integer x : t) {
+            if (t.contains(n - x)) {
+                println("YES");
+                return;
+            }
+        }
+
+        println("NO");
     }
 
     BufferedReader in;
@@ -32,7 +36,7 @@ public class CF284A_CowsAndPrimitiveRoots extends PrintWriter {
         }
     }
 
-    CF284A_CowsAndPrimitiveRoots() {
+    CF192A_FunkyNumbers() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -42,7 +46,7 @@ public class CF284A_CowsAndPrimitiveRoots extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF284A_CowsAndPrimitiveRoots().run();
+        new CF192A_FunkyNumbers().run();
     }
 
     String read() throws IOException {

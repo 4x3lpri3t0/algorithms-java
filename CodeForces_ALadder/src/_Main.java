@@ -47,5 +47,9 @@ public class _Main {
 
         // CF279A_PointOnSpiral // TODO: Review... many times
         // CF370A_RookBishopAndKing // TODO: Review bishop logic
+
+        // CF284A_CowsAndPrimitiveRoots // TODO: Number Theory, GCD
+
+        // CF192A_FunkyNumbers // TODO: Review logic (s += i) :O
     }
 }
