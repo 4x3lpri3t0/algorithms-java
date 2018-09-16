@@ -51,5 +51,6 @@ public class _Main {
         // CF192A_FunkyNumbers // TODO: Review logic (s += i) :O
         // CF234A_LefthandersAndRighthanders
         // CF31A_WormsEvolution // TODO: Not hard at all, but worth reviewing the k = j + 1
+        // CF197A_PlateGame
     }
 }
