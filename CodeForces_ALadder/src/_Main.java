@@ -52,5 +52,6 @@ public class _Main {
         // CF234A_LefthandersAndRighthanders
         // CF31A_WormsEvolution // TODO: Not hard at all, but worth reviewing the k = j + 1
         // CF197A_PlateGame
+        // CF88A_Chord // TODO: Review logic (i + dist) % notes.length
     }
 }

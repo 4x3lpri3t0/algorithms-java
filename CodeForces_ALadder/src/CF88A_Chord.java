@@ -5,9 +5,40 @@ import static java.lang.Math.*;
 
 // http://codeforces.com/problemset/problem/88/A
 public class CF88A_Chord extends PrintWriter {
+    String noteString = "C, C#, D, D#, E, F, F#, G, G#, A, B, H";
+    final String[] notes = noteString.split(", ");
+
+    private int dist(String from, String to) {
+        int i = 0;
+        while (!notes[i].equals(from)) {
+            i++;
+        }
+
+        int dist = 0;
+        while (!notes[(i + dist) % notes.length].equals(to)) {
+            dist++;
+        }
+
+        return dist;
+    }
+
     public void solve() throws IOException {
-        int n = readInt();
-        println();
+        String[] input = in.readLine().split(" ");
+        for (int i = 0; i < 3; i++) {
+            int d1 = dist(input[i], input[(i + 1) % 3]);
+            int d2 = dist(input[i], input[(i + 2) % 3]);
+            if (max(d1, d2) == 7) {
+                if (min(d1, d2) == 3) {
+                    println("minor");
+                    return;
+                }
+                if (min(d1, d2) == 4) {
+                    println("major");
+                    return;
+                }
+            }
+        }
+        println("strange");
     }
 
     BufferedReader in;
