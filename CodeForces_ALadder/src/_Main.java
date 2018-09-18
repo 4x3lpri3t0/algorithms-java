@@ -53,5 +53,8 @@ public class _Main {
         // CF31A_WormsEvolution // TODO: Not hard at all, but worth reviewing the k = j + 1
         // CF197A_PlateGame
         // CF88A_Chord // TODO: Review logic (i + dist) % notes.length
+        // CF18A_Triangle // TODO: [Bypassed] Points / Geometry
+        // CF374A_InnaAndPinkPony // TODO: [Bypassed]
+        // CF393A_Nineteen // TODO: [Bypassed]
     }
 }
