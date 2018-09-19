@@ -56,5 +56,8 @@ public class _Main {
         // CF18A_Triangle // TODO: [Bypassed] Points / Geometry
         // CF374A_InnaAndPinkPony // TODO: [Bypassed]
         // CF393A_Nineteen // TODO: [Bypassed]
+        // CF390A_InnaAndAlarmClock // TODO: [Bypassed]
+        // CF397A_OnSegmentsOwnPoints // TODO: [Bypassed] // Arrays.fill
+        //
     }
 }
