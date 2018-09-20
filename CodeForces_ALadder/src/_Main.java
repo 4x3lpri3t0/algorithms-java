@@ -58,6 +58,8 @@ public class _Main {
         // CF393A_Nineteen // TODO: [Bypassed]
         // CF390A_InnaAndAlarmClock // TODO: [Bypassed]
         // CF397A_OnSegmentsOwnPoints // TODO: [Bypassed] // Arrays.fill
-        //
+
+        // CF200A_Cinema // TODO: Impossibru! // Refactor...
+
     }
 }
