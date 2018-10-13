@@ -1,5 +1,7 @@
 package DPBook._01_Fibonacci;
 
+import java.util.Arrays;
+
 import static java.lang.Math.*;
 import static java.lang.System.*;
 
@@ -12,9 +14,7 @@ public class _02_AnalyzeSubproblems {
 
         // Create cache and initialize to -1
         int[] cache = new int[n + 1];
-        for (int i = 0; i < cache.length; i++) {
-            cache[i] = -1;
-        }
+        Arrays.fill(cache, -1);
 
         // Fill initial values in cache
         cache[0] = 0;

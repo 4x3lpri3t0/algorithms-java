@@ -4,9 +4,8 @@ import static java.lang.Math.*;
 import static java.lang.System.*;
 
 public class _04_Optimize {
-    // Compute the nth fibonacci number iteratively
-    // with constant space. We only need to save
-    // the two most recently computed values
+    // Compute the nth fibonacci number iteratively with constant space.
+    // We only need to save the two most recently computed values.
     static int fib(int n) {
         if (n < 2)
             return n;

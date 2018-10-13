@@ -4,8 +4,7 @@ import static java.lang.System.out;
 
 public class _01_First {
     // Compute the nth Fibonacci Number
-    // We assume that n >= 0 and that int is
-    // sufficient to hold the result
+    // We assume that n >= 0 and that int is sufficient to hold the result
     static int fib(int n) {
         if (n == 0 || n == 1)
             return n;

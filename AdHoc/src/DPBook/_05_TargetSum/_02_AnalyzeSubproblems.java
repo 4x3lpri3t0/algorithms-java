@@ -7,15 +7,21 @@ import static java.lang.Math.*;
 import static java.lang.System.*;
 
 public class _02_AnalyzeSubproblems {
+    static int[] nums;
+    static int T;
+
     // Top down DP solution. Like 0-1 Knapsack, use HashMap to save space.
-    static int targetSum(int[] nums, int T) {
+    static int targetSum(int[] numbers, int target) {
+        nums = numbers;
+        T = target;
+
         // Map: i -> sum -> value
         Map<Integer, Map<Integer, Integer>> cache = new HashMap<>();
-        return targetSum(nums, T, 0, 0, cache);
+
+        return targetSum(0, 0, cache);
     }
 
-    private static int targetSum(
-            int[] nums, int T, int i, int sum,
+    private static int targetSum(int i, int sum,
             Map<Integer, Map<Integer, Integer>> cache) {
         if (i == nums.length)
             return sum == T ? 1 : 0;
@@ -31,8 +37,8 @@ public class _02_AnalyzeSubproblems {
 
         // Compute value and store in cache
         int toReturn =
-                targetSum(nums, T, i + 1, sum + nums[i], cache) +
-                targetSum(nums, T, i + 1, sum - nums[i], cache);
+                targetSum(i + 1, sum + nums[i], cache) +
+                targetSum(i + 1, sum - nums[i], cache);
 
         cache.get(i).put(sum, toReturn);
 

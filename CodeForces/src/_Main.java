@@ -2,7 +2,7 @@ import java.io.IOException;
 
 public class _Main {
     public static void main(String[] args) throws IOException {
-//        CF158B_Taxi // Greedy
+        // CF158B_Taxi // Greedy
 //        CF898A_Rounding
 //        CF898B_ProperNutrition // Number Theory
 //        CF898C_PhoneNumbers // Strings // TODO: Close but no cigar
@@ -115,5 +115,7 @@ public class _Main {
 
         // CF1040A_PalindromeDance // TODO: Improve with others solutions
         // CF1040B_ShashlikCooking // TODO: Improve with others solutions
+
+        // CF1046A_AIrobots // TODO
     }
 }

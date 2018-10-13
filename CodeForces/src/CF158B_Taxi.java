@@ -1,5 +1,6 @@
 import java.util.Scanner;
 
+// https://codeforces.com/problemset/problem/158/B
 public class CF158B_Taxi {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
@@ -12,10 +13,10 @@ public class CF158B_Taxi {
             s[count]++;
         }
 
+        // Amount of 1's that don't have a partner 3
         s[1] = Math.max(0, s[1] - s[3]);
-        // s[1] are now the amount of 1's that don't have a partner 3
 
-        // Switch from amount of 2 groups, to actual units
+        // Switch from amount groups of 2 to actual units
         int unitsFromTwo = s[2] * 2;
 
         int onesAndTwos = (s[1] + unitsFromTwo + 3) / 4;
