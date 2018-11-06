@@ -11,12 +11,14 @@ public class Main {
             int id;
             double x;
             double y;
+            double z;
             List<Integer> adjacentNodes;
 
-            Node(int id, double x, double y) {
+            Node(int id, double x, double y, double z) {
                 this.id = id;
                 this.x = x;
                 this.y = y;
+                this.z = z;
                 adjacentNodes = new ArrayList<>();
             }
         }
@@ -26,7 +28,7 @@ public class Main {
         double maxDistance;
         List<Node> nodes;
 
-        Network(int n, double connectivityDegree, double minX, double maxX, double minY, double maxY) {
+        Network(int n, double connectivityDegree, double minX, double maxX, double minY, double maxY, double minZ, double maxZ) {
             this.n = n;
             this.connectivityDegree = connectivityDegree;
             this.maxDistance = sqrt(pow(maxX - minX, 2) + pow(maxY - minY, 2));
@@ -36,8 +38,8 @@ public class Main {
                 Random r = new Random();
                 double randomX = minX + (maxX - minX) * r.nextDouble();
                 double randomY = minY + (maxY - minY) * r.nextDouble();
-
-                Node node = new Node(id, randomX, randomY);
+                double randomZ = minZ + (maxZ - minZ) * r.nextDouble();
+                Node node = new Node(id, randomX, randomY, randomZ);
                 nodes.add(node);
             }
 
@@ -78,7 +80,7 @@ public class Main {
         private void printPositions() {
             for (Node node : nodes) {
                 // TODO: Change 1 for node.z
-                out.println(String.format("%.2f,%.2f,1", node.x, node.y));
+                out.println(String.format("%.2f,%.2f,%.2f", node.x, node.y, node.z));
             }
         }
 
@@ -91,8 +93,9 @@ public class Main {
         }
     }
 
-    void generateNetwork(int n, double connectivityDegree, double minX, double maxX, double minY, double maxY) {
-        Network network = new Network(n, connectivityDegree, minX, maxX, minY, maxY);
+    void generateNetwork(
+            int n, double connectivityDegree, double maxX, double maxY, double maxZ) {
+        Network network = new Network(n, connectivityDegree, 0, maxX, 0, maxY, 0, maxZ);
         network.printPositions();
         network.printNeighbors();
     }
@@ -102,11 +105,10 @@ public class Main {
         int N = 30;
         // 0 <= x <= 1, 0 being absolute connection
         double connectivityDegree = 0.75;
-        double minX = 0;
         double maxX = 100;
-        double minY = 0;
         double maxY = 100;
+        double maxZ = 5;
 
-        new Main().generateNetwork(N, connectivityDegree, minX, maxX, minY, maxY);
+        new Main().generateNetwork(N, connectivityDegree, maxX, maxY, maxZ);
     }
 }
