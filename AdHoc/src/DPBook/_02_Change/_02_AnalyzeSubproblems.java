@@ -1,5 +1,7 @@
 package DPBook._02_Change;
 
+import java.util.Arrays;
+
 import static java.lang.Math.*;
 import static java.lang.System.*;
 
@@ -10,9 +12,9 @@ public class _02_AnalyzeSubproblems {
     static int makeChange(int c) {
         // Initialize cache with values as -1
         int[] cache = new int[c + 1];
-        for (int i = 1; i < c + 1; i++) {
-            cache[i] = -1;
-        }
+        Arrays.fill(cache, -1);
+        cache[0] = 0;
+
         return makeChange(c, cache);
     }
 
@@ -34,6 +36,7 @@ public class _02_AnalyzeSubproblems {
 
         // Save value into cache
         cache[c] = minCoins + 1;
+
         return cache[c];
     }
 

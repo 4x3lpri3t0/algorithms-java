@@ -45,6 +45,6 @@ public class _01_First {
                 {false, true, true, false}
         };
 
-        out.println(squareSubmatrix(arr));
+        out.println(squareSubmatrix(arr)); // 2 (2 x 2)
     }
 }
