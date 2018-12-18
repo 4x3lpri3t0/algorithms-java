@@ -1,6 +1,5 @@
 package DPBook._02_Change;
 
-import static java.lang.Math.*;
 import static java.lang.System.*;
 
 public class _03_Turn {
