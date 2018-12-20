@@ -46,5 +46,13 @@ public class _01_First {
         };
 
         out.println(squareSubmatrix(arr)); // 2 (2 x 2)
+
+        arr = new boolean[][]{
+                {true, true},
+                {true, true},
+                {true, true}
+        };
+
+        out.println(squareSubmatrix(arr)); // 2 (2 x 2)
     }
 }

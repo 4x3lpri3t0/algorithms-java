@@ -31,7 +31,7 @@ public class _02_AnalyzeSubproblem {
         if (cached != null)
             return cached;
 
-        // Compute the item and add it to the cache
+        // Compute the item
         int toReturn;
         if (W - items[i].weight < 0) {
             toReturn = knapsack(items, W, i + 1, cache);
@@ -42,6 +42,7 @@ public class _02_AnalyzeSubproblem {
                     knapsack(items, W, i + 1, cache));
         }
 
+        // Add it to cache
         cache.get(i).put(W, toReturn);
         return toReturn;
     }
