@@ -4,6 +4,7 @@ SPOJ/SPOJ.iml
 
 CodeForces/out/*
 CodeForces_ALadder/out/*
+CodeForces_BLadder/out/*
 CtCI/out/*
 HackerRank/out/*
 InterviewCake/out/*
@@ -16,6 +17,7 @@ AdHoc/out/*
 
 CodeForces/.idea/*
 CodeForces_ALadder/.idea/*
+CodeForces_BLadder/.idea/*
 CtCI/.idea/*
 HackerRank/.idea/*
 InterviewCake/.idea/*
