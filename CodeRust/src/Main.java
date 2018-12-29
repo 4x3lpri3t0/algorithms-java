@@ -1,3 +1,5 @@
+import Arrays.StockPrices;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -10,6 +12,8 @@ public class Main {
         // RotateArray
         // FindLowHigh
         // MoveZeroesToLeft // TODO: Actually easy! Review
+        // StockPrices
+        // ImplementQuicksort // TODO
 
         // --- Linked Lists ---
 
