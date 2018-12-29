@@ -4,12 +4,24 @@ import java.util.*;
 import static java.lang.Math.*;
 
 public class CF478B_RandomTeams extends PrintWriter {
+    long countPairs(long n) {
+        return (n - 1) * n / 2; // teamSize = 5, return 4 + 3 + 2 + 1
+    }
+
     public void solve() throws IOException {
         int n = readInt();
+        int m = readInt();
 
-        // TODO
+        // Divide in discrete groups to get minimum amount of pairs possible
+        long mod = n % m;
+        long eachTeam = n / m;
+        long min = (eachTeam * (eachTeam - 1) * m) / 2; // ???
+        min += eachTeam * mod;
 
-        println();
+        // Remove units to get biggest combinatorics graph possible
+        long max = countPairs(n - m + 1);
+
+        println(min + " " + max);
     }
 
     BufferedReader in;
