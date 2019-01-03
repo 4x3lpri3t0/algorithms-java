@@ -1,10 +1,6 @@
 package LinkedLists;
 
-import java.io.*;
-import java.util.*;
-
-import static java.lang.System.out;
-
+// https://www.educative.io/collection/page/5642554087309312/5679846214598656/80004
 public class DeleteNodeWithKey {
     static Node deleteNode(Node head, int key) {
         Node prev = null;

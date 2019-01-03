@@ -13,7 +13,7 @@ public class Main {
         // FindLowHigh
         // MoveZeroesToLeft // TODO: Actually easy! Review
         // StockPrices
-        // ImplementQuicksort // TODO
+        // ImplementQuicksort // TODO: Review (Dive deep)
         // MergeOverlappingIntervals
         // SumOfTwoValues
 
