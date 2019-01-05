@@ -34,6 +34,7 @@ public class Main {
 
         // FindKthPermutation // TODO: Cool
         // DivideInteger // TODO
+        // PythagoreanTriplets // TODO: Dive deep, debug
 
         // --- String ---
 
