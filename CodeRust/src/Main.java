@@ -42,6 +42,7 @@ public class Main {
         // RemoveDuplicates // TODO
         // StringSegmentation // TODO
         // PalindromeSubstrings // TODO
+        // RegularExpression // TODO
 
         // --- Trees ---
 

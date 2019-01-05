@@ -117,5 +117,7 @@ public class _Main {
         // CF1040B_ShashlikCooking // TODO: Improve with others solutions
 
         // CF1046A_AIrobots // TODO
+
+
     }
 }

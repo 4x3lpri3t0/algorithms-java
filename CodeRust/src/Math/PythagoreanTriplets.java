@@ -40,7 +40,7 @@ class PythagoreanTriplets {
                 if (a2 + b2 == c2) {
                     triplets.add(new int[]{arr[i], arr[j], arr[k]});
                     break;
-                } else if (a2 + b2 + -c2 > 0) {
+                } else if (a2 + b2 - c2 > 0) {
                     k -= 1;
                 } else {
                     j += 1;
@@ -49,17 +49,6 @@ class PythagoreanTriplets {
         }
 
         return triplets;
-    }
-
-    static void shuffleArray(int[] ar) {
-        Random rnd = new Random();
-        for (int i = ar.length - 1; i > 0; i--) {
-            int index = rnd.nextInt(i + 1);
-            // Simple swap
-            int a = ar[index];
-            ar[index] = ar[i];
-            ar[i] = a;
-        }
     }
 
     public static void main(String[] argv) {
@@ -76,6 +65,17 @@ class PythagoreanTriplets {
                 out.print(x + ", ");
             }
             out.println();
+        }
+    }
+
+    private static void shuffleArray(int[] ar) {
+        Random rnd = new Random();
+        for (int i = ar.length - 1; i > 0; i--) {
+            int index = rnd.nextInt(i + 1);
+            // Simple swap
+            int a = ar[index];
+            ar[index] = ar[i];
+            ar[i] = a;
         }
     }
 }
