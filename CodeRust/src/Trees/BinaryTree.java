@@ -30,7 +30,7 @@ public class BinaryTree {
         }
     }
 
-    public static Node createBST(ArrayList<Integer> list) {
+    public static Node createBST(List<Integer> list) {
         Node root = new Node(list.get(0));
 
         for (int i = 1; i < list.size(); i++) {

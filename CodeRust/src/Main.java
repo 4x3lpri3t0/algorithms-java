@@ -43,6 +43,9 @@ public class Main {
         // StringSegmentation // TODO
         // PalindromeSubstrings // TODO
         // RegularExpression // TODO
+        // LevelOrderTraversalOfBT // TODO
+        // IsBinarySearchTree // TODO
+        // ConvertBinaryTreeToDoublyLL // TODO (?)
 
         // --- Trees ---
 
