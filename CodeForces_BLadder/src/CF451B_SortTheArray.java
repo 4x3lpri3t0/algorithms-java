@@ -3,25 +3,41 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF492B_VanyaAndLanterns extends PrintWriter {
+public class CF451B_SortTheArray extends PrintWriter {
     public void solve() throws IOException {
         int n = readInt();
-        int l = readInt();
-
         int[] a = readIntArray(n);
-        Arrays.sort(a);
 
-        // Start from zero to first lamp
-        double d = a[0];
+        // Get segment
+        int start = 0, end = 0;
+        for (int i = 0; i < n - 1; i++) {
+            if (a[i] >= a[i + 1]) {
+                start = i;
 
-        for (int i = 1; i < n; i++) {
-            d = max(d, (a[i] - a[i - 1]) / 2d);
+                // Go from current to last unsorted to get end of segment
+                while (i < n - 1 && a[i] >= a[i + 1]) {
+                    i++;
+                }
+                end = i;
+            }
         }
 
-        // Compare with last one as well
-        d = max(d, l - a[n - 1]);
+        // Sort segment
+        for (int i = 0; i <= (end - start) / 2; i++) {
+            int tmp = a[start + i];
+            a[start + i] = a[end - i];
+            a[end - i] = tmp;
+        }
 
-        println(d);
+        // Is it fully ordered now?
+        for (int i = 0; i < n - 1; i++) {
+            if (a[i] > a[i + 1]) {
+                println("no");
+                return;
+            }
+        }
+
+        println("yes\n" + (start + 1) + " " + (end + 1));
     }
 
     BufferedReader in;
@@ -37,7 +53,7 @@ public class CF492B_VanyaAndLanterns extends PrintWriter {
         }
     }
 
-    CF492B_VanyaAndLanterns() {
+    CF451B_SortTheArray() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -47,7 +63,7 @@ public class CF492B_VanyaAndLanterns extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF492B_VanyaAndLanterns().run();
+        new CF451B_SortTheArray().run();
     }
 
     String read() throws IOException {
