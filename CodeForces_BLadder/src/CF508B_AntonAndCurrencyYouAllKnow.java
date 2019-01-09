@@ -3,25 +3,45 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-// TODO: Breaks with really large numbers
+// http://codeforces.com/problemset/problem/508/B
 public class CF508B_AntonAndCurrencyYouAllKnow extends PrintWriter {
-    public void solve() throws IOException {
-        int n = readInt();
-        char[] a = Integer.toString(n).toCharArray();
-        int len = a.length;
-        int val = -1;
+    static char[] even = new char[]{'0', '2', '4', '6', '8'};
 
-        for (int i = 0; i < len; i++) {
-            int cur = Integer.valueOf(a[i]);
-            if (cur % 2 == 0) {
-                char[] b = a.clone();
-                b[len - 1] = a[i];
-                b[i] = a[len - 1];
-                val = max(val, Integer.valueOf(new String(b)));
+    private static boolean isEven(char c) {
+        for (char c1 : even) {
+            if (c1 == c) {
+                return true;
             }
         }
 
-        println(val);
+        return false;
+    }
+
+    public void solve() throws IOException {
+        char[] n = read().toCharArray();
+
+        int lastEven = -1;
+        int last = n[n.length - 1] - '0'; // to int
+        for (int i = 0; i < n.length; i++) {
+            if (isEven(n[i])) {
+                lastEven = i;
+
+                if(last > n[i] - '0') {
+                    break;
+                }
+            }
+        }
+
+        if (lastEven != -1) {
+            char t = n[lastEven];
+            n[lastEven] = n[n.length - 1];
+            n[n.length - 1] = t;
+
+            println(new String(n));
+            return;
+        }
+
+        println("-1");
     }
 
     BufferedReader in;
