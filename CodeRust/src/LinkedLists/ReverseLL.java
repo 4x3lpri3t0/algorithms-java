@@ -1,7 +1,7 @@
 package LinkedLists;
 
 // https://www.educative.io/collection/page/5642554087309312/5679846214598656/70003
-public class ReverseSLL {
+public class ReverseLL {
     public static Node reverseIterative(Node head) {
         if (head == null || head.next == null)
             return head;

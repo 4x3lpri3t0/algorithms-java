@@ -21,7 +21,7 @@ public class Main {
 
         // --- Linked Lists ---
 
-        // ReverseSLL // TODO: Review recursive approach
+        // ReverseLL // TODO: Review recursive approach
         // RemoveDuplicates // TODO
         // DeleteNodeWithKey // TODO
         // InsertionSort // TODO
@@ -29,6 +29,10 @@ public class Main {
         // NthFromLastNode // TODO
         // SwapNthNodeWithHead // TODO
         // MergeTwoSortedLL // TODO
+        // ReverseEvenNodes
+        // RotateLL // TODO: Do!
+        // ReverseKElements // TODO: Fix!
+        // AddIntegers // TODO
 
         // --- Math & Stats ---
 
