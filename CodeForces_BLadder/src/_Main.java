@@ -12,5 +12,7 @@ public class _Main {
         // CF230B_T_primes // Sieve
         // CF508B_AntonAndCurrencyYouAllKnow
         // CF447B_DZYLovesStrings
+        // CF507B_AmrAndPins // Geometry
+        // CF454B_LittlePonyAndSortByShift // TODO: Review (Why last if?)
     }
 }
