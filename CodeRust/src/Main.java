@@ -15,7 +15,7 @@ public class Main {
         // FindLowHigh// TODO
         // MoveZeroesToLeft // TODO
         // StockPrices // TODO
-        // ImplementQuicksort // TODO!: Dive deep
+        // ImplementQuicksort // TODO!: Dive deep (debug)
         // MergeOverlappingIntervals // TODO
         // SumOfTwoValues // TODO
 
@@ -38,7 +38,14 @@ public class Main {
 
         // FindKthPermutation // TODO: Cool
         // DivideInteger // TODO
-        // PythagoreanTriplets // TODO: Dive deep, debug
+        // PythagoreanTriplets // TODO: Dive deep (debug)
+        // AllSumCombinations // TODO: Dive deep (debug)
+        // FindMissingNumber // TODO
+        // PermuteString // TODO: Dive deep (debug) [Hard]
+        // AllSubsets // TODO: Dive deep (debug) [Hard] -> Bitmasking
+        // IsNumberValid // TODO
+        // PowerOfANumber // TODO: Dive deep (debug) [Hard]
+        // CalculateSquareRoot // TODO: Read explanation + Dive deep (debug) [Hard]
 
         // --- String ---
 
@@ -67,7 +74,7 @@ public class Main {
         // --- Graph ---
 
         // CloneGraph // TODO
-        // MinimumSpanningTree // TODO: Need to debug
+        // MinimumSpanningTree // TODO: Dive deep (debug)
         // WordChaining // TODO: Broken locally
 
         // --- Backtracking ---
