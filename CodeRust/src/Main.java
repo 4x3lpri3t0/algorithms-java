@@ -1,4 +1,6 @@
 import Arrays.StockPrices;
+import Trees.IsBinarySearchTree;
+import Trees.LevelOrderTraversalOfBT;
 
 public class Main {
 
@@ -64,6 +66,9 @@ public class Main {
         // InorderIterator // TODO
         // InorderIterative // TODO
         // InorderSuccessor // TODO
+        // LevelOrderTraversalOfBT // TODO
+        // IsBinarySearchTree // TODO
+        // ConvertBinaryTreeToDoublyLL // TODO: Dive deep (debug) [Hard]
 
         // --- Stacks & Queues ---
 
