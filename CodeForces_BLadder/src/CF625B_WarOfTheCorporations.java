@@ -3,38 +3,24 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF432B_FootballKit extends PrintWriter {
+public class CF625B_WarOfTheCorporations extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[][] matrix = new int[n][2];
+        String str1 = read();
+        String str2 = read();
 
-        for (int i = 0; i < n; i++) {
-            matrix[i][0] = readInt();
-            matrix[i][1] = readInt();
-        }
+        int count = 0;
+        for (int i = 0; i < str1.length(); i++) {
+            int idx = str1.indexOf(str2, i);
+            if (idx == -1)
+                break;
+            else {
+                i = idx + str2.length() - 1;
 
-        // TODO: Time limit exceeded for big inputs
-
-        for (int i = 0; i < n; i++) {
-            // Half of games are played at home
-            int home = n - 1;
-            int away = 0;
-
-            // Match with others
-            for (int j = 0; j < n; j++) {
-                if (j == i)
-                    continue;
-
-                // Current team is away
-                if (matrix[i][1] == matrix[j][0])
-                    // Matches away t-shirt with other team (home), so use home t-shirt as well
-                    home++;
-                else
-                    away++;
+                count++;
             }
-
-            println(home + " " + away);
         }
+
+        println(count);
     }
 
     BufferedReader in;
@@ -50,7 +36,7 @@ public class CF432B_FootballKit extends PrintWriter {
         }
     }
 
-    CF432B_FootballKit() {
+    CF625B_WarOfTheCorporations() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -60,7 +46,7 @@ public class CF432B_FootballKit extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF432B_FootballKit().run();
+        new CF625B_WarOfTheCorporations().run();
     }
 
     String read() throws IOException {

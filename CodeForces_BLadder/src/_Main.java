@@ -21,5 +21,7 @@ public class _Main {
         // CF259B_LittleElephantAndMagicSquare // TODO: Review (Logic)
         // CF842A_KirillAndTheGame // TODO: Review
         // CF486B_ORinMatrix // TODO: Review (Optimized solution)
+
+        // CF432B_FootballKit // TODO: Fix
     }
 }
