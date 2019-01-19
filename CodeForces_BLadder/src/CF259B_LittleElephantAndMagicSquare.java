@@ -3,33 +3,25 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-// http://codeforces.com/problemset/problem/448/B
-// https://codeforces.com/blog/entry/13042
-public class CF448B_SuffixStructures extends PrintWriter {
-    static boolean isSub(char[] c, char[] s) {
-        int cur = 0;
-        for (char e : s) {
-            if (cur < c.length && c[cur] == e) ++cur;
-        }
-        return cur == c.length;
-    }
-
+// http://codeforces.com/contest/259/problem/B
+public class CF259B_LittleElephantAndMagicSquare extends PrintWriter {
     public void solve() throws IOException {
-        char[] c = read().toCharArray();
-        char[] t = read().toCharArray();
-        boolean ok1 = isSub(t, c);
-        Arrays.sort(c);
-        Arrays.sort(t);
-        boolean ok2 = Arrays.equals(c, t);
-        boolean ok3 = isSub(t, c);
-        if (!ok3) { // Not even sorted is subsequence
-            println("need tree");
-        } else if (ok1) {
-            println("automaton");
-        } else if (ok2) {
-            println("array");
-        } else {
-            println("both");
+        int[] arr = new int[9];
+        int total = 0;
+        for (int i = 0; i < 9; i++) {
+            arr[i] = readInt();
+            total += arr[i];
+        }
+
+        // Because we got input from 6 numbers, we divide / 2
+        // so we get a third of the final solution.
+        total /= 2;
+
+        arr[0] = total - (arr[1] + arr[2]);
+        arr[4] = total - (arr[3] + arr[5]);
+        arr[8] = total - (arr[7] + arr[6]);
+        for (int i = 0; i < 9; i++) {
+            println(arr[i]);
         }
     }
 
@@ -46,7 +38,7 @@ public class CF448B_SuffixStructures extends PrintWriter {
         }
     }
 
-    CF448B_SuffixStructures() {
+    CF259B_LittleElephantAndMagicSquare() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -56,7 +48,7 @@ public class CF448B_SuffixStructures extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF448B_SuffixStructures().run();
+        new CF259B_LittleElephantAndMagicSquare().run();
     }
 
     String read() throws IOException {

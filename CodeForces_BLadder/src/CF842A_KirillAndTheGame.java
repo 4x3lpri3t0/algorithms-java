@@ -3,34 +3,27 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-// http://codeforces.com/problemset/problem/448/B
-// https://codeforces.com/blog/entry/13042
-public class CF448B_SuffixStructures extends PrintWriter {
-    static boolean isSub(char[] c, char[] s) {
-        int cur = 0;
-        for (char e : s) {
-            if (cur < c.length && c[cur] == e) ++cur;
-        }
-        return cur == c.length;
-    }
-
+// http://codeforces.com/contest/842/problem/A
+// http://codeforces.com/blog/entry/54179
+public class CF842A_KirillAndTheGame extends PrintWriter {
     public void solve() throws IOException {
-        char[] c = read().toCharArray();
-        char[] t = read().toCharArray();
-        boolean ok1 = isSub(t, c);
-        Arrays.sort(c);
-        Arrays.sort(t);
-        boolean ok2 = Arrays.equals(c, t);
-        boolean ok3 = isSub(t, c);
-        if (!ok3) { // Not even sorted is subsequence
-            println("need tree");
-        } else if (ok1) {
-            println("automaton");
-        } else if (ok2) {
-            println("array");
-        } else {
-            println("both");
+        int l = readInt(); // min xp
+        int r = readInt(); // max xp
+        int x = readInt(); // min cost
+        int y = readInt(); // max cost
+        int k = readInt();
+
+        // We want to know if there is a potion such that
+        // exp and cost meet the following condition: exp / cost == k
+        // We can iterate on cost from x to y and check
+        // that exp = k·cost is not less than l and not greater than r
+        for (long b = x; b <= y; b++) {
+            if (l <= b * k && r >= b * k) {
+                println("YES");
+                return;
+            }
         }
+        println("NO");
     }
 
     BufferedReader in;
@@ -46,7 +39,7 @@ public class CF448B_SuffixStructures extends PrintWriter {
         }
     }
 
-    CF448B_SuffixStructures() {
+    CF842A_KirillAndTheGame() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -56,7 +49,7 @@ public class CF448B_SuffixStructures extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF448B_SuffixStructures().run();
+        new CF842A_KirillAndTheGame().run();
     }
 
     String read() throws IOException {

@@ -3,33 +3,42 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-// http://codeforces.com/problemset/problem/448/B
-// https://codeforces.com/blog/entry/13042
-public class CF448B_SuffixStructures extends PrintWriter {
-    static boolean isSub(char[] c, char[] s) {
-        int cur = 0;
-        for (char e : s) {
-            if (cur < c.length && c[cur] == e) ++cur;
-        }
-        return cur == c.length;
-    }
-
+// http://codeforces.com/contest/486/problem/B
+// http://codeforces.com/blog/entry/14678
+public class CF486B_ORinMatrix extends PrintWriter {
     public void solve() throws IOException {
-        char[] c = read().toCharArray();
-        char[] t = read().toCharArray();
-        boolean ok1 = isSub(t, c);
-        Arrays.sort(c);
-        Arrays.sort(t);
-        boolean ok2 = Arrays.equals(c, t);
-        boolean ok3 = isSub(t, c);
-        if (!ok3) { // Not even sorted is subsequence
-            println("need tree");
-        } else if (ok1) {
-            println("automaton");
-        } else if (ok2) {
-            println("array");
+        int r = readInt();
+        int c = readInt();
+        int[][] b = new int[r][c];
+        int[][] a = new int[r][c];
+        for (int[] arr : a) Arrays.fill(arr, 1);
+
+        for (int i = 0; i < r; i++)
+            for (int j = 0; j < c; j++) {
+                b[i][j] = readInt();
+                if (b[i][j] == 0) {
+                    for (int k = 0; k < r; k++) a[k][j] = 0;
+                    for (int k = 0; k < c; k++) a[i][k] = 0;
+                }
+            }
+
+        int[][] tmp = new int[r][c];
+        for (int i = 0; i < r; i++)
+            for (int j = 0; j < c; j++)
+                if (a[i][j] == 1) {
+                    for (int k = 0; k < r; k++) tmp[k][j] = 1;
+                    for (int k = 0; k < c; k++) tmp[i][k] = 1;
+                }
+
+        if (Arrays.deepEquals(b, tmp)) {
+            println("YES");
+            for (int i = 0; i < r; i++) {
+                StringJoiner sj = new StringJoiner(" ");
+                for (int num : a[i]) sj.add("" + num);
+                println(sj.toString());
+            }
         } else {
-            println("both");
+            println("NO");
         }
     }
 
@@ -46,7 +55,7 @@ public class CF448B_SuffixStructures extends PrintWriter {
         }
     }
 
-    CF448B_SuffixStructures() {
+    CF486B_ORinMatrix() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -56,7 +65,7 @@ public class CF448B_SuffixStructures extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF448B_SuffixStructures().run();
+        new CF486B_ORinMatrix().run();
     }
 
     String read() throws IOException {

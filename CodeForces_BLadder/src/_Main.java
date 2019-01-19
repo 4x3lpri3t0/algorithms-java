@@ -17,5 +17,9 @@ public class _Main {
         // CF450B_JzzhuAndSequences // Math
         // CF265B_RoadsideTrees
         // CF285B_FindMarble
+        // CF448B_SuffixStructures
+        // CF259B_LittleElephantAndMagicSquare // TODO: Review (Logic)
+        // CF842A_KirillAndTheGame // TODO: Review
+        // CF486B_ORinMatrix // TODO: Review (Optimized solution)
     }
 }
