@@ -3,23 +3,18 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF432B_FootballKit extends PrintWriter {
-
-    // mkirsche solution
+public class ADAFUN extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[] homes = new int[n], aways = new int[n], fs = new int[100001];
+        int T = readInt();
 
-        for (int i = 0; i < n; i++) {
-            int a = readInt(), b = readInt();
-            homes[i] = a;
-            aways[i] = b;
-            fs[a]++;
-        }
+        while (T-- > 0) {
 
-        int tot = n - 1;
-        for (int i = 0; i < n; i++) {
-            println(tot + fs[aways[i]] + " " + (tot - fs[aways[i]]));
+            int n = readInt();
+            int[] x = readIntArray(n);
+
+            // TODO
+
+            println(n);
         }
     }
 
@@ -36,7 +31,7 @@ public class CF432B_FootballKit extends PrintWriter {
         }
     }
 
-    CF432B_FootballKit() {
+    ADAFUN() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -46,7 +41,7 @@ public class CF432B_FootballKit extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF432B_FootballKit().run();
+        new ADAFUN().run();
     }
 
     String read() throws IOException {

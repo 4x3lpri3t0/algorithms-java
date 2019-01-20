@@ -1,7 +1,3 @@
-hightail.config
-
-SPOJ/SPOJ.iml
-
 CodeForces/out/*
 CodeForces_ALadder/out/*
 CodeForces_BLadder/out/*
@@ -14,7 +10,8 @@ TopCoder/out/*
 SPOJ/out/*
 CodeRust/out/*
 AdHoc/out/*
-road-network-generator/.idea/*
+road-network-generator/out/*
+codechef/out/*
 
 CodeForces/.idea/*
 CodeForces_ALadder/.idea/*
@@ -29,3 +26,4 @@ SPOJ/.idea/*
 CodeRust/.idea/*
 AdHoc/.idea/*
 road-network-generator/.idea/*
+codechef/.idea/*

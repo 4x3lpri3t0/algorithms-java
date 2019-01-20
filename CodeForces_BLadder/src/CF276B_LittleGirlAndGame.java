@@ -3,24 +3,13 @@ import java.util.*;
 
 import static java.lang.Math.*;
 
-public class CF432B_FootballKit extends PrintWriter {
-
-    // mkirsche solution
+public class CF276B_LittleGirlAndGame extends PrintWriter {
     public void solve() throws IOException {
-        int n = readInt();
-        int[] homes = new int[n], aways = new int[n], fs = new int[100001];
+        String str = read();
 
-        for (int i = 0; i < n; i++) {
-            int a = readInt(), b = readInt();
-            homes[i] = a;
-            aways[i] = b;
-            fs[a]++;
-        }
+        // TODO: Palindrome magic
 
-        int tot = n - 1;
-        for (int i = 0; i < n; i++) {
-            println(tot + fs[aways[i]] + " " + (tot - fs[aways[i]]));
-        }
+        println();
     }
 
     BufferedReader in;
@@ -36,7 +25,7 @@ public class CF432B_FootballKit extends PrintWriter {
         }
     }
 
-    CF432B_FootballKit() {
+    CF276B_LittleGirlAndGame() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -46,7 +35,7 @@ public class CF432B_FootballKit extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new CF432B_FootballKit().run();
+        new CF276B_LittleGirlAndGame().run();
     }
 
     String read() throws IOException {

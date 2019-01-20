@@ -1,9 +1,7 @@
 public class _Main {
 
     public static void main(String[] args) {
-        // TODO: Problems that I still struggle with
-        // TODO: and need to keep reviewing periodically
-        // TODO: (Remove from list after 100% sure I've mastered it)
+        // TODO: Remove TODO after 100% sure I've mastered it
 
         // CF478B_RandomTeams // Math
         // CF492B_VanyaAndLanterns
@@ -22,7 +20,8 @@ public class _Main {
         // CF842A_KirillAndTheGame // TODO: Review
         // CF486B_ORinMatrix // TODO: Review (Optimized solution)
         // CF625B_WarOfTheCorporations // Strings
+        // CF432B_FootballKit
 
-        // CF432B_FootballKit // TODO: Fix
+        // CF276B_LittleGirlAndGame // TODO
     }
 }
