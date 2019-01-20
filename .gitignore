@@ -12,6 +12,7 @@ CodeRust/out/*
 AdHoc/out/*
 road-network-generator/out/*
 codechef/out/*
+kattis/out/*
 
 CodeForces/.idea/*
 CodeForces_ALadder/.idea/*
@@ -27,3 +28,4 @@ CodeRust/.idea/*
 AdHoc/.idea/*
 road-network-generator/.idea/*
 codechef/.idea/*
+kattis/.idea/*
