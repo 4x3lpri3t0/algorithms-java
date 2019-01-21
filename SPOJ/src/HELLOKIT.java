@@ -1,42 +1,23 @@
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Locale;
-import java.util.StringTokenizer;
+import java.util.*;
 
 import static java.lang.Math.*;
 
-public class MISERMAN extends PrintWriter {
+public class HELLOKIT extends PrintWriter {
     void solve() throws IOException {
-        int N = readInt();
-        int M = readInt();
+        String str = read();
 
-        int[][] grid = new int[N][M];
-        for (int i = 0; i < N; i++) {
-            grid[i] = readIntArray(M);
-        }
+        while (!str.equals(".")) {
+            int n = readInt();
+            String repeated = String.join("", Collections.nCopies(n, str));
 
-        for (int i = N - 2; i >= 0; i--) {
-            for (int j = 0; j < M; j++) {
-                int min = grid[i + 1][j];
-
-                if (j > 0) // Check left
-                    min = min(min, grid[i + 1][j - 1]);
-                if (j < M - 1) // Check right
-                    min = min(min, grid[i + 1][j + 1]);
-
-                grid[i][j] += min;
+            for (int i = 0; i < str.length(); i++) {
+                print(repeated.substring(i));
+                println(repeated.substring(0, i));
             }
-        }
 
-        // Get min
-        int globalMin = Integer.MAX_VALUE;
-        for (int i = 0; i < M; i++) {
-            globalMin = min(globalMin, grid[0][i]);
+            str = read();
         }
-
-        // Print
-        println(globalMin);
     }
 
     BufferedReader in;
@@ -52,7 +33,7 @@ public class MISERMAN extends PrintWriter {
         }
     }
 
-    MISERMAN() {
+    HELLOKIT() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -62,7 +43,7 @@ public class MISERMAN extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new MISERMAN().run();
+        new HELLOKIT().run();
     }
 
     String read() throws IOException {

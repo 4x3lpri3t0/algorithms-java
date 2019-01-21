@@ -6,37 +6,15 @@ import java.util.StringTokenizer;
 
 import static java.lang.Math.*;
 
-public class MISERMAN extends PrintWriter {
+public class HANGOVER extends PrintWriter {
     void solve() throws IOException {
-        int N = readInt();
-        int M = readInt();
+        while (true) {
+            String hangover = read();
+            if (hangover == "0.00")
+                return;
 
-        int[][] grid = new int[N][M];
-        for (int i = 0; i < N; i++) {
-            grid[i] = readIntArray(M);
+
         }
-
-        for (int i = N - 2; i >= 0; i--) {
-            for (int j = 0; j < M; j++) {
-                int min = grid[i + 1][j];
-
-                if (j > 0) // Check left
-                    min = min(min, grid[i + 1][j - 1]);
-                if (j < M - 1) // Check right
-                    min = min(min, grid[i + 1][j + 1]);
-
-                grid[i][j] += min;
-            }
-        }
-
-        // Get min
-        int globalMin = Integer.MAX_VALUE;
-        for (int i = 0; i < M; i++) {
-            globalMin = min(globalMin, grid[0][i]);
-        }
-
-        // Print
-        println(globalMin);
     }
 
     BufferedReader in;
@@ -52,7 +30,7 @@ public class MISERMAN extends PrintWriter {
         }
     }
 
-    MISERMAN() {
+    HANGOVER() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -62,7 +40,7 @@ public class MISERMAN extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new MISERMAN().run();
+        new HANGOVER().run();
     }
 
     String read() throws IOException {

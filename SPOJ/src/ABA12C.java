@@ -6,37 +6,37 @@ import java.util.StringTokenizer;
 
 import static java.lang.Math.*;
 
-public class MISERMAN extends PrintWriter {
+/*
+=== Simplified description ===
+
+A boy has 'N' friends and for them he has to buy 'K' kgs of apples. He goes to shop and finds that there are unlimited
+number of boxes of apples for each of 1kg , 2 kg , 3kg , ... K kgs .
+
+These 1 ,2 ,.. ,K kgs boxes have prices attached to them. Prices are integers between -1 to 1000.
+'-1' price means he cannot buy that very kg box right now as it is currently not available.
+
+The problem is to choose boxes in such way that total weight = K and total price is as minimum as possible.
+He can choose multiple boxes of any weight. Also , Though we take 'N' in input , no where we need this 'N'.
+
+INPUT:
+
+N K
+
+prices of those 1,2,.. k kg boxes respectively
+
+(if available is present in infinite amount; -1 price denote that kg box is not available )
+
+OUTPUT:
+
+Minimum price; or -1 if no solution exists
+*/
+
+public class ABA12C extends PrintWriter {
     void solve() throws IOException {
-        int N = readInt();
-        int M = readInt();
+        int N = readInt(); // Not used
+        int K = readInt();
+        int[] prices = readIntArray(K);
 
-        int[][] grid = new int[N][M];
-        for (int i = 0; i < N; i++) {
-            grid[i] = readIntArray(M);
-        }
-
-        for (int i = N - 2; i >= 0; i--) {
-            for (int j = 0; j < M; j++) {
-                int min = grid[i + 1][j];
-
-                if (j > 0) // Check left
-                    min = min(min, grid[i + 1][j - 1]);
-                if (j < M - 1) // Check right
-                    min = min(min, grid[i + 1][j + 1]);
-
-                grid[i][j] += min;
-            }
-        }
-
-        // Get min
-        int globalMin = Integer.MAX_VALUE;
-        for (int i = 0; i < M; i++) {
-            globalMin = min(globalMin, grid[0][i]);
-        }
-
-        // Print
-        println(globalMin);
     }
 
     BufferedReader in;
@@ -52,7 +52,7 @@ public class MISERMAN extends PrintWriter {
         }
     }
 
-    MISERMAN() {
+    ABA12C() {
         super(System.out);
         in = new BufferedReader(new InputStreamReader(System.in));
     }
@@ -62,7 +62,7 @@ public class MISERMAN extends PrintWriter {
             Locale.setDefault(Locale.US);
         } catch (Exception ignored) {
         }
-        new MISERMAN().run();
+        new ABA12C().run();
     }
 
     String read() throws IOException {
