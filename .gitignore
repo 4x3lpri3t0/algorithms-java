@@ -13,6 +13,7 @@ AdHoc/out/*
 road-network-generator/out/*
 codechef/out/*
 kattis/out/*
+UVa/out/*
 
 CodeForces/.idea/*
 CodeForces_ALadder/.idea/*
@@ -29,3 +30,4 @@ AdHoc/.idea/*
 road-network-generator/.idea/*
 codechef/.idea/*
 kattis/.idea/*
+UVa/.idea/*
