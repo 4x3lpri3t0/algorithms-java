@@ -4,27 +4,28 @@ import java.util.StringTokenizer;
 import static java.lang.Math.*;
 import static java.lang.System.*;
 
-class UVA11172_RelationalOperator {
+class UVA272_TEXQuotes {
     public static void main(String[] args) throws IOException {
         Scanner sc = new Scanner(in);
-        PrintWriter out = new PrintWriter(System.out);
 
-        int tc = sc.nextInt();
-        while (tc-- > 0) {
-            int l = sc.nextInt();
-            int r = sc.nextInt();
+        int count = 0;
+        while (sc.ready()) {
+            String line = sc.nextLine();
 
-            if (l > r) {
-                out.println(">");
-            } else if (l < r) {
-                out.println("<");
-            } else {
-                out.println("=");
+            for (int i = 0; i < line.length(); i++) {
+                if (line.charAt(i) == '"') {
+                    if (count % 2 == 0) {
+                        line = line.substring(0, i) + "``" + line.substring(i + 1);
+                    } else {
+                        line = line.substring(0, i) + "''" + line.substring(i + 1);
+                    }
+
+                    count++;
+                }
             }
-        }
 
-        out.flush();
-        out.close();
+            out.println(line);
+        }
     }
 
     static class Scanner {
